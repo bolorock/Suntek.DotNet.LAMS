@@ -1,4 +1,0 @@
-2011-12-12 15:32:25,643 [13] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
-2011-12-12 15:32:25,913 [13] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
-2011-12-12 16:02:54,966 [14] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
-2011-12-12 16:02:54,976 [14] INFO  EAFrame.Core.Data.DataContext - 参数字典为空

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<discovery xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.xmlsoap.org/disco/">
+  <contractRef ref="http://10.16.25.81/ESHORE.EAI.ESS.WS/ESS_GET_WS.asmx?wsdl" docRef="http://10.16.25.81/ESHORE.EAI.ESS.WS/ESS_GET_WS.asmx" xmlns="http://schemas.xmlsoap.org/disco/scl/" />
+  <soap address="http://10.16.25.81/ESHORE.EAI.ESS.WS/ESS_GET_WS.asmx" xmlns:q1="http://eshore.eai.ess.ws/" binding="q1:ESS_GET_WSSoap" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+  <soap address="http://10.16.25.81/ESHORE.EAI.ESS.WS/ESS_GET_WS.asmx" xmlns:q2="http://eshore.eai.ess.ws/" binding="q2:ESS_GET_WSSoap12" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+</discovery>

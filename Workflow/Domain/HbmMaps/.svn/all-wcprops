@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/lams/!svn/ver/1420/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Workflow/Domain/HbmMaps
+END
+AgentCandidate.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/lams/!svn/ver/734/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Workflow/Domain/HbmMaps/AgentCandidate.hbm.xml
+END
+ProcessInst.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/lams/!svn/ver/734/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Workflow/Domain/HbmMaps/ProcessInst.hbm.xml
+END
+AgentItem.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/lams/!svn/ver/734/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Workflow/Domain/HbmMaps/AgentItem.hbm.xml
+END
+ProcessDef.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/lams/!svn/ver/734/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Workflow/Domain/HbmMaps/ProcessDef.hbm.xml
+END
+Agent.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/lams/!svn/ver/734/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Workflow/Domain/HbmMaps/Agent.hbm.xml
+END
+Participant.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/lams/!svn/ver/734/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Workflow/Domain/HbmMaps/Participant.hbm.xml
+END
+TraceLog.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/lams/!svn/ver/734/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Workflow/Domain/HbmMaps/TraceLog.hbm.xml
+END
+WorkItem.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/lams/!svn/ver/1405/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Workflow/Domain/HbmMaps/WorkItem.hbm.xml
+END
+ExtendAttr.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/lams/!svn/ver/734/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Workflow/Domain/HbmMaps/ExtendAttr.hbm.xml
+END
+ProcessForm.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/lams/!svn/ver/1420/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Workflow/Domain/HbmMaps/ProcessForm.hbm.xml
+END
+TransControl.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/lams/!svn/ver/734/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Workflow/Domain/HbmMaps/TransControl.hbm.xml
+END
+ActivityInst.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/lams/!svn/ver/734/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Workflow/Domain/HbmMaps/ActivityInst.hbm.xml
+END
+Transition.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/lams/!svn/ver/734/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Workflow/Domain/HbmMaps/Transition.hbm.xml
+END

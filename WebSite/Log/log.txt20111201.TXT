@@ -1,0 +1,18 @@
+2011-12-01 09:33:05,981 [13] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-12-01 09:33:06,486 [13] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-12-01 09:34:05,678 [5] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-12-01 09:34:06,267 [5] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-12-01 09:36:47,955 [17] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-12-01 09:36:48,955 [17] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-12-01 09:37:11,176 [21] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-12-01 09:37:16,806 [21] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-12-01 09:39:47,911 [17] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-12-01 09:39:48,000 [17] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-12-01 09:44:10,567 [13] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-12-01 09:44:10,751 [13] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-12-01 09:50:06,334 [14] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-12-01 09:50:07,474 [14] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-12-01 10:20:21,878 [10] ERROR WebSite.BasePage - 操作失败
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at WebSite.BasePage.AddActionLog[T](T entity, ActionType actionType, ActionResult actionResult, String actionMessage) in E:\work\lams\基线\源代码\LAMS\WebSite\AppCode\BasePage.cs:line 879
+   at WebSite.SurveyManager.Stop(String argument) in E:\work\lams\基线\源代码\LAMS\WebSite\Assessment\SurveyManager.aspx.cs:line 384

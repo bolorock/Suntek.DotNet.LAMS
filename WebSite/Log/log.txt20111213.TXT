@@ -1,0 +1,46 @@
+2011-12-13 10:43:58,323 [13] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-12-13 10:43:58,581 [13] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-12-13 10:44:36,470 [12] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-12-13 10:44:36,615 [12] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-12-13 10:45:34,665 [5] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-12-13 10:45:34,805 [5] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-12-13 10:46:35,154 [18] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-12-13 10:46:35,252 [18] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-12-13 10:47:38,042 [13] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-12-13 10:47:38,749 [13] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-12-13 10:48:41,885 [17] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-12-13 10:48:42,015 [17] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-12-13 10:49:35,587 [20] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-12-13 10:49:35,677 [20] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-12-13 10:49:56,767 [13] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-12-13 10:49:56,792 [13] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-12-13 10:51:12,745 [18] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-12-13 10:51:12,751 [18] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-12-13 10:51:12,925 [16] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-12-13 10:51:13,294 [16] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-12-13 10:51:13,726 [16] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-12-13 10:51:14,078 [16] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-12-13 10:51:37,435 [18] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-12-13 10:51:37,793 [18] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-12-13 10:51:52,865 [13] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-12-13 10:51:53,225 [13] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-12-13 11:05:06,739 [20] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-12-13 11:05:07,135 [20] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-12-13 11:06:43,361 [20] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-12-13 11:07:14,802 [20] ERROR SunTek.Assessment.Service.SurveyResultService - 获取评估人出错！
+System.Data.SqlClient.SqlException (0x80131904): Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at EAFrame.Core.Data.DataContext.Count(IEAConnection eaconn, String cmdText, IDictionary`2 parameters)
+   at EAFrame.Core.Data.DataContext.ExecuteDataTable(IEAConnection eaconn, String cmdText, IDictionary`2 parameters, String orderBy, PageInfo pageInfo)
+   at EAFrame.Core.Data.Repository`1.ExecuteDataTable[TDomain](String cmdText, IDictionary`2 parameters, String orderBy, PageInfo pageInfo)
+   at SunTek.Assessment.Service.SurveyResultService.GetSurveyResult(String surveyID, PageInfo pageInfo) in E:\work\lams\基线\源代码\LAMS\Assessment\Service\SurveyResultService.cs:line 94

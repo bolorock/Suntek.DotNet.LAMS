@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" namespace="SunTek.Assessment.Domain" assembly="SunTek.Assessment">
+	<class name="SunTek.Assessment.Domain.Expert, SunTek.Assessment" table="LA_Expert" lazy="true">
+		<id name="ID" column="ID">
+			<generator class="assigned" />
+		</id>
+		<property name="SurveyID" column="SurveyID" />
+		<property name="Tester" column="Tester" />
+		<property name="Scorer" column="Scorer" />
+		<property name="Status" column="Status" />
+		<property name="OwnerOrg" column="OwnerOrg" />
+		<property name="CreateTime" column="CreateTime" />
+    <property name="IsLock" column="IsLock" />
+	</class>
+</hibernate-mapping>

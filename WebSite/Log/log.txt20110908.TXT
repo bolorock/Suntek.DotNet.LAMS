@@ -1,0 +1,106 @@
+2011-09-08 14:54:36,616 [30] ERROR WebSite.BasePage - Newtonsoft.Json.JsonSerializationException: A member with the name 'Parent' already exists on 'EAFrame.WebControls.AjaxTreeNode'. Use the JsonPropertyAttribute to specify another name.
+   at Newtonsoft.Json.Serialization.JsonPropertyCollection.AddProperty(JsonProperty property)
+   at Newtonsoft.Json.Serialization.DefaultContractResolver.CreateProperties(Type type, MemberSerialization memberSerialization)
+   at Newtonsoft.Json.Serialization.DefaultContractResolver.CreateObjectContract(Type objectType)
+   at Newtonsoft.Json.Serialization.DefaultContractResolver.CreateContract(Type objectType)
+   at Newtonsoft.Json.Serialization.DefaultContractResolver.ResolveContract(Type type)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.GetContractSafe(Type type)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, Type t, JsonConverter propertyConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForTypeArrayHack(JsonReader reader, Type t)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateList(IWrappedCollection wrappedList, JsonReader reader, String reference, JsonArrayContract contract)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.<>c__DisplayClass1.<CreateAndPopulateList>b__0(IList l, Boolean isTemporaryListReference)
+   at Newtonsoft.Json.Utilities.CollectionUtils.CreateAndPopulateList(Type listType, Action`2 populateList)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateAndPopulateList(JsonReader reader, String reference, JsonArrayContract contract)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue, String reference)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueNonProperty(JsonReader reader, Type objectType, JsonContract contract)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at WebSite.ObjectRoleManager.Save(String argument) in E:\work\lams\基线\源代码\LAMS\WebSite\AuthorizeCenter\ObjectRoleManager.aspx.cs:line 115
+2011-09-08 14:56:45,471 [31] ERROR WebSite.BasePage - Newtonsoft.Json.JsonSerializationException: A member with the name 'Parent' already exists on 'EAFrame.WebControls.AjaxTreeNode'. Use the JsonPropertyAttribute to specify another name.
+   at Newtonsoft.Json.Serialization.JsonPropertyCollection.AddProperty(JsonProperty property)
+   at Newtonsoft.Json.Serialization.DefaultContractResolver.CreateProperties(Type type, MemberSerialization memberSerialization)
+   at Newtonsoft.Json.Serialization.DefaultContractResolver.CreateObjectContract(Type objectType)
+   at Newtonsoft.Json.Serialization.DefaultContractResolver.CreateContract(Type objectType)
+   at Newtonsoft.Json.Serialization.DefaultContractResolver.ResolveContract(Type type)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.GetContractSafe(Type type)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, Type t, JsonConverter propertyConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForTypeArrayHack(JsonReader reader, Type t)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateList(IWrappedCollection wrappedList, JsonReader reader, String reference, JsonArrayContract contract)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.<>c__DisplayClass1.<CreateAndPopulateList>b__0(IList l, Boolean isTemporaryListReference)
+   at Newtonsoft.Json.Utilities.CollectionUtils.CreateAndPopulateList(Type listType, Action`2 populateList)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateAndPopulateList(JsonReader reader, String reference, JsonArrayContract contract)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue, String reference)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueNonProperty(JsonReader reader, Type objectType, JsonContract contract)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at WebSite.ObjectRoleManager.Save(String argument) in E:\work\lams\基线\源代码\LAMS\WebSite\AuthorizeCenter\ObjectRoleManager.aspx.cs:line 115
+2011-09-08 16:22:55,263 [10] ERROR SunTek.Register.Service.RegisterService - 获取名册展示信息出错！
+System.Data.SqlClient.SqlException (0x80131904): 列名 'PostGrade' 不明确。
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at EAFrame.Core.Data.DataContext.Count(IEAConnection eaconn, String cmdText, IDictionary`2 parameters)
+   at EAFrame.Core.Data.DataContext.ExecuteDataTable(IEAConnection eaconn, String cmdText, IDictionary`2 parameters, String orderBy, PageInfo pageInfo)
+   at EAFrame.Core.Data.Repository`1.ExecuteDataTable[TDomain](String cmdText, IDictionary`2 parameters, String orderBy, PageInfo pageInfo)
+   at SunTek.Register.Service.RegisterService.GetRegisters(IDictionary`2 parameters, String corpID, String grade, String yearMonth, String showField, PageInfo pageInfo) in E:\work\lams\基线\源代码\LAMS\Register\Service\RegisterService.cs:line 319
+2011-09-08 16:22:57,509 [9] ERROR SunTek.Register.Service.RegisterService - 获取名册展示信息出错！
+System.Data.SqlClient.SqlException (0x80131904): 列名 'PostGrade' 不明确。
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at EAFrame.Core.Data.DataContext.Count(IEAConnection eaconn, String cmdText, IDictionary`2 parameters)
+   at EAFrame.Core.Data.DataContext.ExecuteDataTable(IEAConnection eaconn, String cmdText, IDictionary`2 parameters, String orderBy, PageInfo pageInfo)
+   at EAFrame.Core.Data.Repository`1.ExecuteDataTable[TDomain](String cmdText, IDictionary`2 parameters, String orderBy, PageInfo pageInfo)
+   at SunTek.Register.Service.RegisterService.GetRegisters(IDictionary`2 parameters, String corpID, String grade, String yearMonth, String showField, PageInfo pageInfo) in E:\work\lams\基线\源代码\LAMS\Register\Service\RegisterService.cs:line 319
+2011-09-08 16:50:28,767 [11] ERROR WebSite.BasePage - 导出展示名册出错！corpName:中国电信广东公司&filterStr:
+System.ArgumentException: Column 'PostGrade1' does not belong to table Table.
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at WebSite.ExcelHelper.Export(DataTable dt, String sheetName, String headerText, IDictionary`2 columnName, Boolean numCellShow, Int32 headerRowIndex, Int32 columnRowIndex, Int32 columnRowMergeDown, IDictionary`2 columnWidth) in E:\work\lams\基线\源代码\LAMS\WebSite\AppCode\ExcelHelper.cs:line 147
+   at WebSite.ExcelHelper.ExportByWeb(DataTable dt, String sheetName, String fileName, String headerText, IDictionary`2 columnName, Boolean numCellShow, Int32 headerRowIndex, Int32 columnRowIndex, Int32 columnRowMergeDown, Boolean isOpen, IDictionary`2 columnWidth) in E:\work\lams\基线\源代码\LAMS\WebSite\AppCode\ExcelHelper.cs:line 382
+   at WebSite.Register.ExportRegister.Page_Load(Object sender, EventArgs e) in E:\work\lams\基线\源代码\LAMS\WebSite\Register\ExportRegister.aspx.cs:line 103
+2011-09-08 16:50:55,671 [16] ERROR WebSite.BasePage - 导出展示名册出错！corpName:中国电信广东公司&filterStr:
+System.ArgumentException: Column 'PostGrade1' does not belong to table Table.
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at WebSite.ExcelHelper.Export(DataTable dt, String sheetName, String headerText, IDictionary`2 columnName, Boolean numCellShow, Int32 headerRowIndex, Int32 columnRowIndex, Int32 columnRowMergeDown, IDictionary`2 columnWidth) in E:\work\lams\基线\源代码\LAMS\WebSite\AppCode\ExcelHelper.cs:line 147
+   at WebSite.ExcelHelper.ExportByWeb(DataTable dt, String sheetName, String fileName, String headerText, IDictionary`2 columnName, Boolean numCellShow, Int32 headerRowIndex, Int32 columnRowIndex, Int32 columnRowMergeDown, Boolean isOpen, IDictionary`2 columnWidth) in E:\work\lams\基线\源代码\LAMS\WebSite\AppCode\ExcelHelper.cs:line 382
+   at WebSite.Register.ExportRegister.Page_Load(Object sender, EventArgs e) in E:\work\lams\基线\源代码\LAMS\WebSite\Register\ExportRegister.aspx.cs:line 103
+2011-09-08 16:52:51,728 [18] ERROR WebSite.BasePage - 导出展示名册出错！corpName:中国电信广东公司&filterStr:
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at WebSite.ExcelHelper.ExportByWeb(DataTable dt, String sheetName, String fileName, String headerText, IDictionary`2 columnName, Boolean numCellShow, Int32 headerRowIndex, Int32 columnRowIndex, Int32 columnRowMergeDown, Boolean isOpen, IDictionary`2 columnWidth) in E:\work\lams\基线\源代码\LAMS\WebSite\AppCode\ExcelHelper.cs:line 383
+   at WebSite.Register.ExportRegister.Page_Load(Object sender, EventArgs e) in E:\work\lams\基线\源代码\LAMS\WebSite\Register\ExportRegister.aspx.cs:line 99
+2011-09-08 16:54:41,772 [16] ERROR WebSite.BasePage - 导出展示名册出错！corpName:中国电信广东公司&filterStr:
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at WebSite.ExcelHelper.ExportByWeb(DataTable dt, String sheetName, String fileName, String headerText, IDictionary`2 columnName, Boolean numCellShow, Int32 headerRowIndex, Int32 columnRowIndex, Int32 columnRowMergeDown, Boolean isOpen, IDictionary`2 columnWidth) in E:\work\lams\基线\源代码\LAMS\WebSite\AppCode\ExcelHelper.cs:line 383
+   at WebSite.Register.ExportRegister.Page_Load(Object sender, EventArgs e) in E:\work\lams\基线\源代码\LAMS\WebSite\Register\ExportRegister.aspx.cs:line 99

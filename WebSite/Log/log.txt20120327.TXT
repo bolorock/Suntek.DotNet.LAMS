@@ -1,0 +1,487 @@
+2012-03-27 15:21:39,864 [14] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2012-03-27 15:21:40,682 [14] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2012-03-27 15:59:21,830 [22] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2012-03-27 15:59:22,456 [22] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2012-03-27 16:02:08,226 [5] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2012-03-27 16:02:08,593 [5] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2012-03-27 16:46:51,750 [13] ERROR EAFrame.Core.Authentication.User - Thread was being aborted.
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at WebSite.ProcessDefManager.ActivityManager() in E:\work\lams\基线\源代码\LAMS\WebSite\Workflow\ProcessDefManager.aspx.cs:line 293
+   at (Object , Object[] )
+   at WebSite.PageMaster.commandBar_CommandExecute(Object sender, CommandExecuteEventArgs e) in E:\work\lams\基线\源代码\LAMS\WebSite\Master\Page.Master.cs:line 89
+2012-03-27 16:46:54,320 [17] ERROR EAFrame.Core.Extensions.GenericExtension - System.ArgumentException: Requested value 'rblDirectRunning' was not found.
+   at System.Enum.EnumResult.SetFailure(ParseFailureKind failure, String failureMessageID, Object failureMessageFormatArgument)
+   at System.Enum.TryParseEnum(Type enumType, String value, Boolean ignoreCase, EnumResult& parseResult)
+   at System.Enum.Parse(Type enumType, String value, Boolean ignoreCase)
+   at EAFrame.Core.Extensions.GenericExtension.Cast[T](Object objValue, T defaultValue)
+2012-03-27 16:46:54,796 [17] ERROR EAFrame.Core.Extensions.GenericExtension - System.ArgumentException: Requested value 'rblDirectRunning' was not found.
+   at System.Enum.EnumResult.SetFailure(ParseFailureKind failure, String failureMessageID, Object failureMessageFormatArgument)
+   at System.Enum.TryParseEnum(Type enumType, String value, Boolean ignoreCase, EnumResult& parseResult)
+   at System.Enum.Parse(Type enumType, String value, Boolean ignoreCase)
+   at EAFrame.Core.Extensions.GenericExtension.Cast[T](Object objValue, T defaultValue)
+2012-03-27 16:46:54,802 [17] ERROR EAFrame.Core.Extensions.GenericExtension - System.ArgumentException: Requested value 'rblDirectRunning' was not found.
+   at System.Enum.EnumResult.SetFailure(ParseFailureKind failure, String failureMessageID, Object failureMessageFormatArgument)
+   at System.Enum.TryParseEnum(Type enumType, String value, Boolean ignoreCase, EnumResult& parseResult)
+   at System.Enum.Parse(Type enumType, String value, Boolean ignoreCase)
+   at EAFrame.Core.Extensions.GenericExtension.Cast[T](Object objValue, T defaultValue)
+2012-03-27 16:46:54,808 [17] ERROR EAFrame.Core.Extensions.GenericExtension - System.ArgumentException: Must specify valid information for parsing in the string.
+   at System.Enum.TryParseEnum(Type enumType, String value, Boolean ignoreCase, EnumResult& parseResult)
+   at System.Enum.Parse(Type enumType, String value, Boolean ignoreCase)
+   at EAFrame.Core.Extensions.GenericExtension.Cast[T](Object objValue, T defaultValue)
+2012-03-27 16:47:02,687 [5] ERROR EAFrame.Core.Authentication.User - Thread was being aborted.
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at WebSite.ProcessDefManager.ActivityManager() in E:\work\lams\基线\源代码\LAMS\WebSite\Workflow\ProcessDefManager.aspx.cs:line 293
+   at (Object , Object[] )
+   at WebSite.PageMaster.commandBar_CommandExecute(Object sender, CommandExecuteEventArgs e) in E:\work\lams\基线\源代码\LAMS\WebSite\Master\Page.Master.cs:line 89
+2012-03-27 16:47:10,398 [13] ERROR EAFrame.Core.Authentication.User - Thread was being aborted.
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at WebSite.ProcessDefManager.ActivityManager() in E:\work\lams\基线\源代码\LAMS\WebSite\Workflow\ProcessDefManager.aspx.cs:line 293
+   at (Object , Object[] )
+   at WebSite.PageMaster.commandBar_CommandExecute(Object sender, CommandExecuteEventArgs e) in E:\work\lams\基线\源代码\LAMS\WebSite\Master\Page.Master.cs:line 89
+2012-03-27 16:48:31,918 [19] ERROR EAFrame.Core.Authentication.User - Thread was being aborted.
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at WebSite.ProcessDefManager.ActivityManager() in E:\work\lams\基线\源代码\LAMS\WebSite\Workflow\ProcessDefManager.aspx.cs:line 293
+   at (Object , Object[] )
+   at WebSite.PageMaster.commandBar_CommandExecute(Object sender, CommandExecuteEventArgs e) in E:\work\lams\基线\源代码\LAMS\WebSite\Master\Page.Master.cs:line 89
+2012-03-27 16:48:32,103 [19] ERROR EAFrame.Workflow.Definition.ConfigureElement - 初始化工作流定义出错
+System.Xml.XmlException: Unexpected end of file has occurred. The following elements are not closed: xml. Line 1, position 6.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ThrowUnclosedElements()
+   at System.Xml.XmlTextReaderImpl.ParseElementContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.Linq.XElement.ReadElementFrom(XmlReader r, LoadOptions o)
+   at System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   at System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   at System.Xml.Linq.XElement.Parse(String text)
+   at EAFrame.Workflow.Definition.ProcessDefine..ctor(String xml, Boolean isXmlFile)
+2012-03-27 16:48:32,342 [19] ERROR EAFrame.Workflow.Engine.WorkflowPersistence - 缓存流程出错
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at EAFrame.Workflow.Definition.ProcessDefine.Initilize(XElement xElem)
+   at EAFrame.Workflow.Definition.ProcessDefine..ctor(String xml, Boolean isXmlFile)
+   at EAFrame.Workflow.Engine.WorkflowPersistence.<GetProcessDefine>b__0(ProcessDef p) in E:\work\lams\基线\源代码\LAMS\Workflow\Engine\WorkflowPersistence.cs:line 72
+   at System.Linq.Enumerable.WhereSelectListIterator`2.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at EAFrame.Workflow.Engine.WorkflowPersistence.GetProcessDefine(String processDefID) in E:\work\lams\基线\源代码\LAMS\Workflow\Engine\WorkflowPersistence.cs:line 72
+2012-03-27 16:48:32,628 [19] ERROR EAFrame.Workflow.Definition.ConfigureElement - 初始化工作流定义出错
+System.Xml.XmlException: Unexpected end of file has occurred. The following elements are not closed: xml. Line 1, position 6.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ThrowUnclosedElements()
+   at System.Xml.XmlTextReaderImpl.ParseElementContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.Linq.XElement.ReadElementFrom(XmlReader r, LoadOptions o)
+   at System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   at System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   at System.Xml.Linq.XElement.Parse(String text)
+   at EAFrame.Workflow.Definition.ProcessDefine..ctor(String xml, Boolean isXmlFile)
+2012-03-27 16:48:41,613 [14] ERROR EAFrame.Core.Authentication.User - Thread was being aborted.
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at WebSite.ProcessDefManager.ActivityManager() in E:\work\lams\基线\源代码\LAMS\WebSite\Workflow\ProcessDefManager.aspx.cs:line 293
+   at (Object , Object[] )
+   at WebSite.PageMaster.commandBar_CommandExecute(Object sender, CommandExecuteEventArgs e) in E:\work\lams\基线\源代码\LAMS\WebSite\Master\Page.Master.cs:line 89
+2012-03-27 16:48:41,637 [14] ERROR EAFrame.Workflow.Definition.ConfigureElement - 初始化工作流定义出错
+System.Xml.XmlException: Unexpected end of file has occurred. The following elements are not closed: xml. Line 1, position 6.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ThrowUnclosedElements()
+   at System.Xml.XmlTextReaderImpl.ParseElementContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.Linq.XElement.ReadElementFrom(XmlReader r, LoadOptions o)
+   at System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   at System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   at System.Xml.Linq.XElement.Parse(String text)
+   at EAFrame.Workflow.Definition.ProcessDefine..ctor(String xml, Boolean isXmlFile)
+2012-03-27 16:48:41,642 [14] ERROR EAFrame.Workflow.Engine.WorkflowPersistence - 缓存流程出错
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at EAFrame.Workflow.Definition.ProcessDefine.Initilize(XElement xElem)
+   at EAFrame.Workflow.Definition.ProcessDefine..ctor(String xml, Boolean isXmlFile)
+   at EAFrame.Workflow.Engine.WorkflowPersistence.<GetProcessDefine>b__0(ProcessDef p) in E:\work\lams\基线\源代码\LAMS\Workflow\Engine\WorkflowPersistence.cs:line 72
+   at System.Linq.Enumerable.WhereSelectListIterator`2.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at EAFrame.Workflow.Engine.WorkflowPersistence.GetProcessDefine(String processDefID) in E:\work\lams\基线\源代码\LAMS\Workflow\Engine\WorkflowPersistence.cs:line 72
+2012-03-27 16:48:56,993 [19] ERROR EAFrame.Core.Authentication.User - Thread was being aborted.
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at WebSite.ProcessDefManager.ActivityManager() in E:\work\lams\基线\源代码\LAMS\WebSite\Workflow\ProcessDefManager.aspx.cs:line 293
+   at (Object , Object[] )
+   at WebSite.PageMaster.commandBar_CommandExecute(Object sender, CommandExecuteEventArgs e) in E:\work\lams\基线\源代码\LAMS\WebSite\Master\Page.Master.cs:line 89
+2012-03-27 16:48:57,011 [14] ERROR EAFrame.Workflow.Definition.ConfigureElement - 初始化工作流定义出错
+System.Xml.XmlException: Unexpected end of file has occurred. The following elements are not closed: xml. Line 1, position 6.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ThrowUnclosedElements()
+   at System.Xml.XmlTextReaderImpl.ParseElementContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.Linq.XElement.ReadElementFrom(XmlReader r, LoadOptions o)
+   at System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   at System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   at System.Xml.Linq.XElement.Parse(String text)
+   at EAFrame.Workflow.Definition.ProcessDefine..ctor(String xml, Boolean isXmlFile)
+2012-03-27 16:48:57,016 [14] ERROR EAFrame.Workflow.Engine.WorkflowPersistence - 缓存流程出错
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at EAFrame.Workflow.Definition.ProcessDefine.Initilize(XElement xElem)
+   at EAFrame.Workflow.Definition.ProcessDefine..ctor(String xml, Boolean isXmlFile)
+   at EAFrame.Workflow.Engine.WorkflowPersistence.<GetProcessDefine>b__0(ProcessDef p) in E:\work\lams\基线\源代码\LAMS\Workflow\Engine\WorkflowPersistence.cs:line 72
+   at System.Linq.Enumerable.WhereSelectListIterator`2.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at EAFrame.Workflow.Engine.WorkflowPersistence.GetProcessDefine(String processDefID) in E:\work\lams\基线\源代码\LAMS\Workflow\Engine\WorkflowPersistence.cs:line 72
+2012-03-27 16:49:35,968 [5] ERROR EAFrame.Core.Authentication.User - Thread was being aborted.
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at WebSite.ProcessDefManager.ActivityManager() in E:\work\lams\基线\源代码\LAMS\WebSite\Workflow\ProcessDefManager.aspx.cs:line 293
+   at (Object , Object[] )
+   at WebSite.PageMaster.commandBar_CommandExecute(Object sender, CommandExecuteEventArgs e) in E:\work\lams\基线\源代码\LAMS\WebSite\Master\Page.Master.cs:line 89
+2012-03-27 16:49:35,991 [9] ERROR EAFrame.Core.Extensions.GenericExtension - System.ArgumentException: Requested value 'rblDirectRunning' was not found.
+   at System.Enum.EnumResult.SetFailure(ParseFailureKind failure, String failureMessageID, Object failureMessageFormatArgument)
+   at System.Enum.TryParseEnum(Type enumType, String value, Boolean ignoreCase, EnumResult& parseResult)
+   at System.Enum.Parse(Type enumType, String value, Boolean ignoreCase)
+   at EAFrame.Core.Extensions.GenericExtension.Cast[T](Object objValue, T defaultValue)
+2012-03-27 16:49:35,997 [9] ERROR EAFrame.Core.Extensions.GenericExtension - System.ArgumentException: Requested value 'rblDirectRunning' was not found.
+   at System.Enum.EnumResult.SetFailure(ParseFailureKind failure, String failureMessageID, Object failureMessageFormatArgument)
+   at System.Enum.TryParseEnum(Type enumType, String value, Boolean ignoreCase, EnumResult& parseResult)
+   at System.Enum.Parse(Type enumType, String value, Boolean ignoreCase)
+   at EAFrame.Core.Extensions.GenericExtension.Cast[T](Object objValue, T defaultValue)
+2012-03-27 16:49:36,003 [9] ERROR EAFrame.Core.Extensions.GenericExtension - System.ArgumentException: Requested value 'rblDirectRunning' was not found.
+   at System.Enum.EnumResult.SetFailure(ParseFailureKind failure, String failureMessageID, Object failureMessageFormatArgument)
+   at System.Enum.TryParseEnum(Type enumType, String value, Boolean ignoreCase, EnumResult& parseResult)
+   at System.Enum.Parse(Type enumType, String value, Boolean ignoreCase)
+   at EAFrame.Core.Extensions.GenericExtension.Cast[T](Object objValue, T defaultValue)
+2012-03-27 16:49:36,009 [9] ERROR EAFrame.Core.Extensions.GenericExtension - System.ArgumentException: Must specify valid information for parsing in the string.
+   at System.Enum.TryParseEnum(Type enumType, String value, Boolean ignoreCase, EnumResult& parseResult)
+   at System.Enum.Parse(Type enumType, String value, Boolean ignoreCase)
+   at EAFrame.Core.Extensions.GenericExtension.Cast[T](Object objValue, T defaultValue)
+2012-03-27 16:49:42,050 [19] ERROR EAFrame.Core.Authentication.User - Thread was being aborted.
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at WebSite.ProcessDefManager.ActivityManager() in E:\work\lams\基线\源代码\LAMS\WebSite\Workflow\ProcessDefManager.aspx.cs:line 293
+   at (Object , Object[] )
+   at WebSite.PageMaster.commandBar_CommandExecute(Object sender, CommandExecuteEventArgs e) in E:\work\lams\基线\源代码\LAMS\WebSite\Master\Page.Master.cs:line 89
+2012-03-27 16:50:29,800 [5] ERROR WebSite.BasePage - 删除失败!
+System.ArgumentNullException: Attempt to create delete event with null entity
+Parameter name: entity
+   at NHibernate.Event.DeleteEvent..ctor(Object entity, IEventSource source)
+   at NHibernate.Impl.SessionImpl.Delete(Object obj)
+   at EAFrame.Core.Data.Repository`1.Delete[TDomain](Object value)
+   at EAFrame.Core.Service.BaseService`2.Delete(Object value)
+   at WebSite.ProcessDefManager.Delete() in E:\work\lams\基线\源代码\LAMS\WebSite\Workflow\ProcessDefManager.aspx.cs:line 164
+2012-03-27 16:50:36,908 [15] ERROR EAFrame.Core.Authentication.User - Thread was being aborted.
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at WebSite.ProcessDefManager.ActivityManager() in E:\work\lams\基线\源代码\LAMS\WebSite\Workflow\ProcessDefManager.aspx.cs:line 293
+   at (Object , Object[] )
+   at WebSite.PageMaster.commandBar_CommandExecute(Object sender, CommandExecuteEventArgs e) in E:\work\lams\基线\源代码\LAMS\WebSite\Master\Page.Master.cs:line 89
+2012-03-27 16:50:36,942 [15] ERROR EAFrame.Core.Extensions.GenericExtension - System.ArgumentException: Requested value 'rblDirectRunning' was not found.
+   at System.Enum.EnumResult.SetFailure(ParseFailureKind failure, String failureMessageID, Object failureMessageFormatArgument)
+   at System.Enum.TryParseEnum(Type enumType, String value, Boolean ignoreCase, EnumResult& parseResult)
+   at System.Enum.Parse(Type enumType, String value, Boolean ignoreCase)
+   at EAFrame.Core.Extensions.GenericExtension.Cast[T](Object objValue, T defaultValue)
+2012-03-27 16:50:36,947 [15] ERROR EAFrame.Core.Extensions.GenericExtension - System.ArgumentException: Requested value 'rblDirectRunning' was not found.
+   at System.Enum.EnumResult.SetFailure(ParseFailureKind failure, String failureMessageID, Object failureMessageFormatArgument)
+   at System.Enum.TryParseEnum(Type enumType, String value, Boolean ignoreCase, EnumResult& parseResult)
+   at System.Enum.Parse(Type enumType, String value, Boolean ignoreCase)
+   at EAFrame.Core.Extensions.GenericExtension.Cast[T](Object objValue, T defaultValue)
+2012-03-27 16:50:36,951 [15] ERROR EAFrame.Core.Extensions.GenericExtension - System.ArgumentException: Requested value 'rblDirectRunning' was not found.
+   at System.Enum.EnumResult.SetFailure(ParseFailureKind failure, String failureMessageID, Object failureMessageFormatArgument)
+   at System.Enum.TryParseEnum(Type enumType, String value, Boolean ignoreCase, EnumResult& parseResult)
+   at System.Enum.Parse(Type enumType, String value, Boolean ignoreCase)
+   at EAFrame.Core.Extensions.GenericExtension.Cast[T](Object objValue, T defaultValue)
+2012-03-27 16:50:36,956 [15] ERROR EAFrame.Core.Extensions.GenericExtension - System.ArgumentException: Must specify valid information for parsing in the string.
+   at System.Enum.TryParseEnum(Type enumType, String value, Boolean ignoreCase, EnumResult& parseResult)
+   at System.Enum.Parse(Type enumType, String value, Boolean ignoreCase)
+   at EAFrame.Core.Extensions.GenericExtension.Cast[T](Object objValue, T defaultValue)
+2012-03-27 16:50:48,037 [16] ERROR EAFrame.Core.Authentication.User - Thread was being aborted.
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at WebSite.ProcessDefManager.ActivityManager() in E:\work\lams\基线\源代码\LAMS\WebSite\Workflow\ProcessDefManager.aspx.cs:line 293
+   at (Object , Object[] )
+   at WebSite.PageMaster.commandBar_CommandExecute(Object sender, CommandExecuteEventArgs e) in E:\work\lams\基线\源代码\LAMS\WebSite\Master\Page.Master.cs:line 89
+2012-03-27 16:51:08,460 [16] ERROR EAFrame.Core.Authentication.User - Thread was being aborted.
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at WebSite.ProcessDefManager.ActivityManager() in E:\work\lams\基线\源代码\LAMS\WebSite\Workflow\ProcessDefManager.aspx.cs:line 293
+   at (Object , Object[] )
+   at WebSite.PageMaster.commandBar_CommandExecute(Object sender, CommandExecuteEventArgs e) in E:\work\lams\基线\源代码\LAMS\WebSite\Master\Page.Master.cs:line 89
+2012-03-27 16:51:18,134 [16] ERROR EAFrame.Core.Authentication.User - Thread was being aborted.
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at WebSite.ProcessDefManager.ActivityManager() in E:\work\lams\基线\源代码\LAMS\WebSite\Workflow\ProcessDefManager.aspx.cs:line 293
+   at (Object , Object[] )
+   at WebSite.PageMaster.commandBar_CommandExecute(Object sender, CommandExecuteEventArgs e) in E:\work\lams\基线\源代码\LAMS\WebSite\Master\Page.Master.cs:line 89
+2012-03-27 16:52:53,745 [13] ERROR EAFrame.Core.Authentication.User - Thread was being aborted.
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at WebSite.ProcessDefManager.ActivityManager() in E:\work\lams\基线\源代码\LAMS\WebSite\Workflow\ProcessDefManager.aspx.cs:line 293
+   at (Object , Object[] )
+   at WebSite.PageMaster.commandBar_CommandExecute(Object sender, CommandExecuteEventArgs e) in E:\work\lams\基线\源代码\LAMS\WebSite\Master\Page.Master.cs:line 89
+2012-03-27 16:52:53,775 [13] ERROR EAFrame.Core.Extensions.GenericExtension - System.ArgumentException: Requested value 'rblDirectRunning' was not found.
+   at System.Enum.EnumResult.SetFailure(ParseFailureKind failure, String failureMessageID, Object failureMessageFormatArgument)
+   at System.Enum.TryParseEnum(Type enumType, String value, Boolean ignoreCase, EnumResult& parseResult)
+   at System.Enum.Parse(Type enumType, String value, Boolean ignoreCase)
+   at EAFrame.Core.Extensions.GenericExtension.Cast[T](Object objValue, T defaultValue)
+2012-03-27 16:52:53,779 [13] ERROR EAFrame.Core.Extensions.GenericExtension - System.ArgumentException: Requested value 'rblDirectRunning' was not found.
+   at System.Enum.EnumResult.SetFailure(ParseFailureKind failure, String failureMessageID, Object failureMessageFormatArgument)
+   at System.Enum.TryParseEnum(Type enumType, String value, Boolean ignoreCase, EnumResult& parseResult)
+   at System.Enum.Parse(Type enumType, String value, Boolean ignoreCase)
+   at EAFrame.Core.Extensions.GenericExtension.Cast[T](Object objValue, T defaultValue)
+2012-03-27 16:52:53,787 [13] ERROR EAFrame.Core.Extensions.GenericExtension - System.ArgumentException: Requested value 'rblDirectRunning' was not found.
+   at System.Enum.EnumResult.SetFailure(ParseFailureKind failure, String failureMessageID, Object failureMessageFormatArgument)
+   at System.Enum.TryParseEnum(Type enumType, String value, Boolean ignoreCase, EnumResult& parseResult)
+   at System.Enum.Parse(Type enumType, String value, Boolean ignoreCase)
+   at EAFrame.Core.Extensions.GenericExtension.Cast[T](Object objValue, T defaultValue)
+2012-03-27 16:52:53,791 [13] ERROR EAFrame.Core.Extensions.GenericExtension - System.ArgumentException: Must specify valid information for parsing in the string.
+   at System.Enum.TryParseEnum(Type enumType, String value, Boolean ignoreCase, EnumResult& parseResult)
+   at System.Enum.Parse(Type enumType, String value, Boolean ignoreCase)
+   at EAFrame.Core.Extensions.GenericExtension.Cast[T](Object objValue, T defaultValue)
+2012-03-27 16:53:03,773 [16] ERROR EAFrame.Core.Authentication.User - Thread was being aborted.
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at WebSite.ProcessDefManager.ActivityManager() in E:\work\lams\基线\源代码\LAMS\WebSite\Workflow\ProcessDefManager.aspx.cs:line 293
+   at (Object , Object[] )
+   at WebSite.PageMaster.commandBar_CommandExecute(Object sender, CommandExecuteEventArgs e) in E:\work\lams\基线\源代码\LAMS\WebSite\Master\Page.Master.cs:line 89
+2012-03-27 16:54:02,639 [9] ERROR EAFrame.Core.Authentication.User - Thread was being aborted.
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at WebSite.ProcessDefManager.ActivityManager() in E:\work\lams\基线\源代码\LAMS\WebSite\Workflow\ProcessDefManager.aspx.cs:line 293
+   at (Object , Object[] )
+   at WebSite.PageMaster.commandBar_CommandExecute(Object sender, CommandExecuteEventArgs e) in E:\work\lams\基线\源代码\LAMS\WebSite\Master\Page.Master.cs:line 89
+2012-03-27 16:54:02,664 [17] ERROR EAFrame.Core.Extensions.GenericExtension - System.ArgumentException: Requested value 'rblDirectRunning' was not found.
+   at System.Enum.EnumResult.SetFailure(ParseFailureKind failure, String failureMessageID, Object failureMessageFormatArgument)
+   at System.Enum.TryParseEnum(Type enumType, String value, Boolean ignoreCase, EnumResult& parseResult)
+   at System.Enum.Parse(Type enumType, String value, Boolean ignoreCase)
+   at EAFrame.Core.Extensions.GenericExtension.Cast[T](Object objValue, T defaultValue)
+2012-03-27 16:54:02,670 [17] ERROR EAFrame.Core.Extensions.GenericExtension - System.ArgumentException: Requested value 'rblDirectRunning' was not found.
+   at System.Enum.EnumResult.SetFailure(ParseFailureKind failure, String failureMessageID, Object failureMessageFormatArgument)
+   at System.Enum.TryParseEnum(Type enumType, String value, Boolean ignoreCase, EnumResult& parseResult)
+   at System.Enum.Parse(Type enumType, String value, Boolean ignoreCase)
+   at EAFrame.Core.Extensions.GenericExtension.Cast[T](Object objValue, T defaultValue)
+2012-03-27 16:54:02,675 [17] ERROR EAFrame.Core.Extensions.GenericExtension - System.ArgumentException: Requested value 'rblDirectRunning' was not found.
+   at System.Enum.EnumResult.SetFailure(ParseFailureKind failure, String failureMessageID, Object failureMessageFormatArgument)
+   at System.Enum.TryParseEnum(Type enumType, String value, Boolean ignoreCase, EnumResult& parseResult)
+   at System.Enum.Parse(Type enumType, String value, Boolean ignoreCase)
+   at EAFrame.Core.Extensions.GenericExtension.Cast[T](Object objValue, T defaultValue)
+2012-03-27 16:54:02,680 [17] ERROR EAFrame.Core.Extensions.GenericExtension - System.ArgumentException: Must specify valid information for parsing in the string.
+   at System.Enum.TryParseEnum(Type enumType, String value, Boolean ignoreCase, EnumResult& parseResult)
+   at System.Enum.Parse(Type enumType, String value, Boolean ignoreCase)
+   at EAFrame.Core.Extensions.GenericExtension.Cast[T](Object objValue, T defaultValue)
+2012-03-27 16:54:08,120 [16] ERROR EAFrame.Core.Authentication.User - Thread was being aborted.
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at WebSite.ProcessDefManager.ActivityManager() in E:\work\lams\基线\源代码\LAMS\WebSite\Workflow\ProcessDefManager.aspx.cs:line 293
+   at (Object , Object[] )
+   at WebSite.PageMaster.commandBar_CommandExecute(Object sender, CommandExecuteEventArgs e) in E:\work\lams\基线\源代码\LAMS\WebSite\Master\Page.Master.cs:line 89
+2012-03-27 16:54:23,284 [9] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2012-03-27 16:54:23,462 [9] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2012-03-27 16:55:43,717 [13] ERROR EAFrame.Core.Authentication.User - Thread was being aborted.
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at WebSite.ProcessDefManager.ActivityManager() in E:\work\lams\基线\源代码\LAMS\WebSite\Workflow\ProcessDefManager.aspx.cs:line 293
+   at (Object , Object[] )
+   at WebSite.PageMaster.commandBar_CommandExecute(Object sender, CommandExecuteEventArgs e) in E:\work\lams\基线\源代码\LAMS\WebSite\Master\Page.Master.cs:line 89
+2012-03-27 16:58:15,693 [18] ERROR EAFrame.Core.Authentication.User - Thread was being aborted.
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at WebSite.ProcessDefManager.ActivityManager() in E:\work\lams\基线\源代码\LAMS\WebSite\Workflow\ProcessDefManager.aspx.cs:line 293
+   at (Object , Object[] )
+   at WebSite.PageMaster.commandBar_CommandExecute(Object sender, CommandExecuteEventArgs e) in E:\work\lams\基线\源代码\LAMS\WebSite\Master\Page.Master.cs:line 89
+2012-03-27 17:07:40,370 [14] ERROR EAFrame.Core.Authentication.User - Thread was being aborted.
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at WebSite.ProcessDefManager.ActivityManager() in E:\work\lams\基线\源代码\LAMS\WebSite\Workflow\ProcessDefManager.aspx.cs:line 293
+   at (Object , Object[] )
+   at WebSite.PageMaster.commandBar_CommandExecute(Object sender, CommandExecuteEventArgs e) in E:\work\lams\基线\源代码\LAMS\WebSite\Master\Page.Master.cs:line 89
+2012-03-27 17:08:22,728 [18] ERROR EAFrame.Core.Authentication.User - Thread was being aborted.
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at WebSite.ProcessDefManager.ActivityManager() in E:\work\lams\基线\源代码\LAMS\WebSite\Workflow\ProcessDefManager.aspx.cs:line 293
+   at (Object , Object[] )
+   at WebSite.PageMaster.commandBar_CommandExecute(Object sender, CommandExecuteEventArgs e) in E:\work\lams\基线\源代码\LAMS\WebSite\Master\Page.Master.cs:line 89
+2012-03-27 17:09:27,602 [18] ERROR EAFrame.Core.Authentication.User - Thread was being aborted.
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at WebSite.ProcessDefManager.ActivityManager() in E:\work\lams\基线\源代码\LAMS\WebSite\Workflow\ProcessDefManager.aspx.cs:line 293
+   at (Object , Object[] )
+   at WebSite.PageMaster.commandBar_CommandExecute(Object sender, CommandExecuteEventArgs e) in E:\work\lams\基线\源代码\LAMS\WebSite\Master\Page.Master.cs:line 89
+2012-03-27 17:10:12,090 [15] ERROR EAFrame.Core.Authentication.User - Thread was being aborted.
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at WebSite.ProcessDefManager.ActivityManager() in E:\work\lams\基线\源代码\LAMS\WebSite\Workflow\ProcessDefManager.aspx.cs:line 293
+   at (Object , Object[] )
+   at WebSite.PageMaster.commandBar_CommandExecute(Object sender, CommandExecuteEventArgs e) in E:\work\lams\基线\源代码\LAMS\WebSite\Master\Page.Master.cs:line 89
+2012-03-27 17:10:19,322 [19] ERROR EAFrame.Core.Authentication.User - Thread was being aborted.
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at WebSite.ProcessDefManager.ActivityManager() in E:\work\lams\基线\源代码\LAMS\WebSite\Workflow\ProcessDefManager.aspx.cs:line 293
+   at (Object , Object[] )
+   at WebSite.PageMaster.commandBar_CommandExecute(Object sender, CommandExecuteEventArgs e) in E:\work\lams\基线\源代码\LAMS\WebSite\Master\Page.Master.cs:line 89
+2012-03-27 17:10:51,780 [19] ERROR EAFrame.Core.Authentication.User - Thread was being aborted.
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at WebSite.ProcessDefManager.ActivityManager() in E:\work\lams\基线\源代码\LAMS\WebSite\Workflow\ProcessDefManager.aspx.cs:line 293
+   at (Object , Object[] )
+   at WebSite.PageMaster.commandBar_CommandExecute(Object sender, CommandExecuteEventArgs e) in E:\work\lams\基线\源代码\LAMS\WebSite\Master\Page.Master.cs:line 89
+2012-03-27 17:11:41,813 [15] ERROR EAFrame.Core.Authentication.User - Thread was being aborted.
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at WebSite.ProcessDefManager.ActivityManager() in E:\work\lams\基线\源代码\LAMS\WebSite\Workflow\ProcessDefManager.aspx.cs:line 293
+   at (Object , Object[] )
+   at WebSite.PageMaster.commandBar_CommandExecute(Object sender, CommandExecuteEventArgs e) in E:\work\lams\基线\源代码\LAMS\WebSite\Master\Page.Master.cs:line 89
+2012-03-27 17:11:49,964 [5] ERROR EAFrame.Core.Authentication.User - Thread was being aborted.
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at WebSite.ProcessDefManager.ActivityManager() in E:\work\lams\基线\源代码\LAMS\WebSite\Workflow\ProcessDefManager.aspx.cs:line 293
+   at (Object , Object[] )
+   at WebSite.PageMaster.commandBar_CommandExecute(Object sender, CommandExecuteEventArgs e) in E:\work\lams\基线\源代码\LAMS\WebSite\Master\Page.Master.cs:line 89
+2012-03-27 17:12:01,562 [5] ERROR EAFrame.Core.Authentication.User - Thread was being aborted.
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at WebSite.ProcessDefManager.ActivityManager() in E:\work\lams\基线\源代码\LAMS\WebSite\Workflow\ProcessDefManager.aspx.cs:line 293
+   at (Object , Object[] )
+   at WebSite.PageMaster.commandBar_CommandExecute(Object sender, CommandExecuteEventArgs e) in E:\work\lams\基线\源代码\LAMS\WebSite\Master\Page.Master.cs:line 89
+2012-03-27 17:12:32,100 [19] ERROR EAFrame.Core.Authentication.User - Thread was being aborted.
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at WebSite.ProcessDefManager.ActivityManager() in E:\work\lams\基线\源代码\LAMS\WebSite\Workflow\ProcessDefManager.aspx.cs:line 293
+   at (Object , Object[] )
+   at WebSite.PageMaster.commandBar_CommandExecute(Object sender, CommandExecuteEventArgs e) in E:\work\lams\基线\源代码\LAMS\WebSite\Master\Page.Master.cs:line 89
+2012-03-27 17:12:32,129 [19] ERROR EAFrame.Core.Extensions.GenericExtension - System.ArgumentException: Requested value 'rblDirectRunning' was not found.
+   at System.Enum.EnumResult.SetFailure(ParseFailureKind failure, String failureMessageID, Object failureMessageFormatArgument)
+   at System.Enum.TryParseEnum(Type enumType, String value, Boolean ignoreCase, EnumResult& parseResult)
+   at System.Enum.Parse(Type enumType, String value, Boolean ignoreCase)
+   at EAFrame.Core.Extensions.GenericExtension.Cast[T](Object objValue, T defaultValue)
+2012-03-27 17:12:32,133 [19] ERROR EAFrame.Core.Extensions.GenericExtension - System.ArgumentException: Requested value 'rblDirectRunning' was not found.
+   at System.Enum.EnumResult.SetFailure(ParseFailureKind failure, String failureMessageID, Object failureMessageFormatArgument)
+   at System.Enum.TryParseEnum(Type enumType, String value, Boolean ignoreCase, EnumResult& parseResult)
+   at System.Enum.Parse(Type enumType, String value, Boolean ignoreCase)
+   at EAFrame.Core.Extensions.GenericExtension.Cast[T](Object objValue, T defaultValue)
+2012-03-27 17:12:32,139 [19] ERROR EAFrame.Core.Extensions.GenericExtension - System.ArgumentException: Requested value 'rblDirectRunning' was not found.
+   at System.Enum.EnumResult.SetFailure(ParseFailureKind failure, String failureMessageID, Object failureMessageFormatArgument)
+   at System.Enum.TryParseEnum(Type enumType, String value, Boolean ignoreCase, EnumResult& parseResult)
+   at System.Enum.Parse(Type enumType, String value, Boolean ignoreCase)
+   at EAFrame.Core.Extensions.GenericExtension.Cast[T](Object objValue, T defaultValue)
+2012-03-27 17:12:32,147 [19] ERROR EAFrame.Core.Extensions.GenericExtension - System.ArgumentException: Must specify valid information for parsing in the string.
+   at System.Enum.TryParseEnum(Type enumType, String value, Boolean ignoreCase, EnumResult& parseResult)
+   at System.Enum.Parse(Type enumType, String value, Boolean ignoreCase)
+   at EAFrame.Core.Extensions.GenericExtension.Cast[T](Object objValue, T defaultValue)
+2012-03-27 17:23:56,105 [14] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2012-03-27 17:23:56,177 [14] INFO  EAFrame.Core.Data.DataContext - 参数字典为空

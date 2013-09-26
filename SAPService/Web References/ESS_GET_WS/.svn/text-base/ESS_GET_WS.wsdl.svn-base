@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://eshore.eai.ess.ws/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://eshore.eai.ess.ws/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types />
+  <wsdl:message name="ForTestSoapIn">
+    <wsdl:part name="a" type="s:int" />
+    <wsdl:part name="b" type="s:int" />
+  </wsdl:message>
+  <wsdl:message name="ForTestSoapOut">
+    <wsdl:part name="ForTestResult" type="s:int" />
+  </wsdl:message>
+  <wsdl:message name="ForTest2SoapIn">
+    <wsdl:part name="a" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ForTest2SoapOut">
+    <wsdl:part name="ForTest2Result" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetHrInfoForEssSoapIn">
+    <wsdl:part name="pernrXml" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetHrInfoForEssSoapOut">
+    <wsdl:part name="GetHrInfoForEssResult" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="HR_ORGEH_STSoapIn">
+    <wsdl:part name="pernrXml" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="HR_ORGEH_STSoapOut">
+    <wsdl:part name="HR_ORGEH_STResult" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="HR_PHOTO_STSoapIn">
+    <wsdl:part name="pernrXml" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="HR_PHOTO_STSoapOut">
+    <wsdl:part name="HR_PHOTO_STResult" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetEssSGGL_STSoapIn">
+    <wsdl:part name="pernrXml" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetEssSGGL_STSoapOut">
+    <wsdl:part name="GetEssSGGL_STResult" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetHRJXSoapIn">
+    <wsdl:part name="pernrXml" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetHRJXSoapOut">
+    <wsdl:part name="GetHRJXResult" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetHRJX2SoapIn">
+    <wsdl:part name="pernrXml" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetHRJX2SoapOut">
+    <wsdl:part name="GetHRJX2Result" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetHRJX3SoapIn">
+    <wsdl:part name="pernrXml" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetHRJX3SoapOut">
+    <wsdl:part name="GetHRJX3Result" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetPernrInfoSoapIn">
+    <wsdl:part name="pernr" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetPernrInfoSoapOut">
+    <wsdl:part name="GetPernrInfoResult" type="s:string" />
+  </wsdl:message>
+  <wsdl:portType name="ESS_GET_WSSoap">
+    <wsdl:operation name="ForTest">
+      <wsdl:input message="tns:ForTestSoapIn" />
+      <wsdl:output message="tns:ForTestSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ForTest2">
+      <wsdl:input message="tns:ForTest2SoapIn" />
+      <wsdl:output message="tns:ForTest2SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetHrInfoForEss">
+      <wsdl:input message="tns:GetHrInfoForEssSoapIn" />
+      <wsdl:output message="tns:GetHrInfoForEssSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="HR_ORGEH_ST">
+      <wsdl:input message="tns:HR_ORGEH_STSoapIn" />
+      <wsdl:output message="tns:HR_ORGEH_STSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="HR_PHOTO_ST">
+      <wsdl:input message="tns:HR_PHOTO_STSoapIn" />
+      <wsdl:output message="tns:HR_PHOTO_STSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetEssSGGL_ST">
+      <wsdl:input message="tns:GetEssSGGL_STSoapIn" />
+      <wsdl:output message="tns:GetEssSGGL_STSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetHRJX">
+      <wsdl:input message="tns:GetHRJXSoapIn" />
+      <wsdl:output message="tns:GetHRJXSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetHRJX2">
+      <wsdl:input message="tns:GetHRJX2SoapIn" />
+      <wsdl:output message="tns:GetHRJX2SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetHRJX3">
+      <wsdl:input message="tns:GetHRJX3SoapIn" />
+      <wsdl:output message="tns:GetHRJX3SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPernrInfo">
+      <wsdl:input message="tns:GetPernrInfoSoapIn" />
+      <wsdl:output message="tns:GetPernrInfoSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ESS_GET_WSSoap" type="tns:ESS_GET_WSSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ForTest">
+      <soap:operation soapAction="http://eshore.eai.ess.ws/ForTest" style="rpc" />
+      <wsdl:input>
+        <soap:body use="literal" namespace="http://eshore.eai.ess.ws" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" namespace="http://eshore.eai.ess.ws" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ForTest2">
+      <soap:operation soapAction="http://eshore.eai.ess.ws/ForTest2" style="rpc" />
+      <wsdl:input>
+        <soap:body use="literal" namespace="http://eshore.eai.ess.ws" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" namespace="http://eshore.eai.ess.ws" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetHrInfoForEss">
+      <soap:operation soapAction="http://eshore.eai.ess.ws/GetHrInfoForEss" style="rpc" />
+      <wsdl:input>
+        <soap:body use="literal" namespace="http://eshore.eai.ess.ws" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" namespace="http://eshore.eai.ess.ws" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="HR_ORGEH_ST">
+      <soap:operation soapAction="http://eshore.eai.ess.ws/HR_ORGEH_ST" style="rpc" />
+      <wsdl:input>
+        <soap:body use="literal" namespace="http://eshore.eai.ess.ws" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" namespace="http://eshore.eai.ess.ws" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="HR_PHOTO_ST">
+      <soap:operation soapAction="http://eshore.eai.ess.ws/HR_PHOTO_ST" style="rpc" />
+      <wsdl:input>
+        <soap:body use="literal" namespace="http://eshore.eai.ess.ws" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" namespace="http://eshore.eai.ess.ws" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetEssSGGL_ST">
+      <soap:operation soapAction="http://eshore.eai.ess.ws/GetEssSGGL_ST" style="rpc" />
+      <wsdl:input>
+        <soap:body use="literal" namespace="http://eshore.eai.ess.ws" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" namespace="http://eshore.eai.ess.ws" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetHRJX">
+      <soap:operation soapAction="http://eshore.eai.ess.ws/GetHRJX" style="rpc" />
+      <wsdl:input>
+        <soap:body use="literal" namespace="http://eshore.eai.ess.ws" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" namespace="http://eshore.eai.ess.ws" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetHRJX2">
+      <soap:operation soapAction="http://eshore.eai.ess.ws/GetHRJX2" style="rpc" />
+      <wsdl:input>
+        <soap:body use="literal" namespace="http://eshore.eai.ess.ws" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" namespace="http://eshore.eai.ess.ws" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetHRJX3">
+      <soap:operation soapAction="http://eshore.eai.ess.ws/GetHRJX3" style="rpc" />
+      <wsdl:input>
+        <soap:body use="literal" namespace="http://eshore.eai.ess.ws" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" namespace="http://eshore.eai.ess.ws" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPernrInfo">
+      <soap:operation soapAction="http://eshore.eai.ess.ws/GetPernrInfo" style="rpc" />
+      <wsdl:input>
+        <soap:body use="literal" namespace="http://eshore.eai.ess.ws" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" namespace="http://eshore.eai.ess.ws" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ESS_GET_WSSoap12" type="tns:ESS_GET_WSSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ForTest">
+      <soap12:operation soapAction="http://eshore.eai.ess.ws/ForTest" style="rpc" />
+      <wsdl:input>
+        <soap12:body use="literal" namespace="http://eshore.eai.ess.ws" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" namespace="http://eshore.eai.ess.ws" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ForTest2">
+      <soap12:operation soapAction="http://eshore.eai.ess.ws/ForTest2" style="rpc" />
+      <wsdl:input>
+        <soap12:body use="literal" namespace="http://eshore.eai.ess.ws" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" namespace="http://eshore.eai.ess.ws" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetHrInfoForEss">
+      <soap12:operation soapAction="http://eshore.eai.ess.ws/GetHrInfoForEss" style="rpc" />
+      <wsdl:input>
+        <soap12:body use="literal" namespace="http://eshore.eai.ess.ws" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" namespace="http://eshore.eai.ess.ws" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="HR_ORGEH_ST">
+      <soap12:operation soapAction="http://eshore.eai.ess.ws/HR_ORGEH_ST" style="rpc" />
+      <wsdl:input>
+        <soap12:body use="literal" namespace="http://eshore.eai.ess.ws" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" namespace="http://eshore.eai.ess.ws" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="HR_PHOTO_ST">
+      <soap12:operation soapAction="http://eshore.eai.ess.ws/HR_PHOTO_ST" style="rpc" />
+      <wsdl:input>
+        <soap12:body use="literal" namespace="http://eshore.eai.ess.ws" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" namespace="http://eshore.eai.ess.ws" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetEssSGGL_ST">
+      <soap12:operation soapAction="http://eshore.eai.ess.ws/GetEssSGGL_ST" style="rpc" />
+      <wsdl:input>
+        <soap12:body use="literal" namespace="http://eshore.eai.ess.ws" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" namespace="http://eshore.eai.ess.ws" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetHRJX">
+      <soap12:operation soapAction="http://eshore.eai.ess.ws/GetHRJX" style="rpc" />
+      <wsdl:input>
+        <soap12:body use="literal" namespace="http://eshore.eai.ess.ws" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" namespace="http://eshore.eai.ess.ws" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetHRJX2">
+      <soap12:operation soapAction="http://eshore.eai.ess.ws/GetHRJX2" style="rpc" />
+      <wsdl:input>
+        <soap12:body use="literal" namespace="http://eshore.eai.ess.ws" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" namespace="http://eshore.eai.ess.ws" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetHRJX3">
+      <soap12:operation soapAction="http://eshore.eai.ess.ws/GetHRJX3" style="rpc" />
+      <wsdl:input>
+        <soap12:body use="literal" namespace="http://eshore.eai.ess.ws" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" namespace="http://eshore.eai.ess.ws" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPernrInfo">
+      <soap12:operation soapAction="http://eshore.eai.ess.ws/GetPernrInfo" style="rpc" />
+      <wsdl:input>
+        <soap12:body use="literal" namespace="http://eshore.eai.ess.ws" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" namespace="http://eshore.eai.ess.ws" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ESS_GET_WS">
+    <wsdl:port name="ESS_GET_WSSoap" binding="tns:ESS_GET_WSSoap">
+      <soap:address location="http://10.16.25.81/ESHORE.EAI.ESS.WS/ESS_GET_WS.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ESS_GET_WSSoap12" binding="tns:ESS_GET_WSSoap12">
+      <soap12:address location="http://10.16.25.81/ESHORE.EAI.ESS.WS/ESS_GET_WS.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" namespace="SunTek.LAMS.Domain" assembly="SunTek.LAMS">
+	<class name="SunTek.LAMS.Domain.Diploma, SunTek.LAMS" table="OM_Diploma" lazy="true">
+		<id name="ID" column="ID">
+			<generator class="assigned" />
+		</id>
+		<property name="EmployeeID" column="EmployeeID" />
+		<property name="FulltimeEducation" column="FulltimeEducation" />
+		<property name="FulltimeSchool" column="FulltimeSchool" />
+		<property name="FulltimeMajor" column="FulltimeMajor" />
+		<property name="InserviceEducation" column="InserviceEducation" />
+		<property name="InserviceSchool" column="InserviceSchool" />
+		<property name="InserviceMajor" column="InserviceMajor" />
+		<property name="Creator" column="Creator" />
+		<property name="CreateTime" column="CreateTime" />
+	</class>
+</hibernate-mapping>

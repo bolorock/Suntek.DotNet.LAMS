@@ -1,0 +1,437 @@
+﻿<%@ Page Language="C#" MasterPageFile="~/Master/Page.Master" AutoEventWireup="true"
+    CodeBehind="ImportRegister.aspx.cs" Inherits="WebSite.ImportRegister" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <%= WebExtensions.CombresLink(Skin+"SiteCss") %>
+    <%= WebExtensions.CombresLink(Skin+"DetailCss") %>
+    <%= WebExtensions.CombresLink("SiteJs") %>
+    <%= WebExtensions.CombresLink("ManagerJs")%>
+    <%if (false)
+      { %>
+    <script src="../Scripts/jquery-vsdoc.js" type="text/javascript"></script>
+    <%}%>
+    <%--jquery.uploadify --%>
+    <link rel="Stylesheet" href="../Scripts/JQuery.uploadify/uploadify.css" />
+    <script type="text/javascript" src="../Scripts/JQuery.uploadify/swfobject.js"></script>
+    <script type="text/javascript" src="../Scripts/JQuery.uploadify/jquery.uploadify.min.js"></script>
+    <style type="text/css">
+        /*==  内容列表(table)头部==*/
+        .gridview th
+        {
+            font-weight: normal;
+            font-size: 12px;
+            font-weight: bold;
+            color: #2C59AA;
+            text-indent: 4px;
+            text-align: center;
+            background: url(../Skins/Default/Images/th1.gif);
+            height: 22px;
+            padding: 0;
+            border-color: #B5D6E6;
+            border: 1px solid #8DB2E3;
+        }
+        
+        .download:link
+        {
+            color: #03C;
+        }
+        .download:visited
+        {
+            color: #0000ff;
+        }
+        .download:hover
+        {
+            color: red;
+            text-decoration: underline;
+        }
+    </style>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="contentPlace" runat="server">
+    <script type="text/javascript" language="javascript">
+        Sys.WebForms.PageRequestManager.getInstance().add_endRequest(EndRequestHandler);
+        function EndRequestHandler(sender, args) {
+            registerStatus = $("#<%= hidRegisterStatus.ClientID %>").val();
+            showDivUpload();
+            setCommandbar();
+            SetCheckBox(); //updatepanel触发事件后
+        }
+
+        var current = new Date();
+        var yearMonth = "";
+        var registerStatus = "";
+
+        $(function () {
+            registerStatus = $("#<%= hidRegisterStatus.ClientID %>").val(); //名册状态
+            yearMonth = current.getFullYear().toString() + (current.getMonth() + 1).toString();
+            initYearMonth();
+            InitUploadify(yearMonth);
+            setCommandbar();
+            showDivUpload();
+            initChkComplete();
+        });
+
+        /*设置GridView*/
+        function SetCheckBox() {
+            $(".gridview tbody").find("tr:eq(0) td input").attr("checked", "checked");
+            $("#hidCurrentId").val($(".gridview tbody").find("tr:eq(0) td input").val()); //要重设CurrentID
+        }
+
+        /*初始化完整导入按钮*/
+        function initChkComplete() {
+            $("#chkIsComplete").change(function () {
+                var registerType = "<%= RegisterType  %>";
+                var $template = $("#template");
+                yearMonth = $("#<%= drpYear.ClientID %>").val() + $("#<%= drpMonth.ClientID %>").val();
+                var complete = 0;
+                if ($(this).attr("checked") == true) {
+                    $template.text("下载" + registerType + "完整名册导入模板");
+                    complete = 1;
+                }
+                else {
+                    $template.text("下载" + registerType + "名册导入模板");
+                    $template.attr("href", "../FileTemplate/Register/" + registerType + "名册导入模板.xls");
+                }
+                $('#uploadify').uploadifySettings('scriptData', { 'type': '0', 'yearMonth': yearMonth, 'complete': complete }); //动态改变参数值
+            });
+        }
+
+        /*初始化时间选取按钮*/
+        function initYearMonth() {
+            var $divDate = $("#divDate");
+            var $drpYear = $divDate.find("#<%= drpYear.ClientID %>");
+            var $drpMonth = $divDate.find("#<%= drpMonth.ClientID %>");
+
+            $drpYear.change(function () {
+                $drpMonth.val("");
+            });
+            $drpMonth.change(function () {
+                yearMonth = $drpYear.val() + $(this).val();
+                $('#uploadify').uploadifySettings('scriptData', { 'type': '0', 'yearMonth': yearMonth }); //动态改变参数值
+                $("#msg").empty();
+                $("#msg").removeAttr("style");
+                $("#cmdRefresh").click();
+            });
+        }
+
+        /*设置按钮状态*/
+        function setCommandbar() {
+            var cmdConfirm = $(".commandbar").find("li[id]:contains('确认')");
+            var cmdDel = $(".commandbar").find("li[id]:contains('删除')");
+            var cmdUpdate = $(".commandbar").find("li[id]:contains('修改')");
+            var cmdSAP = $(".commandbar").find("li[id]:contains('从SAP同步')");
+            var arr = [cmdConfirm, cmdDel, cmdUpdate, cmdSAP];
+            if (registerStatus != "0" && registerStatus != "") {
+                $.each(arr, function () {
+                    $(this).hide();
+                });
+            }
+            else {
+                $.each(arr, function () {
+                    $(this).show();
+                });
+            }
+        }
+
+        /*设置上传控件是否可见*/
+        function showDivUpload() {
+            var $divUpload = $("#divUpload");
+            if (registerStatus != "0" && registerStatus != "") {
+                $divUpload.hide();
+            }
+            else {
+                $divUpload.show();
+            }
+        }
+
+        /*初始化上传控件*/
+        function InitUploadify(yearMonth) {
+            $("#uploadify").uploadify({
+                'uploader': '../Scripts/JQuery.uploadify/uploadify.swf',
+                'script': 'ImportRegisterExcel.aspx',
+                'scriptData': { 'type': '0', 'yearMonth': yearMonth },
+                'cancelImg': '../Scripts/JQuery.uploadify/cancel.png',
+                'queueID': 'fileQueue',
+                'fileExt': '*.xls',
+                'fileDesc': 'Excel Files (.xls)',
+                'auto': false,
+                'multi': false,
+                'buttonImg': '../Skins/Default/Images/upload.png',
+                'wmode': 'transparent',
+                'width': 25,
+                'height': 25,
+                'onError': function (event, ID, fileObj, errorObj) {
+                    alert(errorObj.type + ' Error: ' + errorObj.info)
+                },
+                'onSelect': function (event, ID, fileObj) {
+                    $("#msg").empty();
+                    $("#msg").removeAttr("style");
+                },
+                'onComplete': function (event, ID, fileObj, response, data) {
+                    $("#msg").empty();
+                    if (response != "") {
+                        var ajaxResult = JSON2.parse(response);
+                        if (ajaxResult) {
+                            if (ajaxResult.ActionResult != 1) {
+                                $("#msg").css({ "overflow-y": "auto", "height": "40px", "border": "1px solid" });
+                                $("#msg").append("【" + fileObj.name + "】：<br>")
+                                $("#msg").append(ajaxResult.PromptMsg + "<br>");
+                            }
+                            else {
+                                synchronizeSapInfo();
+                            }
+                        }
+                    }
+                },
+                'onAllComplete': function (event, data) {
+                    $("#cmdRefresh").click();
+                }
+            });
+        }
+
+        /*从SAP同步数据*/
+        function synchronizeSapInfo() {
+            if (!confirm("导入数据成功！是否继续从SAP同步数据？")) return;
+        }
+
+        /*确认*/
+        function confirmSubmit() {
+            if (registerStatus == "") {
+                alert("还没有导入名册信息，不能确认！");
+                return;
+            }
+            if (!confirm("确认后将转为当前名册，不能再导入和修改！")) return;
+
+            $.post(getCurrentUrl(), { AjaxAction: "ConfirmSubmit", AjaxArgument: yearMonth }, function (value) {
+                var ajaxResult = JSON2.parse(value);
+                if (ajaxResult) {
+                    if (ajaxResult.ActionResult == 1) {
+                        $("#divUpload").hide();
+                        $("#<%= hidRegisterStatus.ClientID %>").val("1");
+                        registerStatus = "1";
+                        setCommandbar();
+                    }
+                }
+                else {
+                    alert("系统出错，请与管理员联系！");
+                    return;
+                }
+                alert(ajaxResult.PromptMsg);
+            });
+        }
+
+        /*导出Excel*/
+        function exportExcel() {
+            window.open("ExportExcel.aspx?type=0&yearMonth=" + yearMonth);
+        }
+
+        var employeeid = '';
+        var candidateManagerID = '';
+
+//        function openActionDialog(container, cmdName, argument, actionName, showModal, style, refreshParent) {
+//            var dialogShowModal = showModal || false;
+//            var dialogStyle = 1; //0表示弹出div,1表示弹出窗体
+//            var refresh = refreshParent || 1; //1刷新
+//            var currentID = "&CurrentId="
+//            currentID += cmdName == "Update" ? candidateManagerID : employeeid;
+//            currentID += "&CandidateManagerID=" + candidateManagerID;
+//            var url = "";
+//            switch (cmdName) {
+//                case "Update":
+//                    url = "RegisterDetail.aspx?Entry=Update";
+//                    dialogSetting.detailWidth = 900;
+//                    dialogSetting.detailHeight = 780;
+//                    dialogStyle = 0;
+//                    break;
+//                case "View":
+//                    url = "RegisterDetail.aspx?Entry=View";
+//                    dialogSetting.detailWidth = 900;
+//                    dialogSetting.detailHeight = 780;
+//                    break;
+//            }
+
+//            if (url.indexOf('?') > 0)
+//                url += "&Runat=3&ActionFlag=" + cmdName + currentID + "&radom=" + Math.random();
+//            else
+//                url += "?Runat=3&ActionFlag=" + cmdName + currentID + "&radom=" + Math.random();
+
+//            if (dialogStyle == 1) {
+//                if (showModal) {
+//                    var cssDialog = "dialogHeight:" + dialogSetting.detailHeight + "px; dialogWidth:" + dialogSetting.detailWidth + "px; edge: Raised; center: Yes; resizable: Yes; status: No;scrollbars=no,";
+//                    return window.showModalDialog(url, cmdName, cssDialog);
+//                }
+//                else {
+//                    var cssDialog = 'center: Yes,status=yes,menubar=no,scrollbars=yes,resizable=yes,width=' + dialogSetting.detailWidth + ',height=' + dialogSetting.detailHeight;
+//                    window.open(url, cmdName, cssDialog);
+//                }
+//            }
+//            else {
+//                container = "#" + container;
+//                if ($(container).html() != "")
+//                    $(container).dialog("destroy");
+//                $(container).html('<iframe id="bg_div_iframe" scrolling="no"  width="100%" height="98%" allowTransparency="true" frameborder="0"></iframe>');
+//                $('#bg_div_iframe').attr('src', url);
+
+//                $(container).dialog({
+//                    bgiframe: true,
+//                    autoOpen: false,
+//                    width: dialogSetting.detailWidth,
+//                    height: dialogSetting.detailHeight,
+//                    maxWidth: dialogSetting.detailWidth,
+//                    maxHeight: dialogSetting.detailHeight,
+//                    minWidth: dialogSetting.detailWidth,
+//                    minHeight: dialogSetting.detailHeight,
+//                    modal: true,
+//                    close: function () {
+//                        if (cmdName != "View" && refresh == 1)
+//                            __doPostBack('ctl00$commandBar', 'Search$Search');
+//                    }
+//                });
+//                $(container).dialog("option", "title", actionName);
+//                $(container).dialog("open");
+//            }
+//        }
+    </script>
+    <div id="divUpload">
+        <a id="template" href="../FileTemplate/Register/<%= RegisterType  %>名册导入模板.xls">下载<%= RegisterType %>名册导入模板</a>
+        <input type="file" name="uploadify" id="uploadify" /><label style="font-size: larger;
+            color: #c0c0c0; font-weight: bold;">浏览</label>&nbsp;&nbsp;&nbsp;&nbsp; <a href="javascript:$('#uploadify').uploadifyUpload()">
+                导入</a>| <a href="javascript:$('#uploadify').uploadifyClearQueue();">取消导入</a>
+        <input id="chkIsComplete" type="checkbox">导入完整名册</input>
+        <div id="fileQueue">
+        </div>
+        <div id="msg">
+        </div>
+    </div>
+    <hr />
+    <div id="divDate" style="text-align: left; padding-left: 10px;">
+        <asp:DropDownList ID="drpYear" runat="server">
+            <asp:ListItem>2011</asp:ListItem>
+            <asp:ListItem>2012</asp:ListItem>
+            <asp:ListItem>2013</asp:ListItem>
+            <asp:ListItem>2014</asp:ListItem>
+            <asp:ListItem>2015</asp:ListItem>
+            <asp:ListItem>2016</asp:ListItem>
+            <asp:ListItem>2017</asp:ListItem>
+            <asp:ListItem>2018</asp:ListItem>
+        </asp:DropDownList>
+        年
+        <asp:DropDownList ID="drpMonth" runat="server">
+            <asp:ListItem>1</asp:ListItem>
+            <asp:ListItem>2</asp:ListItem>
+            <asp:ListItem>3</asp:ListItem>
+            <asp:ListItem>4</asp:ListItem>
+            <asp:ListItem>5</asp:ListItem>
+            <asp:ListItem>6</asp:ListItem>
+            <asp:ListItem>7</asp:ListItem>
+            <asp:ListItem>8</asp:ListItem>
+            <asp:ListItem>9</asp:ListItem>
+            <asp:ListItem>10</asp:ListItem>
+            <asp:ListItem>11</asp:ListItem>
+            <asp:ListItem>12</asp:ListItem>
+            <asp:ListItem></asp:ListItem>
+        </asp:DropDownList>
+        月
+    </div>
+    <div>
+        <asp:ScriptManager ID="ScriptManager1" runat="server">
+        </asp:ScriptManager>
+        <asp:UpdatePanel ID="UpdatePanel1" runat="server">
+            <ContentTemplate>
+                <suntek:PagedGridView ID="gvList" runat="server" PageIndex="1" CssClass="gridview"
+                    DataKeyNames="ID" PageSize="10" OnRowDataBound="gvList_RowDataBound">
+                    <Columns>
+                        <asp:TemplateField HeaderText="选择">
+                            <ItemTemplate>
+                                <input id="radioId" type="radio" value='<%#Eval("ID")%>' name="radioId" />
+                            </ItemTemplate>
+                        </asp:TemplateField>
+                    </Columns>
+                </suntek:PagedGridView>
+                <suntek:HidTextBox ID="hidRegisterStatus" runat="server" />
+            </ContentTemplate>
+            <Triggers>
+                <asp:AsyncPostBackTrigger ControlID="cmdRefresh" />
+                <asp:AsyncPostBackTrigger ControlID="ctl00$commandBar" />
+            </Triggers>
+        </asp:UpdatePanel>
+    </div>
+    <div id="filterDialog" title="查询">
+        <p id="validateTips">
+        </p>
+        <fieldset>
+            <dl>
+                <dt class="rowlable">员工编号<a class="download" href="../FileTemplate/导入SapID进行批量查询.xls">
+                    (模板)</a></dt>
+                <dd class="rowinput">
+                    <asp:TextBox ID="filterEmployeeCode" runat="server" CssClass="text" ToolTip="以逗号隔开即可以进行批量查询"></asp:TextBox>
+                    <input type="file" name="uploadify" id="uploadSapID" />
+                    <div id="fileQueue2" style="display: none;">
+                    </div>
+                </dd>
+                <dt class="rowlable">单位</dt>
+                <dd class="rowinput">
+                    <asp:TextBox ID="filterOrgName" runat="server" CssClass="text"></asp:TextBox>
+                </dd>
+                <dt class="rowlable">姓名</dt>
+                <dd class="rowinput">
+                    <asp:TextBox ID="filterEmployeeName" runat="server" CssClass="text"></asp:TextBox>
+                </dd>
+                <dt class="rowlable">所在部门</dt>
+                <dd class="rowinput">
+                    <asp:TextBox ID="filterDeptName" runat="server" CssClass="text"></asp:TextBox>
+                </dd>
+                <dt class="rowlable">现任职务</dt>
+                <dd class="rowinput">
+                    <asp:TextBox ID="filterPositionName" runat="server" CssClass="text"></asp:TextBox>
+                </dd>
+                <dt class="rowlable">现任职级</dt>
+                <dd class="rowinput">
+                    <asp:TextBox ID="filterPostGrade" runat="server" CssClass="text"></asp:TextBox>
+                </dd>
+                <dt class="rowlable">性别</dt>
+                <dd class="rowinput">
+                    <suntek:ComboBox ID="filterGender" DropDownStyle="DropDownList" AppendDataBoundItems="true"
+                        runat="server">
+                        <asp:ListItem Text="全部" Value="-1" Selected="True"></asp:ListItem>
+                        <asp:ListItem Text="男" Value="0"></asp:ListItem>
+                        <asp:ListItem Text="女" Value="1"></asp:ListItem>
+                    </suntek:ComboBox>
+                </dd>
+                <dt class="rowlable">全日制学历</dt>
+                <dd class="rowinput">
+                    <suntek:ComboBox ID="filterFulltimeEducation" DropDownStyle="DropDownList" runat="server">
+                    </suntek:ComboBox>
+                </dd>
+                <dt class="rowlable">最高学历</dt>
+                <dd class="rowinput">
+                    <suntek:ComboBox ID="filterInserviceEducation" DropDownStyle="DropDownList" runat="server">
+                    </suntek:ComboBox>
+                </dd>
+                <dt class="rowlable">是否破格推荐</dt>
+                <dd class="rowinput">
+                    <suntek:ComboBox ID="filterIsAnomalous" DropDownStyle="DropDownList" AppendDataBoundItems="true"
+                        runat="server">
+                        <asp:ListItem Text="全部" Value="-1" Selected="True"></asp:ListItem>
+                        <asp:ListItem Text="否" Value="0"></asp:ListItem>
+                        <asp:ListItem Text="是" Value="1"></asp:ListItem>
+                    </suntek:ComboBox>
+                </dd>
+                <dt class="rowlable">后备类型</dt>
+                <dd class="rowinput">
+                    <suntek:ComboBox ID="filterTargetCandidate" DropDownStyle="DropDownList" runat="server">
+                    </suntek:ComboBox>
+                </dd>
+                <dt class="rowlable">后备成熟度</dt>
+                <dd class="rowinput">
+                    <suntek:ComboBox ID="filterCandidateMaturity" DropDownStyle="DropDownList" runat="server">
+                    </suntek:ComboBox>
+                </dd>
+            </dl>
+        </fieldset>
+        <div id="loading" style="display: none; position: absolute; top: 18px; left: 200px">
+            <img src="../Skins/Default/Images/loading.gif" />
+        </div>
+    </div>
+    <asp:Button ID="cmdRefresh" Style="display: none;" ClientIDMode="Static" Width="0px"
+        runat="server" OnClick="cmdRefresh_Click" />
+</asp:Content>

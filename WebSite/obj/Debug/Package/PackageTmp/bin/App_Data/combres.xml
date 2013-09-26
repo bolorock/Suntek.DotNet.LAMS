@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<combres xmlns='urn:combres'>
+  <filters>
+    <filter type="Combres.Filters.FixUrlsInCssFilter, Combres" />
+    <filter type="Combres.Filters.HandleCssVariablesFilter, Combres" />
+  </filters>
+  <cssMinifiers>
+    <minifier name="yui" type="Combres.Minifiers.YuiCssMinifier, Combres">
+      <param name="CssCompressionType" type="string" value="StockYuiCompressor" />
+      <param name="ColumnWidth" type="int" value="-1" />
+    </minifier>
+  </cssMinifiers>
+  <jsMinifiers>
+    <minifier name="msajax" type="Combres.Minifiers.MSAjaxJSMinifier, Combres" binderType="Combres.Binders.SimpleObjectBinder, Combres">
+      <param name="CollapseToLiteral" type="bool" value="true" />
+      <param name="EvalsAreSafe" type="bool" value="true" />
+      <param name="MacSafariQuirks" type="bool" value="true" />
+      <param name="CatchAsLocal" type="bool" value="true" />
+      <param name="LocalRenaming" type="string" value="CrunchAll" />
+      <param name="OutputMode" type="string" value="SingleLine" />
+      <param name="RemoveUnneededCode" type="bool" value="true" />
+      <param name="StripDebugStatements" type="bool" value="true" />
+    </minifier>
+  </jsMinifiers>
+
+  <resourceSets url="~/combres.axd"
+					 defaultDuration="30"
+					 defaultVersion="auto"
+					 defaultDebugEnabled="true"
+					 defaultCompressionEnabled="false"
+					 defaultCssMinifierRef=""
+					 defaultJSMinifierRef=""
+					 defaultVersionGenerator="Combres.VersionGenerators.Sha512VersionGenerator"
+					 localChangeMonitorInterval="1"
+					 remoteChangeMonitorInterval="1" >
+    <resourceSet name="DefaultSiteCss" type="css">
+      <resource path="~/Skins/default/Styles/site.css" />
+      <resource path="~/Skins/default/Styles/base.css" />
+      <resource path="~/Skins/default/PluginStyles/DatePicker/datepicker.css" />
+    </resourceSet>
+    <resourceSet name="SiteJs" type="js">
+      <resource path="~/Scripts/Jquery/jquery-1.4.2.min.js" />
+      <resource path="~/Scripts/Json2.js" />
+      <resource path="~/Scripts/jquery.query.js" />
+      <resource path="~/Scripts/Site.js" />
+      <resource path="~/Scripts/Cookie.js" />
+      <resource path="~/Scripts/AutoHeight.js" />
+      <resource path="~/Scripts/Lams.js" />
+    </resourceSet>
+
+    <resourceSet name="DefaultDetailCss" type="css">
+      <resource path="~/Skins/default/Jquery/jquery-ui-1.8.6.custom.css" />
+      <resource path="~/Skins/default/PluginStyles/JQueryUI/icon.css" />
+    </resourceSet>
+    <resourceSet name="DetailJs" type="js">
+      <resource path="~/Scripts/jquery-ui-1.8.6.custom.min.js" />
+      <resource path="~/Scripts/formValidator.js" />
+      <resource path="~/Scripts/formValidatorRegex.js" />
+      <resource path="~/Scripts/Dialog.js" />
+    </resourceSet>
+
+    <resourceSet name="DefaultManagerCss" type="css">
+      <resource path="~/Skins/default/Jquery/jquery-ui-1.8.6.custom.css" />
+      <resource path="~/Skins/default/PluginStyles/JQueryUI/icon.css" />
+    </resourceSet>
+    <resourceSet name="ManagerJs" type="js">
+      <resource path="~/Scripts/jquery-ui-1.8.6.custom.min.js" />
+      <resource path="~/Scripts/Dialog.js" />
+      <resource path="~/Scripts/GridView.js" />
+    </resourceSet>
+
+    <resourceSet name="GridViewJs" type="js">
+      <resource path="~/Scripts/GridView.js" />
+    </resourceSet>
+
+    <resourceSet name="MTreesJs" type="js">
+      <resource path="~/Scripts/prototype.lite.js" />
+      <resource path="~/Scripts/moo.fx.js" />
+      <resource path="~/Scripts/moo.fx.pack.js" />
+    </resourceSet>
+    <resourceSet name="DefaultNavigatePageCss" type="css">
+      <resource path="~/Skins/default/Styles/NavigatePage.css" />
+    </resourceSet>
+
+    <resourceSet name="DefaultContextMenuCss" type="css">
+      <resource path="~/Skins/default/Jquery/jquery.contextMenu.css" />
+    </resourceSet>
+    <resourceSet name="ContextMenuJs" type="js">
+      <resource path="~/Scripts/Jquery/jquery.contextMenu.js" />
+    </resourceSet>
+  </resourceSets>
+</combres>

@@ -1,0 +1,73 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.IO;
+using System.Net;
+
+namespace WebSite.Register
+{
+    /// <summary>
+    /// Summary description for UploadHandler
+    /// </summary>
+    public class UploadHandler : IHttpHandler
+    {
+
+        public void ProcessRequest(HttpContext context)
+        {
+            context.Response.ContentType = "text/plain";
+<<<<<<< .mine
+            context.Response.Charset = "utf-8";
+
+            //获取上传文件队列  
+            HttpPostedFile oFile = context.Request.Files["Filedata"];
+            if (oFile != null)
+            {
+                string code=context.Request["code"];
+                oFile.SaveAs(string.Format(@"{0}\{1}.jpg", SunTek.LAMS.LAMSContext.EmployeePhotoDirectory, code));
+                context.Response.Write("1");
+            }
+            else
+            {
+                context.Response.Write("0");
+            }  
+=======
+            context.Response.Charset = "utf-8";
+
+            //获取上传文件队列  
+            HttpPostedFile oFile = context.Request.Files["Filedata"];
+            if (oFile != null)
+            {
+                string topDir = context.Request["folder"];
+                //创建顶级目录  
+                if (!Directory.Exists(HttpContext.Current.Server.MapPath(topDir)))
+                {
+                    Directory.CreateDirectory(HttpContext.Current.Server.MapPath(topDir));
+                }
+
+                //当天上传的文件放到已当天日期命名的文件夹中  
+                string dateFolder = HttpContext.Current.Server.MapPath(topDir) + "//" + DateTime.Now.Date.ToString("yyyy-MM-dd");
+                if (!Directory.Exists(dateFolder))
+                {
+                    Directory.CreateDirectory(dateFolder);
+                }
+                oFile.SaveAs(dateFolder + "//" + oFile.FileName);
+                context.Response.Write("1");
+
+            }
+            else
+            {
+                context.Response.Write("0");
+            }  
+>>>>>>> .r1786
+        }
+
+        public bool IsReusable
+        {
+            get
+            {
+                return false;
+            }
+        }
+    }
+}

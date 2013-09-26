@@ -1,0 +1,20 @@
+2011-09-13 16:24:08,703 [18] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-09-13 16:59:45,123 [8] ERROR SunTek.Register.Service.RegisterService - 获取名册展示信息出错！
+System.Data.SqlClient.SqlException (0x80131904): 列名 'PostGrade' 不明确。
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at EAFrame.Core.Data.DataContext.Count(IEAConnection eaconn, String cmdText, IDictionary`2 parameters)
+   at EAFrame.Core.Data.DataContext.ExecuteDataTable(IEAConnection eaconn, String cmdText, IDictionary`2 parameters, String orderBy, PageInfo pageInfo)
+   at EAFrame.Core.Data.Repository`1.ExecuteDataTable[TDomain](String cmdText, IDictionary`2 parameters, String orderBy, PageInfo pageInfo)
+   at SunTek.Register.Service.RegisterService.GetRegisters(IDictionary`2 parameters, String corpID, String grade, String yearMonth, String showField, PageInfo pageInfo) in E:\work\lams\基线\源代码\LAMS\Register\Service\RegisterService.cs:line 319
+2011-09-13 17:02:09,492 [14] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-09-13 17:07:33,833 [12] INFO  EAFrame.Core.Data.DataContext - 参数字典为空

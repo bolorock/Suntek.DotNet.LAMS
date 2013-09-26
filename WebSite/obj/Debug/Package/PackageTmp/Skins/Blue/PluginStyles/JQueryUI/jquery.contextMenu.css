@@ -1,0 +1,76 @@
+/* Generic context menu styles */
+.contextMenu {
+	position: absolute;
+	width: 85px;
+	z-index: 99999;
+	border: solid 1px #CCC;
+	background: #EEE;
+	padding: 0px;
+	margin: 0px;
+	display: none;
+	font-size:11px;
+}
+
+.contextMenu LI {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+.contextMenu A {
+	color: #333;
+	text-decoration: none;
+	display: block;
+	line-height: 20px;
+	height: 20px;
+	background-position: 6px center;
+	background-repeat: no-repeat;
+	outline: none;
+	padding: 1px 5px;
+	padding-left: 28px;
+}
+
+.contextMenu LI.hover A {
+	color: #FFF;
+	background-color: #3399FF;
+}
+
+.contextMenu LI.disabled A {
+	color: #AAA;
+	cursor: default;
+}
+
+.contextMenu LI.hover.disabled A {
+	background-color: transparent;
+}
+
+.contextMenu LI.separator {
+	border-top: solid 1px #CCC;
+}
+
+/*
+	Adding Icons
+	
+	You can add icons to the context menu by adding
+	classes to the respective LI element(s)
+*/
+
+.contextMenu LI.edit A { background-image: url(../../Images/ContextMenu/page_white_edit.png); }
+.contextMenu LI.cut A { background-image: url(../../Images/ContextMenu/cut.png); }
+.contextMenu LI.copy A { background-image: url(../../Images/ContextMenu/page_white_copy.png); }
+.contextMenu LI.paste A { background-image: url(../../Images/ContextMenu/page_white_paste.png); }
+.contextMenu LI.delete A { background-image: url(../../Images/ContextMenu/page_white_delete.png); }
+
+.contextMenu LI.AddFolder A { background-image: url(../../Images/ContextMenu/AddFolder.png); }
+.contextMenu LI.EditFolder A { background-image: url(../../Images/ContextMenu/EditFolder.png); }
+.contextMenu LI.DeleteFolder A { background-image: url(../../Images/ContextMenu/DeleteFolder.png); }
+
+
+.contextMenu LI.AddModel A { background-image: url(../../Images/ContextMenu/AddModel.png); }
+.contextMenu LI.EditModel A { background-image: url(../../Images/ContextMenu/EditModel.png); }
+.contextMenu LI.DeleteModel A { background-image: url(../../Images/ContextMenu/DeleteModel.png); }
+
+.contextMenu LI.AddReport A { background-image: url(../../Images/ContextMenu/AddReport.png); }
+.contextMenu LI.EditReport A { background-image: url(../../Images/ContextMenu/EditReport.png); }
+.contextMenu LI.DeleteReport A { background-image: url(../../Images/ContextMenu/DeleteReport.png); }
+.contextMenu LI.ExecuteReport A { background-image: url(../../Images/ContextMenu/ExecuteReport.png); }

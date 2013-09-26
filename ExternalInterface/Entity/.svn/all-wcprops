@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/lams/!svn/ver/1517/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/ExternalInterface/Entity
+END
+EIACWorkItem.cs
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/lams/!svn/ver/1509/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/ExternalInterface/Entity/EIACWorkItem.cs
+END
+BaseElement.cs
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/lams/!svn/ver/1509/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/ExternalInterface/Entity/BaseElement.cs
+END
+EIACMessage.cs
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/lams/!svn/ver/1517/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/ExternalInterface/Entity/EIACMessage.cs
+END
+EIACClearItem.cs
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/lams/!svn/ver/1509/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/ExternalInterface/Entity/EIACClearItem.cs
+END
+EIACFinishedItem.cs
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/lams/!svn/ver/1509/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/ExternalInterface/Entity/EIACFinishedItem.cs
+END

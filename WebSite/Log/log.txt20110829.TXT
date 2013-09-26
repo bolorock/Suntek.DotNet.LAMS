@@ -1,0 +1,210 @@
+2011-08-29 14:49:02,281 [9] ERROR WebSite.BasePage - NHibernate.HibernateException: An exception occurred when executing batch queries ---> System.Data.SqlClient.SqlException: 将截断字符串或二进制数据。
+语句已终止。
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at System.Data.SqlClient.SqlCommand.ExecuteBatchRPCCommand()
+   at System.Data.SqlClient.SqlCommandSet.ExecuteNonQuery()
+   at NHibernate.AdoNet.SqlClientSqlCommandSet.ExecuteNonQuery()
+   --- End of inner exception stack trace ---
+   at NHibernate.AdoNet.SqlClientSqlCommandSet.ExecuteNonQuery()
+   at NHibernate.AdoNet.SqlClientBatchingBatcher.DoExecuteBatch(IDbCommand ps)
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteBatchWithTiming(IDbCommand ps)
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteBatch()
+   at NHibernate.Engine.ActionQueue.ExecuteActions(IList list)
+   at NHibernate.Engine.ActionQueue.ExecuteActions()
+   at NHibernate.Event.Default.AbstractFlushingEventListener.PerformExecutions(IEventSource session)
+   at NHibernate.Event.Default.DefaultFlushEventListener.OnFlush(FlushEvent event)
+   at NHibernate.Impl.SessionImpl.Flush()
+   at EAFrame.Core.Data.Repository`1.SaveOrUpdate(DomainObject`1 domain)
+   at SunTek.Register.Service.RegisterService.SaveCompleteRegister(RegisterModel model, String grade, String creator, String corpID, String yearMonth) in E:\work\lams\基线\源代码\LAMS\Register\Service\RegisterService.cs:line 126
+   at WebSite.ImportRegisterExcel.SaveRegister(String templatePath, Int32 rowCount) in E:\work\lams\基线\源代码\LAMS\WebSite\Register\ImportRegisterExcel.aspx.cs:line 155
+2011-08-29 14:53:22,258 [17] ERROR WebSite.BasePage - NHibernate.HibernateException: An exception occurred when executing batch queries ---> System.Data.SqlClient.SqlException: 将截断字符串或二进制数据。
+语句已终止。
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at System.Data.SqlClient.SqlCommand.ExecuteBatchRPCCommand()
+   at System.Data.SqlClient.SqlCommandSet.ExecuteNonQuery()
+   at NHibernate.AdoNet.SqlClientSqlCommandSet.ExecuteNonQuery()
+   --- End of inner exception stack trace ---
+   at NHibernate.AdoNet.SqlClientSqlCommandSet.ExecuteNonQuery()
+   at NHibernate.AdoNet.SqlClientBatchingBatcher.DoExecuteBatch(IDbCommand ps)
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteBatchWithTiming(IDbCommand ps)
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteBatch()
+   at NHibernate.Engine.ActionQueue.ExecuteActions(IList list)
+   at NHibernate.Engine.ActionQueue.ExecuteActions()
+   at NHibernate.Event.Default.AbstractFlushingEventListener.PerformExecutions(IEventSource session)
+   at NHibernate.Event.Default.DefaultFlushEventListener.OnFlush(FlushEvent event)
+   at NHibernate.Impl.SessionImpl.Flush()
+   at EAFrame.Core.Data.Repository`1.SaveOrUpdate(DomainObject`1 domain)
+   at SunTek.Register.Service.RegisterService.SaveCompleteRegister(RegisterModel model, String grade, String creator, String corpID, String yearMonth) in E:\work\lams\基线\源代码\LAMS\Register\Service\RegisterService.cs:line 144
+   at WebSite.ImportRegisterExcel.SaveRegister(String templatePath, Int32 rowCount) in E:\work\lams\基线\源代码\LAMS\WebSite\Register\ImportRegisterExcel.aspx.cs:line 155
+2011-08-29 15:23:32,866 [15] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 15:23:32,987 [15] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 15:27:09,858 [13] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 15:27:09,868 [13] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 15:29:38,995 [9] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 15:29:39,028 [9] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 15:34:30,509 [12] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 15:34:30,536 [12] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 15:34:40,393 [21] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 15:34:40,424 [21] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 15:38:54,386 [8] ERROR WebSite.BasePage - NHibernate.HibernateException: An exception occurred when executing batch queries ---> System.Data.SqlClient.SqlException: 将截断字符串或二进制数据。
+语句已终止。
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at System.Data.SqlClient.SqlCommand.ExecuteBatchRPCCommand()
+   at System.Data.SqlClient.SqlCommandSet.ExecuteNonQuery()
+   at NHibernate.AdoNet.SqlClientSqlCommandSet.ExecuteNonQuery()
+   --- End of inner exception stack trace ---
+   at NHibernate.AdoNet.SqlClientSqlCommandSet.ExecuteNonQuery()
+   at NHibernate.AdoNet.SqlClientBatchingBatcher.DoExecuteBatch(IDbCommand ps)
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteBatchWithTiming(IDbCommand ps)
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteBatch()
+   at NHibernate.Engine.ActionQueue.ExecuteActions(IList list)
+   at NHibernate.Engine.ActionQueue.ExecuteActions()
+   at NHibernate.Event.Default.AbstractFlushingEventListener.PerformExecutions(IEventSource session)
+   at NHibernate.Event.Default.DefaultFlushEventListener.OnFlush(FlushEvent event)
+   at NHibernate.Impl.SessionImpl.Flush()
+   at EAFrame.Core.Data.Repository`1.SaveOrUpdate(DomainObject`1 domain)
+   at SunTek.Register.Service.RegisterService.SaveCompleteRegister(RegisterModel model, String grade, String creator, String corpID, String yearMonth) in E:\work\lams\基线\源代码\LAMS\Register\Service\RegisterService.cs:line 145
+   at WebSite.ImportRegisterExcel.SaveRegister(String templatePath, Int32 rowCount) in E:\work\lams\基线\源代码\LAMS\WebSite\Register\ImportRegisterExcel.aspx.cs:line 155
+2011-08-29 15:41:43,120 [11] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 15:41:43,152 [11] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 15:41:52,479 [11] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 15:41:52,492 [11] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 15:58:38,407 [16] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 15:58:38,485 [16] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 16:00:12,375 [13] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 16:00:12,431 [13] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 16:02:10,951 [18] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 16:02:10,958 [18] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 16:04:51,043 [18] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 16:04:51,050 [18] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 16:05:07,217 [4] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 16:05:07,225 [4] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 16:05:41,518 [19] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 16:05:41,539 [19] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 16:06:04,901 [8] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 16:06:04,920 [8] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 16:06:14,984 [19] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 16:06:15,000 [19] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 16:06:20,136 [18] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 16:06:20,144 [18] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 16:06:38,939 [12] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 16:06:38,947 [12] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 16:18:50,024 [10] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 16:18:50,379 [10] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 16:19:54,550 [12] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 16:19:54,562 [12] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 16:20:11,742 [10] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 16:20:11,763 [10] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 16:21:23,452 [10] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 16:21:23,476 [10] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 16:25:27,222 [10] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 16:25:27,246 [10] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 16:29:02,137 [10] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 16:29:02,177 [10] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 16:29:12,410 [20] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 16:29:12,449 [20] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 16:29:45,794 [19] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 16:29:45,813 [19] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 16:30:00,164 [10] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 16:30:00,186 [10] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 16:30:13,849 [10] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 16:30:13,864 [10] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 16:30:40,425 [19] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 16:30:40,439 [19] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 16:30:55,069 [16] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 16:30:55,083 [16] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 16:31:27,488 [11] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 16:31:27,500 [11] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 16:31:38,548 [11] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 16:31:38,556 [11] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 16:32:49,230 [4] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 16:32:49,255 [4] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 16:33:32,372 [18] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 16:33:32,384 [18] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 16:35:19,163 [10] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 16:35:19,180 [10] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 16:35:49,761 [11] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 16:35:49,773 [11] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 16:36:03,587 [4] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 16:36:03,594 [4] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 16:36:28,369 [16] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 16:36:28,392 [16] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 16:36:48,379 [10] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 16:36:48,386 [10] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 16:37:10,261 [11] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 16:37:10,283 [11] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 16:37:30,118 [18] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 16:37:30,136 [18] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 17:10:27,999 [4] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 17:10:32,033 [11] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 17:17:17,596 [4] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 17:17:17,605 [4] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 17:19:21,070 [16] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 17:19:21,108 [16] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 17:19:32,188 [4] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 17:19:32,205 [4] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 17:20:29,027 [11] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 17:20:29,043 [11] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 17:35:26,748 [17] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 17:35:26,826 [17] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 17:44:07,439 [4] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 17:44:07,488 [4] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 21:35:44,057 [17] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 21:35:44,225 [17] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 21:36:15,190 [12] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 21:36:15,265 [12] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 21:50:37,654 [12] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 21:51:52,991 [7] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 21:53:18,691 [12] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 22:00:08,628 [4] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 22:01:19,144 [14] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 22:01:29,307 [12] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 22:02:19,438 [12] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 22:09:39,232 [7] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 22:09:39,235 [7] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 22:20:20,232 [13] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 22:20:20,235 [13] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 22:20:51,486 [4] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 22:20:51,509 [4] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 22:21:05,202 [4] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 22:22:33,743 [14] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 22:22:33,752 [14] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 22:23:05,670 [4] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 22:23:05,699 [4] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 22:23:22,285 [15] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 22:23:22,305 [15] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 22:29:13,579 [12] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 22:29:13,603 [12] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 22:30:13,347 [7] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 22:30:13,372 [7] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 22:47:07,508 [12] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 22:47:07,513 [12] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 22:48:21,015 [12] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 22:48:21,050 [12] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 22:51:21,781 [4] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 22:51:21,808 [4] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-08-29 22:54:37,610 [15] INFO  EAFrame.Core.Data.DataContext - 参数字典为空

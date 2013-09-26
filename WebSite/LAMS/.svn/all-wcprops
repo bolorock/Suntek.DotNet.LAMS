@@ -1,0 +1,521 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/lams/!svn/ver/1988/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/LAMS
+END
+CandidateManagerManager.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/lams/!svn/ver/550/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/LAMS/CandidateManagerManager.aspx.designer.cs
+END
+CandidateManagerList.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/lams/!svn/ver/387/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/LAMS/CandidateManagerList.aspx.designer.cs
+END
+CandidateManagerOrgTreeMain.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/lams/!svn/ver/507/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/LAMS/CandidateManagerOrgTreeMain.aspx.designer.cs
+END
+FamilyMemberManager.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/lams/!svn/ver/534/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/LAMS/FamilyMemberManager.aspx.cs
+END
+CandidateList.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/lams/!svn/ver/388/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/LAMS/CandidateList.aspx
+END
+SupervisorDetail.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/lams/!svn/ver/534/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/LAMS/SupervisorDetail.aspx.cs
+END
+ImportCandidate.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/lams/!svn/ver/743/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/LAMS/ImportCandidate.aspx.designer.cs
+END
+DiplomaDetail.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/lams/!svn/ver/271/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/LAMS/DiplomaDetail.aspx.designer.cs
+END
+CandidateList.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/lams/!svn/ver/386/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/LAMS/CandidateList.aspx.cs
+END
+PostExperienceDetail.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/lams/!svn/ver/1055/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/LAMS/PostExperienceDetail.aspx
+END
+DiplomaManager.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/lams/!svn/ver/459/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/LAMS/DiplomaManager.aspx
+END
+PostExperienceDetail.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/lams/!svn/ver/534/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/LAMS/PostExperienceDetail.aspx.cs
+END
+DiplomaManager.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/lams/!svn/ver/534/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/LAMS/DiplomaManager.aspx.cs
+END
+CandidateDetailDetail.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/lams/!svn/ver/271/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/LAMS/CandidateDetailDetail.aspx.designer.cs
+END
+ExportXMLExcel.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/lams/!svn/ver/1104/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/LAMS/ExportXMLExcel.aspx.designer.cs
+END
+ResumeDetail.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/lams/!svn/ver/271/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/LAMS/ResumeDetail.aspx.designer.cs
+END
+CandidateManagerTree.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/lams/!svn/ver/1563/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/LAMS/CandidateManagerTree.aspx
+END
+FamilyMemberDetail.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/lams/!svn/ver/1055/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/LAMS/FamilyMemberDetail.aspx
+END
+ImportCandidateManagerQualify.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/lams/!svn/ver/1207/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/LAMS/ImportCandidateManagerQualify.aspx
+END
+CandidateDetailManager.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/lams/!svn/ver/534/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/LAMS/CandidateDetailManager.aspx.cs
+END
+ResumeManager.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/lams/!svn/ver/534/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/LAMS/ResumeManager.aspx.cs
+END
+FamilyMemberDetail.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/lams/!svn/ver/534/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/LAMS/FamilyMemberDetail.aspx.cs
+END
+CandidateManagerManager.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/lams/!svn/ver/652/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/LAMS/CandidateManagerManager.aspx
+END
+CandidateManagerOrgTree.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/lams/!svn/ver/1113/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/LAMS/CandidateManagerOrgTree.aspx.designer.cs
+END
+jqgridData.ashx
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/lams/!svn/ver/308/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/LAMS/jqgridData.ashx
+END
+CandidateManagerList.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/lams/!svn/ver/1988/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/LAMS/CandidateManagerList.aspx
+END
+CandidateManagerOrgTreeMain.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/lams/!svn/ver/1113/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/LAMS/CandidateManagerOrgTreeMain.aspx
+END
+SupervisorCandidateDetail.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/lams/!svn/ver/271/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/LAMS/SupervisorCandidateDetail.aspx.designer.cs
+END
+SupervisorCandidateDetail.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/lams/!svn/ver/534/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/LAMS/SupervisorCandidateDetail.aspx.cs
+END
+ImportCandidateManager.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/lams/!svn/ver/1531/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/LAMS/ImportCandidateManager.aspx.cs
+END
+ImportExcelAdd.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/lams/!svn/ver/158/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/LAMS/ImportExcelAdd.aspx.designer.cs
+END
+ImportCandidate.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/lams/!svn/ver/743/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/LAMS/ImportCandidate.aspx
+END
+CandidateManagerOrgTreeMain.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/lams/!svn/ver/655/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/LAMS/CandidateManagerOrgTreeMain.aspx.cs
+END
+DiplomaDetail.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/lams/!svn/ver/1055/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/LAMS/DiplomaDetail.aspx
+END
+DiplomaDetail.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/lams/!svn/ver/534/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/LAMS/DiplomaDetail.aspx.cs
+END
+SupervisorCandidateManager.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/lams/!svn/ver/271/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/LAMS/SupervisorCandidateManager.aspx.designer.cs
+END
+SupervisorCandidateManager.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/lams/!svn/ver/534/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/LAMS/SupervisorCandidateManager.aspx.cs
+END
+CandidateDetailDetail.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/lams/!svn/ver/1055/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/LAMS/CandidateDetailDetail.aspx
+END
+ExportXMLExcel.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/lams/!svn/ver/1206/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/LAMS/ExportXMLExcel.aspx
+END
+ResumeDetail.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/lams/!svn/ver/1055/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/LAMS/ResumeDetail.aspx
+END
+CandidateManagerQualifyDetail.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/lams/!svn/ver/979/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/LAMS/CandidateManagerQualifyDetail.aspx.designer.cs
+END
+CandidateManagerQualifyDetail.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/lams/!svn/ver/979/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/LAMS/CandidateManagerQualifyDetail.aspx.cs
+END
+CandidateManagerTree.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/lams/!svn/ver/1556/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/LAMS/CandidateManagerTree.aspx.cs
+END
+CandidateDetailManager.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/lams/!svn/ver/271/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/LAMS/CandidateDetailManager.aspx.designer.cs
+END
+CandidateManagerDetail.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/lams/!svn/ver/986/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/LAMS/CandidateManagerDetail.aspx.cs
+END
+CandidateManagerOrgTree.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/lams/!svn/ver/1563/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/LAMS/CandidateManagerOrgTree.aspx
+END
+SupervisorCandidateDetail.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/lams/!svn/ver/1055/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/LAMS/SupervisorCandidateDetail.aspx
+END
+ImportExcelAdd.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/lams/!svn/ver/158/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/LAMS/ImportExcelAdd.aspx
+END
+ImportCandidateManager.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/lams/!svn/ver/1175/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/LAMS/ImportCandidateManager.aspx.designer.cs
+END
+CandidateManagerList.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/lams/!svn/ver/387/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/LAMS/CandidateManagerList.aspx.cs
+END
+ImportExcelAdd.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/lams/!svn/ver/1544/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/LAMS/ImportExcelAdd.aspx.cs
+END
+SupervisorCandidateManager.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/lams/!svn/ver/459/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/LAMS/SupervisorCandidateManager.aspx
+END
+ImportCandidate.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/lams/!svn/ver/743/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/LAMS/ImportCandidate.aspx.cs
+END
+SupervisorManager.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/lams/!svn/ver/271/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/LAMS/SupervisorManager.aspx.designer.cs
+END
+CandidateManagerQualifyDetail.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/lams/!svn/ver/1055/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/LAMS/CandidateManagerQualifyDetail.aspx
+END
+ExportXMLExcel.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/lams/!svn/ver/1541/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/LAMS/ExportXMLExcel.aspx.cs
+END
+EmployeeRegister.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/lams/!svn/ver/1111/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/LAMS/EmployeeRegister.aspx.designer.cs
+END
+ResumeDetail.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/lams/!svn/ver/534/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/LAMS/ResumeDetail.aspx.cs
+END
+CandidateDetailManager.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/lams/!svn/ver/459/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/LAMS/CandidateDetailManager.aspx
+END
+PostExperienceManager.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/lams/!svn/ver/271/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/LAMS/PostExperienceManager.aspx.designer.cs
+END
+CandidateManagerDetail.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/lams/!svn/ver/1019/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/LAMS/CandidateManagerDetail.aspx.designer.cs
+END
+ResumeManager.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/lams/!svn/ver/271/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/LAMS/ResumeManager.aspx.designer.cs
+END
+ImportCandidateManager.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/lams/!svn/ver/1592/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/LAMS/ImportCandidateManager.aspx
+END
+CandidateManagerOrgTree.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/lams/!svn/ver/1113/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/LAMS/CandidateManagerOrgTree.aspx.cs
+END
+CandidateManagerManager.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/lams/!svn/ver/724/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/LAMS/CandidateManagerManager.aspx.cs
+END
+jqgridData.ashx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/lams/!svn/ver/724/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/LAMS/jqgridData.ashx.cs
+END
+FamilyMemberManager.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/lams/!svn/ver/271/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/LAMS/FamilyMemberManager.aspx.designer.cs
+END
+SupervisorDetail.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/lams/!svn/ver/271/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/LAMS/SupervisorDetail.aspx.designer.cs
+END
+CandidateList.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/lams/!svn/ver/386/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/LAMS/CandidateList.aspx.designer.cs
+END
+SupervisorManager.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/lams/!svn/ver/459/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/LAMS/SupervisorManager.aspx
+END
+SupervisorManager.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/lams/!svn/ver/534/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/LAMS/SupervisorManager.aspx.cs
+END
+PostExperienceDetail.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/lams/!svn/ver/271/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/LAMS/PostExperienceDetail.aspx.designer.cs
+END
+DiplomaManager.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/lams/!svn/ver/271/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/LAMS/DiplomaManager.aspx.designer.cs
+END
+EmployeeRegister.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/lams/!svn/ver/1557/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/LAMS/EmployeeRegister.aspx
+END
+CandidateDetailDetail.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/lams/!svn/ver/534/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/LAMS/CandidateDetailDetail.aspx.cs
+END
+PostExperienceManager.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/lams/!svn/ver/459/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/LAMS/PostExperienceManager.aspx
+END
+EmployeeRegister.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/lams/!svn/ver/1499/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/LAMS/EmployeeRegister.aspx.cs
+END
+CandidateManagerDetail.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/lams/!svn/ver/1055/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/LAMS/CandidateManagerDetail.aspx
+END
+CandidateManagerTree.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/lams/!svn/ver/1113/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/LAMS/CandidateManagerTree.aspx.designer.cs
+END
+ResumeManager.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/lams/!svn/ver/459/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/LAMS/ResumeManager.aspx
+END
+PostExperienceManager.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/lams/!svn/ver/534/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/LAMS/PostExperienceManager.aspx.cs
+END
+FamilyMemberDetail.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/lams/!svn/ver/271/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/LAMS/FamilyMemberDetail.aspx.designer.cs
+END
+ImportCandidateManagerQualify.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/lams/!svn/ver/1019/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/LAMS/ImportCandidateManagerQualify.aspx.designer.cs
+END
+ImportCandidateManagerQualify.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/lams/!svn/ver/1531/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/LAMS/ImportCandidateManagerQualify.aspx.cs
+END
+FamilyMemberManager.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/lams/!svn/ver/459/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/LAMS/FamilyMemberManager.aspx
+END
+SupervisorDetail.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/lams/!svn/ver/1055/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/LAMS/SupervisorDetail.aspx
+END

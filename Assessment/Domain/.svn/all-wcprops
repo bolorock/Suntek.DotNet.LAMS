@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/lams/!svn/ver/1553/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Assessment/Domain
+END
+Report.cs
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/lams/!svn/ver/260/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Assessment/Domain/Report.cs
+END
+SurveyResultModel.cs
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/lams/!svn/ver/1132/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Assessment/Domain/SurveyResultModel.cs
+END
+SubjectItem.cs
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/lams/!svn/ver/1537/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Assessment/Domain/SubjectItem.cs
+END
+AssessmentRoleWeight.cs
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/lams/!svn/ver/1325/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Assessment/Domain/AssessmentRoleWeight.cs
+END
+ExamPaper.cs
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/lams/!svn/ver/1321/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Assessment/Domain/ExamPaper.cs
+END
+SurveyTester.cs
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/lams/!svn/ver/1401/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Assessment/Domain/SurveyTester.cs
+END
+SubjectItemCore.cs
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/lams/!svn/ver/1284/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Assessment/Domain/SubjectItemCore.cs
+END
+SurveyResult.cs
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/lams/!svn/ver/1284/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Assessment/Domain/SurveyResult.cs
+END
+Survey.cs
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/lams/!svn/ver/1553/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Assessment/Domain/Survey.cs
+END
+AnswerRecord.cs
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/lams/!svn/ver/1539/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Assessment/Domain/AnswerRecord.cs
+END
+Subject.cs
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/lams/!svn/ver/1537/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Assessment/Domain/Subject.cs
+END
+ExamPaperSubject.cs
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/lams/!svn/ver/1286/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Assessment/Domain/ExamPaperSubject.cs
+END
+MainSubject.cs
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/lams/!svn/ver/1321/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Assessment/Domain/MainSubject.cs
+END
+Expert.cs
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/lams/!svn/ver/1537/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Assessment/Domain/Expert.cs
+END
+AssessmentRole.cs
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/lams/!svn/ver/1284/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Assessment/Domain/AssessmentRole.cs
+END
+MarkItem.cs
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/lams/!svn/ver/1537/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Assessment/Domain/MarkItem.cs
+END

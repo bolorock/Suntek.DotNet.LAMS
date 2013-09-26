@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" namespace="SunTek.LAMS.Domain" assembly="SunTek.LAMS">
+	<class name="SunTek.LAMS.Domain.CandidateDetail, SunTek.LAMS" table="MM_CandidateDetail" lazy="true">
+		<id name="ID" column="ID">
+			<generator class="assigned" />
+		</id>
+		<property name="Code" column="Code" />
+		<property name="ShouldCount" column="ShouldCount" />
+		<property name="AttendCount" column="AttendCount" />
+		<property name="EmployeeCount" column="EmployeeCount" />
+		<property name="ApproveCount" column="ApproveCount" />
+		<property name="ApprovePercent" column="ApprovePercent" />
+		<property name="MajorKPI" column="MajorKPI" />
+		<property name="Deficiency" column="Deficiency" />
+		<property name="TrainingPlan" column="TrainingPlan" />
+		<property name="Recommendation" column="Recommendation" />
+		<property name="Creator" column="Creator" />
+		<property name="CreateTime" column="CreateTime" />
+	</class>
+</hibernate-mapping>

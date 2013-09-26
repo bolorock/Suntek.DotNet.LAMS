@@ -1,0 +1,1398 @@
+2012-02-08 15:30:28,376 [15] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2012-02-08 15:30:29,247 [15] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2012-02-08 15:39:15,654 [16] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2012-02-08 15:39:39,840 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44039089同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 15:40:01,029 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44065289同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 15:40:22,049 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44000021同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 15:40:43,072 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44000014同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 15:41:04,094 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44000404同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 15:41:25,110 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44000157同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 15:41:46,128 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44000814同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 15:42:07,142 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44000188同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 15:42:28,165 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44000216同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 15:42:49,177 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44012086同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 15:43:10,212 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44039665同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 15:43:31,227 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44033081同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 15:43:52,245 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44062408同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 15:44:13,274 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44000103同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 15:44:34,294 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44002567同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 15:44:55,313 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44031190同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 15:45:16,330 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44055427同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 15:45:37,350 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44000122同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 15:45:58,371 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44000314同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 15:46:19,405 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44000333同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 15:46:40,441 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44085406同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 15:47:01,473 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44012178同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 15:47:01,625 [20] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2012-02-08 15:47:01,872 [20] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2012-02-08 15:47:12,856 [15] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2012-02-08 15:47:13,231 [15] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2012-02-08 15:47:22,493 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44065415同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 15:47:43,506 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44030621同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 15:47:46,125 [14] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2012-02-08 15:47:46,221 [14] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2012-02-08 15:48:04,587 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44095984同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 15:48:25,624 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44017636同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 15:48:46,664 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44000175同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 15:49:07,684 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44092581同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 15:49:28,690 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44062018同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 15:49:49,712 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44086693同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 15:50:10,736 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44000252同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 15:50:16,450 [19] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2012-02-08 15:50:16,734 [19] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2012-02-08 15:50:31,760 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44095930同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 15:50:52,776 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44000336同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 15:51:13,808 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44095928同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 15:51:34,826 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44080047同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 15:51:55,992 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44000010同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 15:52:17,011 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44000439同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 15:52:38,036 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44000118同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 15:52:59,075 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44031159同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 15:53:20,087 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44030552同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 15:53:41,146 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44000121同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 15:54:02,170 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44030892同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 15:54:23,255 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44030976同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 15:54:44,279 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44015592同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 15:54:59,478 [19] ERROR EAFrame.Core.Authentication.User - Thread was being aborted.
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at WebSite.ProcessDefManager.ActivityManager() in E:\work\lams\基线\源代码\LAMS\WebSite\Workflow\ProcessDefManager.aspx.cs:line 293
+   at (Object , Object[] )
+   at WebSite.PageMaster.commandBar_CommandExecute(Object sender, CommandExecuteEventArgs e) in E:\work\lams\基线\源代码\LAMS\WebSite\Master\Page.Master.cs:line 89
+2012-02-08 15:54:59,887 [14] ERROR EAFrame.Core.Extensions.GenericExtension - System.ArgumentException: Requested value 'rblDirectRunning' was not found.
+   at System.Enum.EnumResult.SetFailure(ParseFailureKind failure, String failureMessageID, Object failureMessageFormatArgument)
+   at System.Enum.TryParseEnum(Type enumType, String value, Boolean ignoreCase, EnumResult& parseResult)
+   at System.Enum.Parse(Type enumType, String value, Boolean ignoreCase)
+   at EAFrame.Core.Extensions.GenericExtension.Cast[T](Object objValue, T defaultValue)
+2012-02-08 15:54:59,982 [14] ERROR EAFrame.Core.Extensions.GenericExtension - System.ArgumentException: Requested value 'rblDirectRunning' was not found.
+   at System.Enum.EnumResult.SetFailure(ParseFailureKind failure, String failureMessageID, Object failureMessageFormatArgument)
+   at System.Enum.TryParseEnum(Type enumType, String value, Boolean ignoreCase, EnumResult& parseResult)
+   at System.Enum.Parse(Type enumType, String value, Boolean ignoreCase)
+   at EAFrame.Core.Extensions.GenericExtension.Cast[T](Object objValue, T defaultValue)
+2012-02-08 15:54:59,991 [14] ERROR EAFrame.Core.Extensions.GenericExtension - System.ArgumentException: Requested value 'rblDirectRunning' was not found.
+   at System.Enum.EnumResult.SetFailure(ParseFailureKind failure, String failureMessageID, Object failureMessageFormatArgument)
+   at System.Enum.TryParseEnum(Type enumType, String value, Boolean ignoreCase, EnumResult& parseResult)
+   at System.Enum.Parse(Type enumType, String value, Boolean ignoreCase)
+   at EAFrame.Core.Extensions.GenericExtension.Cast[T](Object objValue, T defaultValue)
+2012-02-08 15:54:59,998 [14] ERROR EAFrame.Core.Extensions.GenericExtension - System.ArgumentException: Must specify valid information for parsing in the string.
+   at System.Enum.EnumResult.SetFailure(ParseFailureKind failure, String failureMessageID, Object failureMessageFormatArgument)
+   at System.Enum.TryParseEnum(Type enumType, String value, Boolean ignoreCase, EnumResult& parseResult)
+   at System.Enum.Parse(Type enumType, String value, Boolean ignoreCase)
+   at EAFrame.Core.Extensions.GenericExtension.Cast[T](Object objValue, T defaultValue)
+2012-02-08 15:55:05,310 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44069296同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 15:55:07,744 [20] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2012-02-08 15:55:07,864 [20] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2012-02-08 15:55:26,339 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44066131同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 15:55:47,356 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44000159同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 15:56:07,309 [20] ERROR EAFrame.Core.Authentication.User - Thread was being aborted.
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at WebSite.ProcessDefManager.ActivityManager() in E:\work\lams\基线\源代码\LAMS\WebSite\Workflow\ProcessDefManager.aspx.cs:line 293
+   at (Object , Object[] )
+   at WebSite.PageMaster.commandBar_CommandExecute(Object sender, CommandExecuteEventArgs e) in E:\work\lams\基线\源代码\LAMS\WebSite\Master\Page.Master.cs:line 89
+2012-02-08 15:56:08,451 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44065260同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 15:56:29,484 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44096035同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 15:56:38,788 [21] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2012-02-08 15:56:38,858 [21] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2012-02-08 15:56:50,512 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44076459同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 15:56:57,997 [20] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2012-02-08 15:56:58,065 [20] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2012-02-08 15:57:11,526 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44006470同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 15:57:29,541 [22] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2012-02-08 15:57:29,601 [22] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2012-02-08 15:57:32,551 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44018188同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 15:57:53,569 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44000009同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 15:58:14,682 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44000393同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 15:58:35,709 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44015091同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 15:58:56,730 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44000376同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 15:59:17,752 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44015092同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 15:59:38,781 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44043624同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 15:59:59,798 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44000332同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 16:00:20,817 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44065206同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 16:00:41,855 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44095956同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 16:01:02,870 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44015004同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 16:01:23,889 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44000304同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 16:01:44,913 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44065475同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 16:02:05,936 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44096047同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 16:02:07,686 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44019323同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 套接字操作尝试一个无法连接的主机。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 16:02:08,933 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44063191同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 套接字操作尝试一个无法连接的主机。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 16:02:08,955 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44065410同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 套接字操作尝试一个无法连接的主机。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 16:02:08,976 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44065412同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 套接字操作尝试一个无法连接的主机。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 16:02:08,997 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44086748同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 套接字操作尝试一个无法连接的主机。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 16:02:09,019 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44096707同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 套接字操作尝试一个无法连接的主机。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 16:02:09,040 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44096052同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 套接字操作尝试一个无法连接的主机。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 16:02:09,061 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44096172同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 套接字操作尝试一个无法连接的主机。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 16:02:09,083 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44015221同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 套接字操作尝试一个无法连接的主机。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 16:02:09,104 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44077974同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 套接字操作尝试一个无法连接的主机。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 16:02:09,126 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44096708同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 套接字操作尝试一个无法连接的主机。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 16:02:09,147 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44027003同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 套接字操作尝试一个无法连接的主机。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 16:02:09,169 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44027005同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 套接字操作尝试一个无法连接的主机。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 16:02:09,189 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44000273同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 套接字操作尝试一个无法连接的主机。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 16:02:09,211 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44059968同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 套接字操作尝试一个无法连接的主机。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 16:02:09,892 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44031160同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 套接字操作尝试一个无法连接的主机。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 16:02:09,917 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44030702同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 套接字操作尝试一个无法连接的主机。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 16:02:09,938 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44031162同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 套接字操作尝试一个无法连接的主机。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 16:02:09,974 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44095954同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 套接字操作尝试一个无法连接的主机。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 16:02:09,988 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44012036同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 套接字操作尝试一个无法连接的主机。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 16:02:10,002 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44000335同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 套接字操作尝试一个无法连接的主机。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 16:02:10,017 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44000051同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 套接字操作尝试一个无法连接的主机。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 16:02:10,032 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44012722同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 套接字操作尝试一个无法连接的主机。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 16:02:10,049 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44086422同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 套接字操作尝试一个无法连接的主机。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 16:02:10,063 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44096229同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 套接字操作尝试一个无法连接的主机。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 16:02:10,077 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44016389同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 套接字操作尝试一个无法连接的主机。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 16:02:10,093 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44018884同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 套接字操作尝试一个无法连接的主机。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 16:02:10,107 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44000343同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 套接字操作尝试一个无法连接的主机。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 16:02:10,122 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44065311同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 套接字操作尝试一个无法连接的主机。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 16:02:10,137 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44000119同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 套接字操作尝试一个无法连接的主机。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 16:02:10,152 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44031187同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 套接字操作尝试一个无法连接的主机。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 16:02:10,168 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44031161同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 套接字操作尝试一个无法连接的主机。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 16:02:10,184 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44095250同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 套接字操作尝试一个无法连接的主机。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 16:02:10,197 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44095251同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 套接字操作尝试一个无法连接的主机。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 16:02:10,212 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44062065同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 套接字操作尝试一个无法连接的主机。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 16:02:10,228 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44015005同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 套接字操作尝试一个无法连接的主机。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 16:02:10,242 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44000246同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 套接字操作尝试一个无法连接的主机。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 16:02:10,256 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44015194同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 套接字操作尝试一个无法连接的主机。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 16:02:10,271 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44000790同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 套接字操作尝试一个无法连接的主机。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 16:02:10,285 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44015139同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 套接字操作尝试一个无法连接的主机。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 16:02:10,337 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44000173同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 套接字操作尝试一个无法连接的主机。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 16:02:10,351 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44000604同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 套接字操作尝试一个无法连接的主机。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 16:02:10,365 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44000608同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 套接字操作尝试一个无法连接的主机。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 16:02:10,379 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44002563同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 套接字操作尝试一个无法连接的主机。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 16:02:10,396 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44012073同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 套接字操作尝试一个无法连接的主机。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 16:02:10,411 [16] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44096033同步失败！
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: 套接字操作尝试一个无法连接的主机。 10.16.25.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Suntek.SAPService.ESS_GET_WS.ESS_GET_WS.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\Web References\ESS_GET_WS\Reference.cs:line 183
+   at Suntek.SAPService.SAPServiceBll.GetHrInfoForEss(String pernrXml) in E:\work\lams\基线\源代码\LAMS\SAPService\SAPServiceBll.cs:line 30
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 392
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 958
+2012-02-08 16:02:10,416 [16] ERROR WebSite.BasePage - 员工编号为44039089同步失败！<br>员工编号为44065289同步失败！<br>员工编号为44000021同步失败！<br>员工编号为44000014同步失败！<br>员工编号为44000404同步失败！<br>员工编号为44000157同步失败！<br>员工编号为44000814同步失败！<br>员工编号为44000188同步失败！<br>员工编号为44000216同步失败！<br>员工编号为44012086同步失败！<br>员工编号为44039665同步失败！<br>员工编号为44033081同步失败！<br>员工编号为44062408同步失败！<br>员工编号为44000103同步失败！<br>员工编号为44002567同步失败！<br>员工编号为44031190同步失败！<br>员工编号为44055427同步失败！<br>员工编号为44000122同步失败！<br>员工编号为44000314同步失败！<br>员工编号为44000333同步失败！<br>员工编号为44085406同步失败！<br>员工编号为44012178同步失败！<br>员工编号为44065415同步失败！<br>员工编号为44030621同步失败！<br>员工编号为44095984同步失败！<br>员工编号为44017636同步失败！<br>员工编号为44000175同步失败！<br>员工编号为44092581同步失败！<br>员工编号为44062018同步失败！<br>员工编号为44086693同步失败！<br>员工编号为44000252同步失败！<br>员工编号为44095930同步失败！<br>员工编号为44000336同步失败！<br>员工编号为44095928同步失败！<br>员工编号为44080047同步失败！<br>员工编号为44000010同步失败！<br>员工编号为44000439同步失败！<br>员工编号为44000118同步失败！<br>员工编号为44031159同步失败！<br>员工编号为44030552同步失败！<br>员工编号为44000121同步失败！<br>员工编号为44030892同步失败！<br>员工编号为44030976同步失败！<br>员工编号为44015592同步失败！<br>员工编号为44069296同步失败！<br>员工编号为44066131同步失败！<br>员工编号为44000159同步失败！<br>员工编号为44065260同步失败！<br>员工编号为44096035同步失败！<br>员工编号为44076459同步失败！<br>员工编号为44006470同步失败！<br>员工编号为44018188同步失败！<br>员工编号为44000009同步失败！<br>员工编号为44000393同步失败！<br>员工编号为44015091同步失败！<br>员工编号为44000376同步失败！<br>员工编号为44015092同步失败！<br>员工编号为44043624同步失败！<br>员工编号为44000332同步失败！<br>员工编号为44065206同步失败！<br>员工编号为44095956同步失败！<br>员工编号为44015004同步失败！<br>员工编号为44000304同步失败！<br>员工编号为44065475同步失败！<br>员工编号为44096047同步失败！<br>员工编号为44019323同步失败！<br>员工编号为44063191同步失败！<br>员工编号为44065410同步失败！<br>员工编号为44065412同步失败！<br>员工编号为44086748同步失败！<br>员工编号为44096707同步失败！<br>员工编号为44096052同步失败！<br>员工编号为44096172同步失败！<br>员工编号为44015221同步失败！<br>员工编号为44077974同步失败！<br>员工编号为44096708同步失败！<br>员工编号为44027003同步失败！<br>员工编号为44027005同步失败！<br>员工编号为44000273同步失败！<br>员工编号为44059968同步失败！<br>员工编号为44031160同步失败！<br>员工编号为44030702同步失败！<br>员工编号为44031162同步失败！<br>员工编号为44095954同步失败！<br>员工编号为44012036同步失败！<br>员工编号为44000335同步失败！<br>员工编号为44000051同步失败！<br>员工编号为44012722同步失败！<br>员工编号为44086422同步失败！<br>员工编号为44096229同步失败！<br>员工编号为44016389同步失败！<br>员工编号为44018884同步失败！<br>员工编号为44000343同步失败！<br>员工编号为44065311同步失败！<br>员工编号为44000119同步失败！<br>员工编号为44031187同步失败！<br>员工编号为44031161同步失败！<br>员工编号为44095250同步失败！<br>员工编号为44095251同步失败！<br>员工编号为44062065同步失败！<br>员工编号为44015005同步失败！<br>员工编号为44000246同步失败！<br>员工编号为44015194同步失败！<br>员工编号为44000790同步失败！<br>员工编号为44015139同步失败！<br>员工编号为44000173同步失败！<br>员工编号为44000604同步失败！<br>员工编号为44000608同步失败！<br>员工编号为44002563同步失败！<br>员工编号为44012073同步失败！<br>员工编号为44096033同步失败！<br>
+2012-02-08 17:16:27,368 [25] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2012-02-08 17:16:27,922 [25] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2012-02-08 17:16:55,020 [10] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2012-02-08 17:16:55,286 [10] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2012-02-08 17:19:37,385 [15] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2012-02-08 17:19:37,633 [15] INFO  EAFrame.Core.Data.DataContext - 参数字典为空

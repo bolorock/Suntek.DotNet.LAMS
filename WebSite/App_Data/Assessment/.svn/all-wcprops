@@ -1,0 +1,383 @@
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/lams/!svn/ver/1206/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/App_Data/Assessment
+END
+ReportManager.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/lams/!svn/ver/1206/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/App_Data/Assessment/ReportManager.aspx
+END
+ExamPaperDetail.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/lams/!svn/ver/1206/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/App_Data/Assessment/ExamPaperDetail.aspx.designer.cs
+END
+ExamPaperDetail.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/lams/!svn/ver/1206/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/App_Data/Assessment/ExamPaperDetail.aspx.cs
+END
+ExamPaperManager.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/lams/!svn/ver/1206/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/App_Data/Assessment/ExamPaperManager.aspx.designer.cs
+END
+AnswerRecordDetail.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/lams/!svn/ver/1206/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/App_Data/Assessment/AnswerRecordDetail.aspx
+END
+ExamPaperManager.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/lams/!svn/ver/1206/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/App_Data/Assessment/ExamPaperManager.aspx.cs
+END
+SurveyResultDetail.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/lams/!svn/ver/1206/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/App_Data/Assessment/SurveyResultDetail.aspx.cs
+END
+SurveyDetail.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/lams/!svn/ver/1206/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/App_Data/Assessment/SurveyDetail.aspx.designer.cs
+END
+CandidateMain.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/lams/!svn/ver/1206/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/App_Data/Assessment/CandidateMain.aspx.designer.cs
+END
+CandidateMain.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/lams/!svn/ver/1206/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/App_Data/Assessment/CandidateMain.aspx.cs
+END
+SubjectDetail.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/lams/!svn/ver/1206/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/App_Data/Assessment/SubjectDetail.aspx.designer.cs
+END
+CandidateMList.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/lams/!svn/ver/1206/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/App_Data/Assessment/CandidateMList.aspx
+END
+SurveyManager.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/lams/!svn/ver/1206/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/App_Data/Assessment/SurveyManager.aspx
+END
+AnswerRecordManager.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/lams/!svn/ver/1206/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/App_Data/Assessment/AnswerRecordManager.aspx
+END
+SurveyResultManager.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/lams/!svn/ver/1206/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/App_Data/Assessment/SurveyResultManager.aspx.designer.cs
+END
+SurveyManager.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/lams/!svn/ver/1206/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/App_Data/Assessment/SurveyManager.aspx.cs
+END
+SubjectManager.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/lams/!svn/ver/1206/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/App_Data/Assessment/SubjectManager.aspx.cs
+END
+ExamShow.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/lams/!svn/ver/1206/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/App_Data/Assessment/ExamShow.aspx.designer.cs
+END
+Uploadify.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/lams/!svn/ver/1206/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/App_Data/Assessment/Uploadify.aspx.designer.cs
+END
+ReportDetail.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/lams/!svn/ver/1206/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/App_Data/Assessment/ReportDetail.aspx.cs
+END
+ExamPaperDetail.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/lams/!svn/ver/1206/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/App_Data/Assessment/ExamPaperDetail.aspx
+END
+ExamPaperManager.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/lams/!svn/ver/1206/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/App_Data/Assessment/ExamPaperManager.aspx
+END
+SurveyDetail.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/lams/!svn/ver/1206/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/App_Data/Assessment/SurveyDetail.aspx
+END
+CandidateMain.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/lams/!svn/ver/1206/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/App_Data/Assessment/CandidateMain.aspx
+END
+SubjectDetail.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/lams/!svn/ver/1206/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/App_Data/Assessment/SubjectDetail.aspx
+END
+SurveyDetail.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/lams/!svn/ver/1206/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/App_Data/Assessment/SurveyDetail.aspx.cs
+END
+SurveyResultManager.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/lams/!svn/ver/1206/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/App_Data/Assessment/SurveyResultManager.aspx
+END
+ExamPaperSubjectDetail.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/lams/!svn/ver/1206/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/App_Data/Assessment/ExamPaperSubjectDetail.aspx.designer.cs
+END
+ExamPaperSubjectDetail.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/lams/!svn/ver/1206/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/App_Data/Assessment/ExamPaperSubjectDetail.aspx.cs
+END
+ExamShow.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/lams/!svn/ver/1206/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/App_Data/Assessment/ExamShow.aspx
+END
+Uploadify.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/lams/!svn/ver/1206/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/App_Data/Assessment/Uploadify.aspx
+END
+SubjectManager.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/lams/!svn/ver/1206/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/App_Data/Assessment/SubjectManager.aspx.designer.cs
+END
+Uploadify.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/lams/!svn/ver/1206/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/App_Data/Assessment/Uploadify.aspx.cs
+END
+ExamPaperSubjectManager.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/lams/!svn/ver/1206/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/App_Data/Assessment/ExamPaperSubjectManager.aspx.designer.cs
+END
+ReportDetail.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/lams/!svn/ver/1206/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/App_Data/Assessment/ReportDetail.aspx.designer.cs
+END
+ExamPaperSubjectManager.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/lams/!svn/ver/1206/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/App_Data/Assessment/ExamPaperSubjectManager.aspx.cs
+END
+SubjectItemDetail.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/lams/!svn/ver/1206/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/App_Data/Assessment/SubjectItemDetail.aspx.designer.cs
+END
+SubjectItemDetail.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/lams/!svn/ver/1206/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/App_Data/Assessment/SubjectItemDetail.aspx.cs
+END
+ReportManager.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/lams/!svn/ver/1206/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/App_Data/Assessment/ReportManager.aspx.cs
+END
+SubjectItemManager.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/lams/!svn/ver/1206/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/App_Data/Assessment/SubjectItemManager.aspx.designer.cs
+END
+SubjectItemManager.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/lams/!svn/ver/1206/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/App_Data/Assessment/SubjectItemManager.aspx.cs
+END
+SurveyResultDetail.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/lams/!svn/ver/1206/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/App_Data/Assessment/SurveyResultDetail.aspx.designer.cs
+END
+ExamPaperSubjectDetail.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/lams/!svn/ver/1206/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/App_Data/Assessment/ExamPaperSubjectDetail.aspx
+END
+SubjectManager.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/lams/!svn/ver/1206/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/App_Data/Assessment/SubjectManager.aspx
+END
+SurveyResultManager.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/lams/!svn/ver/1206/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/App_Data/Assessment/SurveyResultManager.aspx.cs
+END
+ExamPaperSubjectManager.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/lams/!svn/ver/1206/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/App_Data/Assessment/ExamPaperSubjectManager.aspx
+END
+ReportDetail.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/lams/!svn/ver/1206/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/App_Data/Assessment/ReportDetail.aspx
+END
+CandidateTree.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/lams/!svn/ver/1206/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/App_Data/Assessment/CandidateTree.aspx.designer.cs
+END
+ExamShow.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/lams/!svn/ver/1206/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/App_Data/Assessment/ExamShow.aspx.cs
+END
+SubjectItemDetail.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/lams/!svn/ver/1206/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/App_Data/Assessment/SubjectItemDetail.aspx
+END
+SubjectItemManager.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/lams/!svn/ver/1206/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/App_Data/Assessment/SubjectItemManager.aspx
+END
+ReportManager.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/lams/!svn/ver/1206/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/App_Data/Assessment/ReportManager.aspx.designer.cs
+END
+SurveyResultDetail.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/lams/!svn/ver/1206/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/App_Data/Assessment/SurveyResultDetail.aspx
+END
+AnswerRecordDetail.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/lams/!svn/ver/1206/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/App_Data/Assessment/AnswerRecordDetail.aspx.designer.cs
+END
+AnswerRecordDetail.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/lams/!svn/ver/1206/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/App_Data/Assessment/AnswerRecordDetail.aspx.cs
+END
+SubjectDetail.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/lams/!svn/ver/1206/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/App_Data/Assessment/SubjectDetail.aspx.cs
+END
+CandidateMList.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/lams/!svn/ver/1206/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/App_Data/Assessment/CandidateMList.aspx.designer.cs
+END
+CandidateMList.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/lams/!svn/ver/1206/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/App_Data/Assessment/CandidateMList.aspx.cs
+END
+SurveyManager.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/lams/!svn/ver/1206/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/App_Data/Assessment/SurveyManager.aspx.designer.cs
+END
+CandidateTree.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/lams/!svn/ver/1206/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/App_Data/Assessment/CandidateTree.aspx
+END
+AnswerRecordManager.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/lams/!svn/ver/1206/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/App_Data/Assessment/AnswerRecordManager.aspx.designer.cs
+END
+AnswerRecordManager.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/lams/!svn/ver/1206/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/App_Data/Assessment/AnswerRecordManager.aspx.cs
+END
+CandidateTree.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/lams/!svn/ver/1206/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/App_Data/Assessment/CandidateTree.aspx.cs
+END

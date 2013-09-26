@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Register namespace="">
+  <RegisterInfos>
+    <RegisterInfo>
+      <SortOrder text="序号" row="1" column="0" IsShow="0" SortOrder="-1" Description="序号" Width="34" />
+      <Code text="员工编号" row="1" column="1" IsShow="1" SortOrder="1" Description="员工编号" Width="46" />
+      <Department text="单位" row="1" column="2" IsShow="1" SortOrder="2" Description="单位" Width="64" />
+      <OrgName text="机构名称" row="1" column="3" IsShow="0" SortOrder="-1" Description="机构名称" Width="48" />
+      <OrgType text="机构分类" row="1" column="4" IsShow="0" SortOrder="-1" Description="机构分类" Width="41" />
+      <OrgGrade text="机构等级" row="1" column="5" IsShow="1" SortOrder="3" Description="机构等级" Width="37" />
+      <Name text="姓名" row="1" column="6" IsShow="1" SortOrder="4" Description="姓名" Width="39" />
+      <Position text="现职务" row="1" column="7" IsShow="1" SortOrder="5" Description="现职务" Width="50" />
+      <PostGrade text="岗位等级" row="1" column="8" IsShow="1" SortOrder="6" Description="岗位等级" Width="72" />
+      <registerBaseInfo>
+        <CurrentPostTime text="任现职时间" row="1" column="19" IsShow="1" SortOrder="7" Description="任现职时间" Width="38" />
+        <CurrentGradeTime text="任现级时间" row="1" column="10" IsShow="1" SortOrder="8" Description="任现级时间" Width="34" />
+        <PostGradeExperience text="工作经历" row="1" column="11" IsShow="1" SortOrder="9" Description="工作经历" Width="403" />
+        <GradeExperience text="任职级经历" row="1" column="12" IsShow="1" SortOrder="10" Description="任职级经历" Width="150" />
+        <Gender text="性别" row="1" column="13" IsShow="1" SortOrder="11" Description="性别" Width="35" />
+        <Birthplace text="籍贯" row="1" column="14" IsShow="1" SortOrder="12" Description="籍贯" Width="35" />
+        <Birthday text="出生年月" row="1" column="15" IsShow="1" SortOrder="13" Description="出生年月" Width="34" />
+        <WorkTime text="参加工作时间" row="1" column="16" IsShow="1" SortOrder="14" Description="参加工作时间" Width="36" />
+        <SystemTime text="入本系统时间" row="1" column="17" IsShow="1" SortOrder="15" Description="入本系统时间" Width="36" />
+        <PoliticalFace text="政治面目" row="1" column="18" IsShow="1" SortOrder="16" Description="政治面目" Width="34" />
+        <PartyTime text="入党时间" row="1" column="19" IsShow="1" SortOrder="17" Description="入党时间" Width="34" />
+        <FulltimeEducation text="全日制学历" row="1" column="20" IsShow="1" SortOrder="18" Description="全日制学历" Width="34" />
+        <FulltimeDegree text="全日制学位" row="1" column="21" IsShow="1" SortOrder="19" Description="全日制学位" Width="34" />
+        <FulltimeSchool text="全日制毕业学校" row="1" column="22" IsShow="1" SortOrder="20" Description="全日制毕业学校" Width="38" />
+        <FulltimeProfessional text="全日制毕业专业" row="1" column="23" IsShow="1" SortOrder="21" Description="全日制毕业专业" Width="41" />
+        <FulltimeGraduationTime text="全日制毕业时间" row="1" column="24" IsShow="1" SortOrder="22" Description="全日制毕业时间" Width="34" />
+        <ParttimeEducation text="在职学历" row="1" column="25" IsShow="1" SortOrder="23" Description="在职学历" Width="34" />
+        <ParttimeDegree text="在职学位" row="1" column="26" IsShow="1" SortOrder="24" Description="在职学位" Width="49" />
+        <ParttimeSchool text="在职毕业学校" row="1" column="27" IsShow="1" SortOrder="25" Description="在职毕业学校" Width="35" />
+        <ParttimeProfessional text="在职毕业专业" row="1" column="28" IsShow="1" SortOrder="26" Description="在职毕业专业" Width="37" />
+        <ParttimeGraduationTime text="在职毕业时间" row="1" column="29" IsShow="1" SortOrder="27" Description="在职毕业时间" Width="34" />
+      </registerBaseInfo>
+    </RegisterInfo>
+  </RegisterInfos>
+</Register>

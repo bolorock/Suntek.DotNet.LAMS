@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/lams/!svn/ver/1938/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/AuthorizeCenter/Service
+END
+OperatorService.cs
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/lams/!svn/ver/1938/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/AuthorizeCenter/Service/OperatorService.cs
+END
+BizOrgService.cs
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/lams/!svn/ver/261/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/AuthorizeCenter/Service/BizOrgService.cs
+END
+OperateService.cs
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/lams/!svn/ver/261/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/AuthorizeCenter/Service/OperateService.cs
+END
+RoleService.cs
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/lams/!svn/ver/831/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/AuthorizeCenter/Service/RoleService.cs
+END
+CustMenuService.cs
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/lams/!svn/ver/261/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/AuthorizeCenter/Service/CustMenuService.cs
+END
+PositionService.cs
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/lams/!svn/ver/261/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/AuthorizeCenter/Service/PositionService.cs
+END
+OrganizationService.cs
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/lams/!svn/ver/1410/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/AuthorizeCenter/Service/OrganizationService.cs
+END
+EmployeePositionService.cs
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/lams/!svn/ver/261/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/AuthorizeCenter/Service/EmployeePositionService.cs
+END
+RolePrivilegeService.cs
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/lams/!svn/ver/1518/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/AuthorizeCenter/Service/RolePrivilegeService.cs
+END
+ShortcutService.cs
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/lams/!svn/ver/261/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/AuthorizeCenter/Service/ShortcutService.cs
+END
+EmployeeService.cs
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/lams/!svn/ver/1548/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/AuthorizeCenter/Service/EmployeeService.cs
+END
+MetaDataService.cs
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/lams/!svn/ver/261/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/AuthorizeCenter/Service/MetaDataService.cs
+END
+DutyService.cs
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/lams/!svn/ver/261/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/AuthorizeCenter/Service/DutyService.cs
+END
+PrivilegeService.cs
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/lams/!svn/ver/883/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/AuthorizeCenter/Service/PrivilegeService.cs
+END
+ResourceService.cs
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/lams/!svn/ver/963/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/AuthorizeCenter/Service/ResourceService.cs
+END
+EmployeeOrgService.cs
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/lams/!svn/ver/261/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/AuthorizeCenter/Service/EmployeeOrgService.cs
+END
+SpecialPrivilegeService.cs
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/lams/!svn/ver/883/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/AuthorizeCenter/Service/SpecialPrivilegeService.cs
+END
+ObjectRoleService.cs
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/lams/!svn/ver/686/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/AuthorizeCenter/Service/ObjectRoleService.cs
+END

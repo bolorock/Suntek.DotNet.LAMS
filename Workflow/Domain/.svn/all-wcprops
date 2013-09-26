@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/lams/!svn/ver/1420/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Workflow/Domain
+END
+AgentCandidate.cs
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/lams/!svn/ver/1117/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Workflow/Domain/AgentCandidate.cs
+END
+ProcessInst.cs
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/lams/!svn/ver/1117/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Workflow/Domain/ProcessInst.cs
+END
+AgentItem.cs
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/lams/!svn/ver/1117/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Workflow/Domain/AgentItem.cs
+END
+ProcessDef.cs
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/lams/!svn/ver/1117/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Workflow/Domain/ProcessDef.cs
+END
+Agent.cs
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/lams/!svn/ver/1117/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Workflow/Domain/Agent.cs
+END
+Participant.cs
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/lams/!svn/ver/1117/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Workflow/Domain/Participant.cs
+END
+TraceLog.cs
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/lams/!svn/ver/1117/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Workflow/Domain/TraceLog.cs
+END
+WorkItem.cs
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/lams/!svn/ver/1404/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Workflow/Domain/WorkItem.cs
+END
+ExtendAttr.cs
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/lams/!svn/ver/1117/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Workflow/Domain/ExtendAttr.cs
+END
+ProcessForm.cs
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/lams/!svn/ver/1420/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Workflow/Domain/ProcessForm.cs
+END
+TransControl.cs
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/lams/!svn/ver/1117/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Workflow/Domain/TransControl.cs
+END
+ActivityInst.cs
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/lams/!svn/ver/1117/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Workflow/Domain/ActivityInst.cs
+END
+Transition.cs
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/lams/!svn/ver/1117/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Workflow/Domain/Transition.cs
+END

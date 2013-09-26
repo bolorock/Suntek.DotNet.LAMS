@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/lams/!svn/ver/2041/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Register/Service
+END
+SapBaseInfoService.cs
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/lams/!svn/ver/2030/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Register/Service/SapBaseInfoService.cs
+END
+CorpSortService.cs
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/lams/!svn/ver/1927/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Register/Service/CorpSortService.cs
+END
+RegisterBaseInfoService.cs
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/lams/!svn/ver/1976/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Register/Service/RegisterBaseInfoService.cs
+END
+SapFamilyMemberService.cs
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/lams/!svn/ver/2022/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Register/Service/SapFamilyMemberService.cs
+END
+SapWorkExperienceService.cs
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/lams/!svn/ver/2022/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Register/Service/SapWorkExperienceService.cs
+END
+SapAppointService.cs
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/lams/!svn/ver/2041/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Register/Service/SapAppointService.cs
+END
+FieldSetService.cs
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/lams/!svn/ver/1856/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Register/Service/FieldSetService.cs
+END
+RegisterService.cs
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/lams/!svn/ver/2038/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Register/Service/RegisterService.cs
+END

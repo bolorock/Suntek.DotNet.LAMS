@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/lams/!svn/ver/2043/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/SAPService/Model
+END
+StellInforData.cs
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/lams/!svn/ver/2043/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/SAPService/Model/StellInforData.cs
+END
+BaseInfoData.cs
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/lams/!svn/ver/2043/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/SAPService/Model/BaseInfoData.cs
+END
+JobInfoData.cs
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/lams/!svn/ver/2043/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/SAPService/Model/JobInfoData.cs
+END
+AppointInfoData.cs
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/lams/!svn/ver/2043/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/SAPService/Model/AppointInfoData.cs
+END
+StellInfor.cs
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/lams/!svn/ver/2043/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/SAPService/Model/StellInfor.cs
+END
+JobInfo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/lams/!svn/ver/1589/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/SAPService/Model/JobInfo.cs
+END
+AppointInfo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/lams/!svn/ver/2041/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/SAPService/Model/AppointInfo.cs
+END
+FamilyInfoData.cs
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/lams/!svn/ver/2043/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/SAPService/Model/FamilyInfoData.cs
+END
+WorkInfoData.cs
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/lams/!svn/ver/2043/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/SAPService/Model/WorkInfoData.cs
+END
+SoapData.cs
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/lams/!svn/ver/2043/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/SAPService/Model/SoapData.cs
+END
+FamilyInfo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/lams/!svn/ver/1589/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/SAPService/Model/FamilyInfo.cs
+END
+WorkInfo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/lams/!svn/ver/1589/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/SAPService/Model/WorkInfo.cs
+END
+DegreeInfoData.cs
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/lams/!svn/ver/2043/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/SAPService/Model/DegreeInfoData.cs
+END
+Results.cs
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/lams/!svn/ver/2019/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/SAPService/Model/Results.cs
+END
+PositInfoData.cs
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/lams/!svn/ver/2041/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/SAPService/Model/PositInfoData.cs
+END
+DegreeInfo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/lams/!svn/ver/1589/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/SAPService/Model/DegreeInfo.cs
+END

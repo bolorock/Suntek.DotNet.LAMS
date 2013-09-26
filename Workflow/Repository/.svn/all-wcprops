@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/lams/!svn/ver/5/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Workflow/Repository
+END
+AgentCandidateRepository.cs
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/lams/!svn/ver/5/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Workflow/Repository/AgentCandidateRepository.cs
+END
+ProcessInstRepository.cs
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/lams/!svn/ver/5/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Workflow/Repository/ProcessInstRepository.cs
+END
+AgentItemRepository.cs
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/lams/!svn/ver/5/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Workflow/Repository/AgentItemRepository.cs
+END
+ProcessDefRepository.cs
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/lams/!svn/ver/5/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Workflow/Repository/ProcessDefRepository.cs
+END
+AgentRepository.cs
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/lams/!svn/ver/5/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Workflow/Repository/AgentRepository.cs
+END
+ParticipantRepository.cs
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/lams/!svn/ver/5/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Workflow/Repository/ParticipantRepository.cs
+END
+TraceLogRepository.cs
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/lams/!svn/ver/5/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Workflow/Repository/TraceLogRepository.cs
+END
+WorkItemRepository.cs
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/lams/!svn/ver/5/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Workflow/Repository/WorkItemRepository.cs
+END
+ExtendAttrRepository.cs
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/lams/!svn/ver/5/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Workflow/Repository/ExtendAttrRepository.cs
+END
+TransControlRepository.cs
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/lams/!svn/ver/5/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Workflow/Repository/TransControlRepository.cs
+END
+ActivityInstRepository.cs
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/lams/!svn/ver/5/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Workflow/Repository/ActivityInstRepository.cs
+END
+TransitionRepository.cs
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/lams/!svn/ver/5/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Workflow/Repository/TransitionRepository.cs
+END

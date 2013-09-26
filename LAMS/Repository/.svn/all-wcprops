@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/lams/!svn/ver/243/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/LAMS/Repository
+END
+PostExperienceRepository.cs
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/lams/!svn/ver/5/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/LAMS/Repository/PostExperienceRepository.cs
+END
+SupervisorCandidateRepository.cs
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/lams/!svn/ver/5/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/LAMS/Repository/SupervisorCandidateRepository.cs
+END
+CandidateDetailRepository.cs
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/lams/!svn/ver/198/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/LAMS/Repository/CandidateDetailRepository.cs
+END
+EmployeeModelRepository.cs
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/lams/!svn/ver/243/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/LAMS/Repository/EmployeeModelRepository.cs
+END
+ResumeRepository.cs
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/lams/!svn/ver/5/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/LAMS/Repository/ResumeRepository.cs
+END
+SupervisorRepository.cs
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/lams/!svn/ver/5/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/LAMS/Repository/SupervisorRepository.cs
+END
+DiplomaRepository.cs
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/lams/!svn/ver/5/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/LAMS/Repository/DiplomaRepository.cs
+END
+CandidateManagerRepository.cs
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/lams/!svn/ver/236/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/LAMS/Repository/CandidateManagerRepository.cs
+END
+FamilyMemberRepository.cs
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/lams/!svn/ver/5/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/LAMS/Repository/FamilyMemberRepository.cs
+END

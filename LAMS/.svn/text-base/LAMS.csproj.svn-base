@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{759BEA5C-FDD2-42DD-A496-8AFFD3A795E9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SunTek.LAMS</RootNamespace>
+    <AssemblyName>SunTek.LAMS</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EAFrame.Core">
+      <HintPath>..\Lib\EAFrame.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Iesi.Collections">
+      <HintPath>..\Lib\Iesi.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>..\Lib\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\Lib\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate">
+      <HintPath>..\Lib\NHibernate.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Domain\CandidateManagerEmployee.cs" />
+    <Compile Include="Domain\CandidateDetail.cs" />
+    <Compile Include="Domain\CandidateManager.cs" />
+    <Compile Include="Domain\CandidateManagerModel.cs" />
+    <Compile Include="Domain\Diploma.cs" />
+    <Compile Include="Domain\EmployeeModel.cs" />
+    <Compile Include="Domain\FamilyMember.cs" />
+    <Compile Include="Domain\PostExperience.cs" />
+    <Compile Include="Domain\Resume.cs" />
+    <Compile Include="Domain\Supervisor.cs" />
+    <Compile Include="Domain\SupervisorCandidate.cs" />
+    <Compile Include="LAMSContext.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service\CandidateDetailService.cs" />
+    <Compile Include="Service\CandidateManagerService.cs" />
+    <Compile Include="Service\DiplomaService.cs" />
+    <Compile Include="Service\EmployeeModelService.cs" />
+    <Compile Include="Service\FamilyMemberService.cs" />
+    <Compile Include="Service\PostExperienceService.cs" />
+    <Compile Include="Service\ResumeService.cs" />
+    <Compile Include="Service\SupervisorCandidateService.cs" />
+    <Compile Include="Service\SupervisorService.cs" />
+    <Compile Include="Uitl\ExcelUtil.cs" />
+    <Compile Include="Uitl\IPagedList.cs" />
+    <Compile Include="Uitl\LinqSort.cs" />
+    <Compile Include="Uitl\PagedList.cs" />
+    <Compile Include="Uitl\Pagination.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Domain\HbmMaps\CandidateManager.hbm.xml" />
+    <EmbeddedResource Include="Domain\HbmMaps\Diploma.hbm.xml" />
+    <EmbeddedResource Include="Domain\HbmMaps\FamilyMember.hbm.xml" />
+    <EmbeddedResource Include="Domain\HbmMaps\PostExperience.hbm.xml" />
+    <EmbeddedResource Include="Domain\HbmMaps\Resume.hbm.xml" />
+    <EmbeddedResource Include="Domain\HbmMaps\Supervisor.hbm.xml" />
+    <EmbeddedResource Include="Domain\HbmMaps\SupervisorCandidate.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AuthorizeCenter\AuthorizeCenter.csproj">
+      <Project>{9782BFB7-75CB-4204-94A9-5CBCEC2F49C9}</Project>
+      <Name>AuthorizeCenter</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Domain\HbmMaps\CandidateDetail.hbm.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

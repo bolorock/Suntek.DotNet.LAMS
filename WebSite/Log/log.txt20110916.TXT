@@ -1,0 +1,28 @@
+2011-09-16 16:36:07,001 [13] ERROR WebSite.BasePage - 导出展示名册出错！corpName:中国电信广东公司&filterStr:
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at WebSite.ExcelHelper.ExportByWeb(DataTable dt, String sheetName, String fileName, String headerText, IDictionary`2 columnName, Boolean numCellShow, Int32 headerRowIndex, Int32 columnRowIndex, Int32 columnRowMergeDown, Boolean isOpen, IDictionary`2 columnWidth) in E:\work\lams\基线\源代码\LAMS\WebSite\AppCode\ExcelHelper.cs:line 383
+   at WebSite.Register.ExportRegister.Page_Load(Object sender, EventArgs e) in E:\work\lams\基线\源代码\LAMS\WebSite\Register\ExportRegister.aspx.cs:line 99
+2011-09-16 16:37:35,134 [15] ERROR WebSite.BasePage - 导出展示名册出错！corpName:中国电信广东公司&filterStr:
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at WebSite.ExcelHelper.ExportByWeb(DataTable dt, String sheetName, String fileName, String headerText, IDictionary`2 columnName, Boolean numCellShow, Int32 headerRowIndex, Int32 columnRowIndex, Int32 columnRowMergeDown, Boolean isOpen, IDictionary`2 columnWidth) in E:\work\lams\基线\源代码\LAMS\WebSite\AppCode\ExcelHelper.cs:line 383
+   at WebSite.Register.ExportRegister.Page_Load(Object sender, EventArgs e) in E:\work\lams\基线\源代码\LAMS\WebSite\Register\ExportRegister.aspx.cs:line 99
+2011-09-16 16:40:00,845 [15] ERROR WebSite.BasePage - 导出展示名册出错！corpName:中国电信广东公司&filterStr:
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at WebSite.ExcelHelper.ExportByWeb(DataTable dt, String sheetName, String fileName, String headerText, IDictionary`2 columnName, Boolean numCellShow, Int32 headerRowIndex, Int32 columnRowIndex, Int32 columnRowMergeDown, Boolean isOpen, IDictionary`2 columnWidth) in E:\work\lams\基线\源代码\LAMS\WebSite\AppCode\ExcelHelper.cs:line 383
+   at WebSite.Register.ExportRegister.Page_Load(Object sender, EventArgs e) in E:\work\lams\基线\源代码\LAMS\WebSite\Register\ExportRegister.aspx.cs:line 99
+2011-09-16 16:41:21,946 [31] ERROR WebSite.BasePage - 导出展示名册出错！corpName:中国电信广东公司&filterStr:
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at WebSite.ExcelHelper.ExportByWeb(DataTable dt, String sheetName, String fileName, String headerText, IDictionary`2 columnName, Boolean numCellShow, Int32 headerRowIndex, Int32 columnRowIndex, Int32 columnRowMergeDown, Boolean isOpen, IDictionary`2 columnWidth) in E:\work\lams\基线\源代码\LAMS\WebSite\AppCode\ExcelHelper.cs:line 383
+   at WebSite.Register.ExportRegister.Page_Load(Object sender, EventArgs e) in E:\work\lams\基线\源代码\LAMS\WebSite\Register\ExportRegister.aspx.cs:line 99

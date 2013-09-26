@@ -1,0 +1,132 @@
+2011-09-20 15:15:08,719 [22] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-09-20 15:15:09,128 [22] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44047565同步失败！
+System.InvalidOperationException: There was an error reflecting type 'Suntek.SAPService.Model.ZRFC_ESS_GET_Response'. ---> System.InvalidOperationException: There was an error reflecting field 'posit_info'. ---> System.InvalidOperationException: There was an error reflecting type 'Suntek.SAPService.Model.ZSTR_POSIT_INFOR'. ---> System.InvalidOperationException: There was an error reflecting field 'begda'. ---> System.InvalidOperationException: There was an error reflecting type 'Suntek.SAPService.Model.BEGDA'. ---> System.InvalidOperationException: Types 'Suntek.SAPService.Model.BEGDA' and 'Suntek.SAPService.Model.PBEGDA' both use the XML type name, 'BEGDA', from namespace ''. Use XML attributes to specify a unique XML name and/or namespace for the type.
+   at System.Xml.Serialization.XmlReflectionImporter.GetTypeMapping(String typeName, String ns, TypeDesc typeDesc, NameTable typeLib, Type type)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportStructLikeMapping(StructModel model, String ns, Boolean openModel, XmlAttributes a, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(TypeModel model, String ns, ImportContext context, String dataType, XmlAttributes a, Boolean repeats, Boolean openModel, RecursionLimiter limiter)
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(TypeModel model, String ns, ImportContext context, String dataType, XmlAttributes a, Boolean repeats, Boolean openModel, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportAccessorMapping(MemberMapping accessor, FieldModel model, XmlAttributes a, String ns, Type choiceIdentifierType, Boolean rpc, Boolean openModel, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportFieldMapping(StructModel parent, FieldModel model, XmlAttributes a, String ns, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.InitializeStructMembers(StructMapping mapping, StructModel model, Boolean openModel, String typeName, RecursionLimiter limiter)
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlReflectionImporter.InitializeStructMembers(StructMapping mapping, StructModel model, Boolean openModel, String typeName, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportStructLikeMapping(StructModel model, String ns, Boolean openModel, XmlAttributes a, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(TypeModel model, String ns, ImportContext context, String dataType, XmlAttributes a, Boolean repeats, Boolean openModel, RecursionLimiter limiter)
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(TypeModel model, String ns, ImportContext context, String dataType, XmlAttributes a, Boolean repeats, Boolean openModel, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportAccessorMapping(MemberMapping accessor, FieldModel model, XmlAttributes a, String ns, Type choiceIdentifierType, Boolean rpc, Boolean openModel, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportFieldMapping(StructModel parent, FieldModel model, XmlAttributes a, String ns, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.InitializeStructMembers(StructMapping mapping, StructModel model, Boolean openModel, String typeName, RecursionLimiter limiter)
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlReflectionImporter.InitializeStructMembers(StructMapping mapping, StructModel model, Boolean openModel, String typeName, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportStructLikeMapping(StructModel model, String ns, Boolean openModel, XmlAttributes a, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(TypeModel model, String ns, ImportContext context, String dataType, XmlAttributes a, Boolean repeats, Boolean openModel, RecursionLimiter limiter)
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(TypeModel model, String ns, ImportContext context, String dataType, XmlAttributes a, Boolean repeats, Boolean openModel, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportElement(TypeModel model, XmlRootAttribute root, String defaultNamespace, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(Type type, XmlRootAttribute root, String defaultNamespace)
+   at System.Xml.Serialization.XmlSerializer..ctor(Type type, String defaultNamespace)
+   at System.Xml.Serialization.XmlSerializer..ctor(Type type)
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 396
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 950
+2011-09-20 15:15:09,216 [22] ERROR WebSite.BasePage - 员工编号为44047565同步失败！<br>
+2011-09-20 15:29:52,001 [22] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-09-20 15:29:52,360 [22] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44047565同步失败！
+System.InvalidOperationException: There was an error reflecting type 'Suntek.SAPService.Model.ZRFC_ESS_GET_Response'. ---> System.InvalidOperationException: There was an error reflecting field 'appoint_info'. ---> System.InvalidOperationException: There was an error reflecting type 'Suntek.SAPService.Model.ZSTR_APPOINT_INFOR'. ---> System.InvalidOperationException: There was an error reflecting field 'endda'. ---> System.InvalidOperationException: There was an error reflecting type 'Suntek.SAPService.Model.ZSTR_APPOINT_INFOR.ENDDA'. ---> System.InvalidOperationException: Types 'Suntek.SAPService.Model.ZSTR_APPOINT_INFOR.ENDDA' and 'Suntek.SAPService.Model.ENDDA' both use the XML type name, 'ENDDA', from namespace ''. Use XML attributes to specify a unique XML name and/or namespace for the type.
+   at System.Xml.Serialization.XmlReflectionImporter.GetTypeMapping(String typeName, String ns, TypeDesc typeDesc, NameTable typeLib, Type type)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportStructLikeMapping(StructModel model, String ns, Boolean openModel, XmlAttributes a, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(TypeModel model, String ns, ImportContext context, String dataType, XmlAttributes a, Boolean repeats, Boolean openModel, RecursionLimiter limiter)
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(TypeModel model, String ns, ImportContext context, String dataType, XmlAttributes a, Boolean repeats, Boolean openModel, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportAccessorMapping(MemberMapping accessor, FieldModel model, XmlAttributes a, String ns, Type choiceIdentifierType, Boolean rpc, Boolean openModel, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportFieldMapping(StructModel parent, FieldModel model, XmlAttributes a, String ns, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.InitializeStructMembers(StructMapping mapping, StructModel model, Boolean openModel, String typeName, RecursionLimiter limiter)
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlReflectionImporter.InitializeStructMembers(StructMapping mapping, StructModel model, Boolean openModel, String typeName, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportStructLikeMapping(StructModel model, String ns, Boolean openModel, XmlAttributes a, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(TypeModel model, String ns, ImportContext context, String dataType, XmlAttributes a, Boolean repeats, Boolean openModel, RecursionLimiter limiter)
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(TypeModel model, String ns, ImportContext context, String dataType, XmlAttributes a, Boolean repeats, Boolean openModel, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportAccessorMapping(MemberMapping accessor, FieldModel model, XmlAttributes a, String ns, Type choiceIdentifierType, Boolean rpc, Boolean openModel, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportFieldMapping(StructModel parent, FieldModel model, XmlAttributes a, String ns, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.InitializeStructMembers(StructMapping mapping, StructModel model, Boolean openModel, String typeName, RecursionLimiter limiter)
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlReflectionImporter.InitializeStructMembers(StructMapping mapping, StructModel model, Boolean openModel, String typeName, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportStructLikeMapping(StructModel model, String ns, Boolean openModel, XmlAttributes a, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(TypeModel model, String ns, ImportContext context, String dataType, XmlAttributes a, Boolean repeats, Boolean openModel, RecursionLimiter limiter)
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(TypeModel model, String ns, ImportContext context, String dataType, XmlAttributes a, Boolean repeats, Boolean openModel, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportElement(TypeModel model, XmlRootAttribute root, String defaultNamespace, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(Type type, XmlRootAttribute root, String defaultNamespace)
+   at System.Xml.Serialization.XmlSerializer..ctor(Type type, String defaultNamespace)
+   at System.Xml.Serialization.XmlSerializer..ctor(Type type)
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 396
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 950
+2011-09-20 15:29:52,378 [22] ERROR WebSite.BasePage - 员工编号为44047565同步失败！<br>
+2011-09-20 15:35:04,782 [9] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-09-20 15:35:05,066 [9] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44047565同步失败！
+System.InvalidOperationException: There was an error reflecting type 'Suntek.SAPService.Model.ZRFC_ESS_GET_Response'. ---> System.InvalidOperationException: There was an error reflecting field 'stell_info'. ---> System.InvalidOperationException: There was an error reflecting type 'Suntek.SAPService.Model.ZSTR_STELL_INFOR'. ---> System.InvalidOperationException: There was an error reflecting field 'stell'. ---> System.InvalidOperationException: There was an error reflecting type 'Suntek.SAPService.Model.ZSTR_STELL_INFOR.STELL'. ---> System.InvalidOperationException: Types 'Suntek.SAPService.Model.ZSTR_STELL_INFOR.STELL' and 'Suntek.SAPService.Model.STELL' both use the XML type name, 'STELL', from namespace ''. Use XML attributes to specify a unique XML name and/or namespace for the type.
+   at System.Xml.Serialization.XmlReflectionImporter.GetTypeMapping(String typeName, String ns, TypeDesc typeDesc, NameTable typeLib, Type type)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportStructLikeMapping(StructModel model, String ns, Boolean openModel, XmlAttributes a, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(TypeModel model, String ns, ImportContext context, String dataType, XmlAttributes a, Boolean repeats, Boolean openModel, RecursionLimiter limiter)
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(TypeModel model, String ns, ImportContext context, String dataType, XmlAttributes a, Boolean repeats, Boolean openModel, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportAccessorMapping(MemberMapping accessor, FieldModel model, XmlAttributes a, String ns, Type choiceIdentifierType, Boolean rpc, Boolean openModel, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportFieldMapping(StructModel parent, FieldModel model, XmlAttributes a, String ns, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.InitializeStructMembers(StructMapping mapping, StructModel model, Boolean openModel, String typeName, RecursionLimiter limiter)
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlReflectionImporter.InitializeStructMembers(StructMapping mapping, StructModel model, Boolean openModel, String typeName, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportStructLikeMapping(StructModel model, String ns, Boolean openModel, XmlAttributes a, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(TypeModel model, String ns, ImportContext context, String dataType, XmlAttributes a, Boolean repeats, Boolean openModel, RecursionLimiter limiter)
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(TypeModel model, String ns, ImportContext context, String dataType, XmlAttributes a, Boolean repeats, Boolean openModel, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportAccessorMapping(MemberMapping accessor, FieldModel model, XmlAttributes a, String ns, Type choiceIdentifierType, Boolean rpc, Boolean openModel, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportFieldMapping(StructModel parent, FieldModel model, XmlAttributes a, String ns, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.InitializeStructMembers(StructMapping mapping, StructModel model, Boolean openModel, String typeName, RecursionLimiter limiter)
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlReflectionImporter.InitializeStructMembers(StructMapping mapping, StructModel model, Boolean openModel, String typeName, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportStructLikeMapping(StructModel model, String ns, Boolean openModel, XmlAttributes a, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(TypeModel model, String ns, ImportContext context, String dataType, XmlAttributes a, Boolean repeats, Boolean openModel, RecursionLimiter limiter)
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(TypeModel model, String ns, ImportContext context, String dataType, XmlAttributes a, Boolean repeats, Boolean openModel, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportElement(TypeModel model, XmlRootAttribute root, String defaultNamespace, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(Type type, XmlRootAttribute root, String defaultNamespace)
+   at System.Xml.Serialization.XmlSerializer..ctor(Type type, String defaultNamespace)
+   at System.Xml.Serialization.XmlSerializer..ctor(Type type)
+   at Suntek.SAPService.BLL.SAPBll.GetSAPInfo(String sapid, Int32& state) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 396
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 933
+2011-09-20 15:35:05,082 [9] ERROR WebSite.BasePage - 员工编号为44047565同步失败！<br>
+2011-09-20 15:39:19,663 [17] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-09-20 15:39:20,543 [17] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44047565同步失败！
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Suntek.SAPService.BLL.SAPBll.GetRegisterBaseInfo(SapResult sapResult) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 870
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 939
+2011-09-20 15:39:20,629 [17] ERROR WebSite.BasePage - 员工编号为44047565同步失败！<br>
+2011-09-20 15:42:18,360 [18] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-09-20 15:43:05,040 [18] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44047565同步失败！
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Suntek.SAPService.BLL.SAPBll.GetRegisterBaseInfo(SapResult sapResult) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 870
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 939
+2011-09-20 15:43:05,044 [18] ERROR WebSite.BasePage - 员工编号为44047565同步失败！<br>
+2011-09-20 15:43:26,339 [14] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-09-20 15:46:10,933 [14] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44047565同步失败！
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Suntek.SAPService.BLL.SAPBll.GetRegisterBaseInfo(SapResult sapResult) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 870
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 939
+2011-09-20 15:46:10,939 [14] ERROR WebSite.BasePage - 员工编号为44047565同步失败！<br>
+2011-09-20 15:52:04,075 [14] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-09-20 16:00:53,869 [19] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-09-20 16:00:55,067 [19] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44047565同步失败！
+NHibernate.MappingException: No persister for: SunTek.Register.Domain.SapAppoint
+   at NHibernate.Impl.SessionFactoryImpl.GetEntityPersister(String entityName)
+   at NHibernate.Event.Default.DefaultLoadEventListener.OnLoad(LoadEvent event, LoadType loadType)
+   at NHibernate.Impl.SessionImpl.FireLoad(LoadEvent event, LoadType loadType)
+   at NHibernate.Impl.SessionImpl.Get(String entityName, Object id)
+   at NHibernate.Impl.SessionImpl.Get(Type entityClass, Object id)
+   at EAFrame.Core.Data.Repository`1.SaveOrUpdate(DomainObject`1 domain)
+   at EAFrame.Core.Service.BaseService`2.SaveOrUpdate(TDomain domain)
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 993
+2011-09-20 16:00:55,190 [19] ERROR WebSite.BasePage - 员工编号为44047565同步失败！<br>
+2011-09-20 16:04:22,336 [20] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-09-20 16:10:17,684 [8] INFO  EAFrame.Core.Data.DataContext - 参数字典为空

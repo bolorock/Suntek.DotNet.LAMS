@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/lams/!svn/ver/1531/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/AuthorizeCenter/Domain/HbmMaps
+END
+Shortcut.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/lams/!svn/ver/5/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/AuthorizeCenter/Domain/HbmMaps/Shortcut.hbm.xml
+END
+Employee.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/lams/!svn/ver/1531/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/AuthorizeCenter/Domain/HbmMaps/Employee.hbm.xml
+END
+MetaData.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/lams/!svn/ver/5/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/AuthorizeCenter/Domain/HbmMaps/MetaData.hbm.xml
+END
+Duty.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/lams/!svn/ver/5/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/AuthorizeCenter/Domain/HbmMaps/Duty.hbm.xml
+END
+Privilege.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/lams/!svn/ver/136/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/AuthorizeCenter/Domain/HbmMaps/Privilege.hbm.xml
+END
+Resource.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/lams/!svn/ver/284/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/AuthorizeCenter/Domain/HbmMaps/Resource.hbm.xml
+END
+EmployeeOrg.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/lams/!svn/ver/5/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/AuthorizeCenter/Domain/HbmMaps/EmployeeOrg.hbm.xml
+END
+SpecialPrivilege.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/lams/!svn/ver/284/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/AuthorizeCenter/Domain/HbmMaps/SpecialPrivilege.hbm.xml
+END
+ObjectRole.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/lams/!svn/ver/5/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/AuthorizeCenter/Domain/HbmMaps/ObjectRole.hbm.xml
+END
+Operator.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/lams/!svn/ver/5/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/AuthorizeCenter/Domain/HbmMaps/Operator.hbm.xml
+END
+BizOrg.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/lams/!svn/ver/5/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/AuthorizeCenter/Domain/HbmMaps/BizOrg.hbm.xml
+END
+Operate.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/lams/!svn/ver/261/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/AuthorizeCenter/Domain/HbmMaps/Operate.hbm.xml
+END
+Role.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/lams/!svn/ver/5/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/AuthorizeCenter/Domain/HbmMaps/Role.hbm.xml
+END
+CustMenu.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/lams/!svn/ver/5/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/AuthorizeCenter/Domain/HbmMaps/CustMenu.hbm.xml
+END
+Position.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/lams/!svn/ver/5/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/AuthorizeCenter/Domain/HbmMaps/Position.hbm.xml
+END
+Organization.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/lams/!svn/ver/1530/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/AuthorizeCenter/Domain/HbmMaps/Organization.hbm.xml
+END
+EmployeePosition.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/lams/!svn/ver/261/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/AuthorizeCenter/Domain/HbmMaps/EmployeePosition.hbm.xml
+END
+RolePrivilege.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/lams/!svn/ver/5/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/AuthorizeCenter/Domain/HbmMaps/RolePrivilege.hbm.xml
+END

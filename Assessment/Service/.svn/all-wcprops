@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/lams/!svn/ver/1575/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Assessment/Service
+END
+ReportService.cs
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/lams/!svn/ver/260/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Assessment/Service/ReportService.cs
+END
+SurveyResultService.cs
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/lams/!svn/ver/2054/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Assessment/Service/SurveyResultService.cs
+END
+SurveyService.cs
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/lams/!svn/ver/1575/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Assessment/Service/SurveyService.cs
+END
+AnswerRecordService.cs
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/lams/!svn/ver/1100/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Assessment/Service/AnswerRecordService.cs
+END
+SubjectItemService.cs
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/lams/!svn/ver/260/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Assessment/Service/SubjectItemService.cs
+END
+AssessmentRoleWeightService.cs
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/lams/!svn/ver/1527/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Assessment/Service/AssessmentRoleWeightService.cs
+END
+SubjectService.cs
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/lams/!svn/ver/1572/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Assessment/Service/SubjectService.cs
+END
+ExamPaperService.cs
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/lams/!svn/ver/2049/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Assessment/Service/ExamPaperService.cs
+END
+ExamPaperSubjectService.cs
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/lams/!svn/ver/1392/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Assessment/Service/ExamPaperSubjectService.cs
+END
+MainSubjectService.cs
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/lams/!svn/ver/1284/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Assessment/Service/MainSubjectService.cs
+END
+AssessmentRoleService.cs
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/lams/!svn/ver/1284/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Assessment/Service/AssessmentRoleService.cs
+END
+ExpertService.cs
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/lams/!svn/ver/1553/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Assessment/Service/ExpertService.cs
+END
+SubjectItemCoreService.cs
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/lams/!svn/ver/1284/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Assessment/Service/SubjectItemCoreService.cs
+END
+MarkItem.cs
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/lams/!svn/ver/1549/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Assessment/Service/MarkItem.cs
+END

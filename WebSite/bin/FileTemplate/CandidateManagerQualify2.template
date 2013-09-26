@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CandidateManager   namespace="">
+  <CandidateManagers>
+    <CandidateManager>
+      <Code row="2" column="1"/>
+      <CandidateManagerGrade row="2" column="4"/>
+      <IsChief row="2" column="5" />
+      <CandidatePost row="2" column="6" />
+    </CandidateManager>
+  </CandidateManagers>
+</CandidateManager>

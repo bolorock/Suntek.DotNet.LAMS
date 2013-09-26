@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/lams/!svn/ver/2043/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Register/Domain
+END
+CorpSort.cs
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/lams/!svn/ver/1629/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Register/Domain/CorpSort.cs
+END
+RegisterBaseInfo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/lams/!svn/ver/2033/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Register/Domain/RegisterBaseInfo.cs
+END
+RowExchanger.cs
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/lams/!svn/ver/1659/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Register/Domain/RowExchanger.cs
+END
+SapFamilyMember.cs
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/lams/!svn/ver/2023/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Register/Domain/SapFamilyMember.cs
+END
+SapWorkExperience.cs
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/lams/!svn/ver/2023/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Register/Domain/SapWorkExperience.cs
+END
+SapAppoint.cs
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/lams/!svn/ver/2041/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Register/Domain/SapAppoint.cs
+END
+FieldSet.cs
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/lams/!svn/ver/1957/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Register/Domain/FieldSet.cs
+END
+RegisterInfo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/lams/!svn/ver/1804/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Register/Domain/RegisterInfo.cs
+END
+RegisterSummary.cs
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/lams/!svn/ver/1873/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Register/Domain/RegisterSummary.cs
+END
+SapResult.cs
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/lams/!svn/ver/2041/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Register/Domain/SapResult.cs
+END
+RegisterModel.cs
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/lams/!svn/ver/1753/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Register/Domain/RegisterModel.cs
+END
+SapDiploma.cs
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/lams/!svn/ver/1693/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Register/Domain/SapDiploma.cs
+END
+SapPost.cs
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/lams/!svn/ver/1693/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Register/Domain/SapPost.cs
+END
+SapBaseInfo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/lams/!svn/ver/2043/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Register/Domain/SapBaseInfo.cs
+END

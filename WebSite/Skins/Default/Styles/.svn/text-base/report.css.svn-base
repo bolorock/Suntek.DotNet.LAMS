@@ -1,0 +1,563 @@
+﻿/*==============================================================================
+ *  Copyright (c) suntektech co.,ltd. All Rights Reserved.
+ * ===============================================================================
+ * 描述：报表css
+ * 作者：trh
+ * 创建时间：2010-06-14
+ * ===============================================================================
+ * 历史记录：
+ * 描述：
+ * 作者：
+ * 修改时间：
+ * ==============================================================================*/
+/*==报表==*/
+#report_page
+{
+	width: 100%;
+	display: block;
+	text-align: center;
+	font-size: 12px;
+	margin-left: 3px;
+}
+
+#report_page table
+{
+	font-size: 12px;
+}
+
+#report_page input
+{
+	border: 1px solid #8DB2E3;
+	font-size: 12px;
+	padding-left: 2px;
+	padding-top: 3px;
+}
+
+/*==报表头==*/
+#page_header
+{
+	float: left;
+	height: 30px;
+	background-image: url(../../../Skins/Default/Images/Report/gridtop.gif);
+	overflow: hidden;
+	width: 100%;
+	vertical-align: bottom;
+	text-align: left;
+}
+#page_header_content
+{
+	font-size: 13px;
+	font-weight: bold;
+	padding: 5px 0 0 0;
+	height: 30px;
+	float: left;
+}
+
+#page_header_left
+{
+	height: 30px;
+	width: 12px;
+	background-image: url(../../../Skins/Default/Images/Report/gridtopleft.gif);
+	float: left;
+}
+
+#page_header_right
+{
+	height: 30px;
+	width: 17px;
+	background-image: url(../../../Skins/Default/Images/Report/gridtopright.gif);
+	float: right;
+}
+
+
+/*==工具栏==*/
+#report_toolbar
+{
+	height: 25px;
+	float: left;
+}
+#report_toolbar ul
+{
+	height: 25px;
+	list-style: none;
+	margin: 0px;
+}
+#report_toolbar ul li
+{
+	float: left;
+	display: block;
+	margin: 0 5px 3px 0;
+	vertical-align: middle;
+	height: 26px;
+	width: 15px;
+}
+
+/*==查询模块==*/
+#report_filter_block
+{
+	width: 100%;
+	clear: both;
+	text-align: center;
+	display: inline-table;
+	margin: auto;
+	padding-top: 12px;
+	font-size: 12px;
+}
+
+.report_row_lable
+{
+	text-align: right;
+	width: 150px;
+	padding-left: 2px;
+	margin-top: 2px;
+	overflow: hidden;
+}
+.report_row_input
+{
+	width: 200px;
+	text-align: left;
+}
+#report_page .report_textbox
+{
+	width: 153px;
+	border-left: 1px solid #8DB2E3;
+	border-top: 1px solid #8DB2E3;
+	border-right: 0px solid #8DB2E3;
+	border-bottom: 1px solid #8DB2E3;
+}
+
+#report_page .report_textbox_container
+{
+	border: 1px solid #8DB2E3;margin:0px;padding:0px;width:172px
+}
+.report_textbox_combox
+{
+	width: 170px;
+	border: 1px solid #ccc;
+	background-image: url(../../../Skins/Default/PluginStyles/JQueryUI/Images/combo_arrow.gif);
+	background-position: 155px -1px;
+	background-repeat: no-repeat;
+}
+
+.report_comobox
+{
+	width: 174px;
+}
+.report_range_textbox
+{
+	width: 73px;
+	border: 1px solid #ccc;
+}
+.report_datepicker
+{
+	width: 170px;
+}
+.report_range_datepicker
+{
+	width: 73px;
+	border: 1px solid #ccc;
+}
+.report_monthpicker
+{
+	width: 170px;
+	border: 1px solid #ccc;
+}
+.report_range_monthpicker
+{
+	width: 73px;
+	border: 1px solid #ccc;
+}
+.report_choosetree
+{
+	width: 170px;
+	background: #fff url('../../../Skins/Default/Images/Report/chooseTree.png') no-repeat right;
+	border: 1px solid #ccc;
+	cursor:pointer;
+}
+.report_chooseBox
+{
+	width: 170px;
+	background: #fff url('../../../Skins/Default/Images/Report/chooseBox.png') no-repeat right;
+	border: 1px solid #ccc;
+}
+#loadingMessage
+{
+	float: left;
+	margin-left: 50px;
+	color: Red;
+}
+/*==报表内容==*/
+#report_grid_view
+{
+	width: 100%;
+	
+}
+
+#report_grid_bar_container
+{
+	width: 100%;
+	border-bottom:1px solid #CCC;
+	padding-bottom:5px;
+}
+
+
+#report_grid_view_container
+{
+	width: 100%;	
+	overflow:auto;
+}
+
+/*== 报表内容导航头==*/
+#report_grid_bar
+{
+	height: 22px;
+	/*background: #CCC;*/
+	background:#b5d6e6;
+	vertical-align: middle;
+	text-align: right;
+	list-style: none;
+	margin: 0px;
+	border-bottom:1px solid #CCC;
+}
+#report_grid_bar li
+{
+	float: left;
+	height: 22px;
+	margin: 3px 5px 0px 0px;
+}
+#report_grid_bar li input
+{
+	width: 20px;
+	height: 12px;
+	text-align: center;
+	line-height:10px;	
+}
+
+/*== report_grid内容列表 table形式显示==*/
+.report_grid
+{
+	width: 100%;
+	text-align: center;
+	border-collapse: collapse;
+	border: 1 #b5d6e6;
+	border-color: #b5d6e6;
+	margin: 0px,0px,0px,0px;
+}
+.report_grid .hidden
+{
+	display: none;
+}
+/*==  report_grid头部==*/
+.report_grid th
+{
+	font-weight: lighter;
+	text-indent: 4px;
+	background: url(../../../Skins/Default/Images/Report/trtitle.gif);
+	text-align: center;
+	border: 1px solid #778899;
+	height: 21px;
+	padding-left:5px;
+	padding-top:2px;
+	padding-right:8px;	
+}
+/*==  report_grid td==*/
+.report_grid td
+{
+	border: 1px solid #CCCCCC;
+	font-size: 12px;
+}
+
+#divClose
+{
+	background: url(../../../Skins/Default/Images/Report/del.gif);
+	background-repeat: no-repeat;
+	float: right;
+	height: 15px;
+	padding: 12px;
+	top: 1px;
+	left: 12px;
+}
+
+#comboxContainer
+{
+	position: relative;
+	padding: 0;
+	margin: 0;
+}
+
+#multipleComboxContainer
+{
+	position: relative;
+	padding: 0;
+	margin: 0;
+}
+
+#singleComboxContainer
+{
+	position: relative;
+	padding: 0;
+	margin: 0;
+}
+
+.cbList
+{
+	border: 1px solid #ccc;
+	display: none;
+	position: absolute;
+	float: left;
+	background-color: #ffffff;
+	width: 170px;
+	overflow:auto;
+	font-size: 12px;
+	z-index: 1001;
+	padding: 0px;
+	margin: 0px;
+}
+
+#cbItems
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	width: 170px;
+	padding: 0px;
+	margin: 0px;
+}
+#cbItems h1
+{
+	display: block;
+	background-color: #FF9900;
+	font-size: 12px;
+	padding: 0 0 0 0;
+	border: 1px solid #000000;
+	color: #333333;
+	margin: 0px;
+	width: 170px; /*height: 15px;*/
+}
+#cbItems ul
+{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	border: none;
+	line-height: 15px;
+}
+#cbItems ul li
+{
+	margin: 0px;
+	padding: 0px;
+}
+#cbItems ul li a
+{
+	display: block; /*border-bottom: 1px dashed #C39C4E;*/
+	padding: 2px 0px 2px 5px;
+	text-decoration: none;
+	color: #666666;
+	width: 165px;
+	font-size: 12px;
+}
+#cbItems ul li a:hover, #cbItems ul li a:focus
+{
+	color: #000000;
+	background-color: #eeeeee;
+}
+
+/*--报表按钮--*/
+.rpbtngp
+{
+	width:100px;
+}
+.rpbtn
+{
+	text-align: center;
+	height: 20px;
+	cursor: hand;
+	margin-right: 5px;
+	float: left;
+	padding-top: 3px;	
+	border: 1px solid #82A9DF;
+	background: url(../images/btn.gif) repeat-x;
+	margin-bottom:12px;
+}
+
+.rpbtn a, .rpbtn a:hover
+{
+	cursor: hand;
+	color: #000000;
+	padding-top: 20px;
+	padding-left: 5px;
+	text-decoration: none;
+	dislay: block;
+	padding-right: 8px;
+	padding-bottom: 13px;
+	text-decoration: none;
+}
+
+.btnimg
+{
+	height: 16px;
+	width: 16px;
+	display: block;
+	float: left;
+	margin-right: 3px;
+	margin-left: 3px;
+}
+
+.btntxt
+{
+	line-height: 20px;
+	display: block;
+	float: left;
+	margin-right: 5px;
+	font-size: 12px;
+}
+
+.btn_rp_x1_png
+{
+	background: url(../Images/Report/x1.png) repeat-x;
+	height: 16px;
+	width: 16px;
+}
+.btn_rp_x2_png
+{
+	background: url(../Images/Report/x2.png) repeat-x;
+	height: 16px;
+	width: 16px;
+}
+.btn_rp_x3_png
+{
+	background: url(../Images/Report/x3.png) repeat-x;
+	height: 16px;
+	width: 16px;
+}
+.btn_rp_x4_png
+{
+	background: url(../Images/Report/x4.png) repeat-x;
+	height: 16px;
+	width: 16px;
+}
+.btn_rp_x5_png
+{
+	background: url(../Images/Report/x5.png) repeat-x;
+	height: 16px;
+	width: 16px;
+}
+.btn_rp_x6_png
+{
+	background: url(../Images/Report/x6.png) repeat-x;
+	height: 16px;
+	width: 16px;
+}
+.btn_rp_x7_png
+{
+	background: url(../Images/Report/x7.png) repeat-x;
+	height: 16px;
+	width: 16px;
+}
+.btn_rp_x8_png
+{
+	background: url(../Images/Report/x8.png) repeat-x;
+	height: 16px;
+	width: 16px;
+}
+.btn_rp_x9_png
+{
+	background: url(../Images/Report/x9.png) repeat-x;
+	height: 16px;
+	width: 16px;
+}
+
+/*--按钮 END--*/
+
+
+.hrline
+{
+	border-top: 1px dotted #8DB2E3;
+	width: 98%;
+}
+
+.btnline
+{
+	width: 100%;
+	height: 40px;
+}
+
+
+.heigth30 td
+{
+	height: 30px;
+}
+
+.rp_tbHead
+{
+	background: url(../../../Skins/default/images/r2.gif);
+	color: #15428B;
+	height: 22px;
+	font-weight: normal;
+	position: relative;
+	width: 99%;
+	border: 1px solid #8DB2E3;
+	line-height: 22px;
+	text-align: left;
+	text-indent: 22px;
+	font-size: 12px;
+}
+.rp_tbMidHead
+{
+	background: url(../../../Skins/default/images/r2.gif);
+	color: #15428B;
+	height: 22px;
+	font-weight: bold;
+	position: relative;
+	width: 99%;
+	border: 1px solid #8DB2E3;
+	line-height: 30px;
+	text-align: left;
+	text-indent: 22px;
+}
+.rp_thHead_Model
+{
+	/*background: url(../../../Skins/Default/Images/Report/tb.gif) 8px 8px no-repeat;*/
+	background: url(../../../Skins/Default/Images/layout_button_down.gif) 4px 3px no-repeat;
+	float: left;
+	height: 22px;
+}
+
+.rp_thHead_Model_Desc
+{
+	/*background: url(../../../Skins/Default/Images/Report/tb.gif) 8px 8px no-repeat;*/
+	background: url(../../../Skins/Default/Images/layout_button_up.gif) 4px 3px no-repeat;
+	float: left;
+	height: 22px;
+}
+
+.rp_thHead_Model_right
+{
+	height: 12px;
+	float: right;
+	padding-right: 10px;
+	padding-top: 5px;
+}
+
+.rp_tbContent
+{
+	position: relative;
+	width: 99%;
+	border-left: 1px solid #8DB2E3;
+	border-right: 1px solid #8DB2E3;
+	border-bottom: 1px solid #8DB2E3;
+}
+
+.rp_tbMidContent
+{
+	position: relative;
+	width: 99%;
+	border-left: 1px solid #8DB2E3;
+	border-right: 1px solid #8DB2E3;
+	z-index: 1000;
+}
+
+.rp_tbContainer
+{
+	width: 100%;
+	font-size: 12px;
+}

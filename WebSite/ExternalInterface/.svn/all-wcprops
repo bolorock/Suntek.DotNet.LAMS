@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/lams/!svn/ver/1055/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/ExternalInterface
+END
+ArchiveMessageManager.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/lams/!svn/ver/535/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/ExternalInterface/ArchiveMessageManager.aspx.cs
+END
+MessagePumpManager.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/lams/!svn/ver/535/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/ExternalInterface/MessagePumpManager.aspx.cs
+END
+ArchiveMessageDetail.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/lams/!svn/ver/1055/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/ExternalInterface/ArchiveMessageDetail.aspx
+END
+MessagePumpDetail.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/lams/!svn/ver/1055/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/ExternalInterface/MessagePumpDetail.aspx
+END
+ArchiveMessageDetail.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/lams/!svn/ver/269/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/ExternalInterface/ArchiveMessageDetail.aspx.designer.cs
+END
+MessagePumpDetail.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/lams/!svn/ver/269/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/ExternalInterface/MessagePumpDetail.aspx.designer.cs
+END
+ArchiveMessageDetail.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/lams/!svn/ver/535/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/ExternalInterface/ArchiveMessageDetail.aspx.cs
+END
+MessagePumpDetail.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/lams/!svn/ver/535/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/ExternalInterface/MessagePumpDetail.aspx.cs
+END
+ArchiveMessageManager.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/lams/!svn/ver/459/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/ExternalInterface/ArchiveMessageManager.aspx
+END
+MessagePumpManager.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/lams/!svn/ver/459/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/ExternalInterface/MessagePumpManager.aspx
+END
+ArchiveMessageManager.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/lams/!svn/ver/269/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/ExternalInterface/ArchiveMessageManager.aspx.designer.cs
+END
+MessagePumpManager.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/lams/!svn/ver/269/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/ExternalInterface/MessagePumpManager.aspx.designer.cs
+END

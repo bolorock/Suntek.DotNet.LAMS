@@ -1,0 +1,235 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+
+using log4net;
+using Newtonsoft.Json;
+using Microsoft.Practices.Unity;
+using EAFrame.Core;
+using EAFrame.Core.Enums;
+using EAFrame.Core.Service;
+using EAFrame.Core.Security;
+using EAFrame.Core.Extensions;
+using EAFrame.Core.Web;
+using EAFrame.Core.Caching;
+using EAFrame.Core.Utility;
+using EAFrame.Core.FastInvoker;
+using EAFrame.WebControls;
+using SunTek.EAFrame.AuthorizeCenter.Domain;
+using SunTek.EAFrame.AuthorizeCenter.Service;
+using SunTek.Register.Domain;
+using SunTek.Register.Service;
+using EAFrame.Core.Data;
+
+namespace WebSite.Register
+{
+    public partial class FieldSetManage : BasePage
+    {
+        private FieldSetService fieldSetService = new FieldSetService();
+        #region ---界面处理方法---
+
+        protected bool ShowPageDetail()
+        {
+            IDictionary<string, object> para = new Dictionary<string, object>();
+            para.Add("IsShow", "1");
+
+            IList<FieldSet> fieldSets = SystemUtil.GetFieldList(GetTemplateFilePath()).Where(c=>c.IsShow==1).OrderBy(c => c.SortOrder).ToList();
+            rptFieldSet.DataSource = fieldSets;
+            rptFieldSet.DataBind();
+            return true;
+        }
+
+        protected void Page_Load(object sender, EventArgs e)
+        {
+            if (!IsPostBack && !IsAjaxPost)
+            {
+                ShowPageDetail();
+            }
+        }
+        #endregion
+
+        #region ---操作处理方法---
+        public string SwapRow(string argument)
+        {
+            //AjaxResult ajaxResult = new AjaxResult();
+
+            //string errorMsg = string.Empty;
+            //ActionResult actionResult = ActionResult.Failed;
+            //string actionMessage = string.Empty;
+            //try
+            //{
+            //    RowExchanger rowExchanger = JsonConvert.DeserializeObject<RowExchanger>(argument);
+
+            //    FieldSet field1 = fieldSetService.GetDomain(rowExchanger.RowID1);
+            //    if (field1 == null) return JsonConvert.SerializeObject(ajaxResult);
+            //    FieldSet field2 = fieldSetService.GetDomain(rowExchanger.RowID2);
+            //    if (field2 == null) return JsonConvert.SerializeObject(ajaxResult);
+
+            //    int temp = field1.SortOrder;
+            //    field1.SortOrder = field2.SortOrder;
+            //    field2.SortOrder = temp;
+            //    fieldSetService.SaveOrUpdate(field1);
+            //    fieldSetService.SaveOrUpdate(field2);
+
+            //    actionResult = ActionResult.Success;
+
+            //    //获取提示信息
+            //    actionMessage = RemarkAttribute.GetEnumRemark(actionResult);
+
+            //    //记录操作日志
+            //    AddActionLog(field1, PageContext.Action, actionResult, actionMessage);
+            //    AddActionLog(field2, PageContext.Action, actionResult, actionMessage);
+
+            //    ajaxResult.ActionResult = actionResult;
+            //    ajaxResult.RetValue = field1.ID + "," + field2.ID;
+            //    ajaxResult.PromptMsg = actionMessage;
+            //}
+            //catch (Exception ex)
+            //{
+            //    actionMessage = RemarkAttribute.GetEnumRemark(actionResult);
+            //    log.Error(actionMessage, ex);
+            //}
+
+            //return JsonConvert.SerializeObject(ajaxResult);
+            return string.Empty;
+        }
+
+        public string Remove(string argument)
+        {
+            AjaxResult ajaxResult = new AjaxResult();
+
+            string errorMsg = string.Empty;
+            ActionResult actionResult = ActionResult.Failed;
+            string actionMessage = string.Empty;
+            try
+            {
+                SystemUtil.RemoveFieldSet(GetTemplateFilePath(),argument);
+
+                actionResult = ActionResult.Success;
+
+                //获取提示信息
+                actionMessage = RemarkAttribute.GetEnumRemark(actionResult);
+                //记录操作日志
+
+                ajaxResult.ActionResult = actionResult;
+                ajaxResult.RetValue = argument;
+                ajaxResult.PromptMsg = actionMessage;
+            }
+            catch (Exception ex)
+            {
+                actionMessage = RemarkAttribute.GetEnumRemark(actionResult);
+                log.Error(actionMessage, ex);
+            }
+
+            return JsonConvert.SerializeObject(ajaxResult);
+        }
+
+
+        public string SaveAll(string argument)
+        {
+            AjaxResult ajaxResult = new AjaxResult();
+
+            string errorMsg = string.Empty;
+            ActionResult actionResult = ActionResult.Failed;
+            string actionMessage = string.Empty;
+            try
+            {
+                argument = argument.Substring(0, argument.Length - 1);
+                string[] ids = argument.Split(',');
+                SystemUtil.SaveFieldSet(GetTemplateFilePath(), ids);
+
+                actionResult = ActionResult.Success;
+
+                //获取提示信息
+                actionMessage = RemarkAttribute.GetEnumRemark(actionResult);
+
+                //记录操作日志
+
+                ajaxResult.ActionResult = actionResult;
+                ajaxResult.RetValue = argument;
+                ajaxResult.PromptMsg = actionMessage;
+            }
+            catch (Exception ex)
+            {
+                actionMessage = RemarkAttribute.GetEnumRemark(actionResult);
+                log.Error(actionMessage, ex);
+            }
+
+            return JsonConvert.SerializeObject(ajaxResult);
+        }
+        /// <summary>
+        /// 删除多条记录
+        /// </summary>
+        /// <param name="argument"></param>
+        /// <returns></returns>
+        public string Removes(string argument)
+        {
+            AjaxResult ajaxResult = new AjaxResult();
+
+            string errorMsg = string.Empty;
+            ActionResult actionResult = ActionResult.Failed;
+            string actionMessage = string.Empty;
+            try
+            {
+                if (string.IsNullOrEmpty(argument)) return JsonConvert.SerializeObject(ajaxResult);
+
+                string ids = argument.Substring(0, argument.Length - 1);
+                SystemUtil.RemoveFieldSet(GetTemplateFilePath(),ids);
+                actionResult = ActionResult.Success;
+
+                //获取提示信息
+                actionMessage = RemarkAttribute.GetEnumRemark(actionResult);
+
+                //记录操作日志
+
+                ajaxResult.ActionResult = actionResult;
+                ajaxResult.RetValue = argument;
+                ajaxResult.PromptMsg = actionMessage;
+            }
+            catch (Exception ex)
+            {
+                actionMessage = RemarkAttribute.GetEnumRemark(actionResult);
+                log.Error(actionMessage, ex);
+            }
+
+            return JsonConvert.SerializeObject(ajaxResult);
+        }
+
+        protected void cmdInit_Click(Object sender, EventArgs e)
+        {
+            SystemUtil.SetFieldInit(GetTemplateFilePath());
+            WebUtil.PromptMsg("操作成功！");
+            ShowPageDetail();
+        }
+
+        protected void drpGrade_SelectedIndexChanged(Object sender, EventArgs e)
+        {
+            ShowPageDetail();
+
+        }
+
+        #endregion
+
+        private string GetTemplateFilePath()
+        {
+            string templatePath = SunTek.LAMS.LAMSContext.FileTemplateDirectory;
+            string type = Request.Form["registerType"] ?? drpGrade.SelectedValue;
+            if (type == "SeniorManager")
+            {
+                templatePath = string.Format(@"{0}\Register\{1}.xml", templatePath, type);
+            }
+            else
+            {
+<<<<<<< .mine
+                template = System.IO.Path.Combine(System.IO.Path.Combine(Server.MapPath("~"), "FileTemplate/Register/Complete/"), string.Format("{0}.xml", managerType));
+=======
+                templatePath = string.Format(@"{0}\Register\Complete\{1}.template", templatePath, type);
+>>>>>>> .r1901
+            }
+            return templatePath;
+        }
+    }
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" namespace="SunTek.Assessment.Domain" assembly="SunTek.Assessment">
+	<class name="SunTek.Assessment.Domain.MarkItem, SunTek.Assessment" table="LA_MarkItem" lazy="true">
+		<id name="ID" column="ID">
+			<generator class="assigned" />
+		</id>
+		<property name="AssessmentResultID" column="AssessmentResultID" />
+		<property name="SubjectID" column="SubjectID" />
+		<property name="Score" column="Score" />
+		<property name="Scorer" column="Scorer" />
+		<property name="ScoreTime" column="ScoreTime" />
+		<property name="Comment" column="Comment" />
+	
+	</class>
+</hibernate-mapping>

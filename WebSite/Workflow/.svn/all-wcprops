@@ -1,0 +1,605 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/lams/!svn/ver/1502/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/Workflow
+END
+ProcessInstManager.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/lams/!svn/ver/1366/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/Workflow/ProcessInstManager.aspx
+END
+ParticipantManager.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/lams/!svn/ver/459/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/Workflow/ParticipantManager.aspx
+END
+ActivityInstDetail.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/lams/!svn/ver/1055/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/Workflow/ActivityInstDetail.aspx
+END
+TransControlDetail.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/lams/!svn/ver/273/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/Workflow/TransControlDetail.aspx.designer.cs
+END
+ProcessDefDetail.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/lams/!svn/ver/1216/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/Workflow/ProcessDefDetail.aspx
+END
+ChooseParticipantor.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/lams/!svn/ver/1275/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/Workflow/ChooseParticipantor.aspx
+END
+MyEForm.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/lams/!svn/ver/1375/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/Workflow/MyEForm.aspx.designer.cs
+END
+AgentCandidateDetail.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/lams/!svn/ver/273/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/Workflow/AgentCandidateDetail.aspx.designer.cs
+END
+ActivityDetail.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/lams/!svn/ver/1465/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/Workflow/ActivityDetail.aspx.cs
+END
+StartProcessForm.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/lams/!svn/ver/1468/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/Workflow/StartProcessForm.aspx.designer.cs
+END
+ProcessDefDetail.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/lams/!svn/ver/1263/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/Workflow/ProcessDefDetail.aspx.cs
+END
+ChooseParticipantor.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/lams/!svn/ver/1268/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/Workflow/ChooseParticipantor.aspx.cs
+END
+ActivityInstManager.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/lams/!svn/ver/459/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/Workflow/ActivityInstManager.aspx
+END
+TraceLogDetail.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/lams/!svn/ver/734/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/Workflow/TraceLogDetail.aspx.cs
+END
+TransControlManager.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/lams/!svn/ver/1358/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/Workflow/TransControlManager.aspx.cs
+END
+WorkItemDetail.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/lams/!svn/ver/273/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/Workflow/WorkItemDetail.aspx.designer.cs
+END
+ActivityManager.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/lams/!svn/ver/1083/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/Workflow/ActivityManager.aspx.designer.cs
+END
+AgentCandidateManager.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/lams/!svn/ver/734/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/Workflow/AgentCandidateManager.aspx.cs
+END
+WorkItemManager.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/lams/!svn/ver/459/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/Workflow/WorkItemManager.aspx
+END
+MyWorkItemDetail.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/lams/!svn/ver/1449/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/Workflow/MyWorkItemDetail.aspx.cs
+END
+TraceLogManager.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/lams/!svn/ver/1365/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/Workflow/TraceLogManager.aspx.designer.cs
+END
+WorkItemManager.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/lams/!svn/ver/734/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/Workflow/WorkItemManager.aspx.cs
+END
+ProcessInstDetail.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/lams/!svn/ver/273/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/Workflow/ProcessInstDetail.aspx.designer.cs
+END
+ExtendAttrDetail.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/lams/!svn/ver/273/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/Workflow/ExtendAttrDetail.aspx.designer.cs
+END
+ExtendAttrDetail.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/lams/!svn/ver/734/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/Workflow/ExtendAttrDetail.aspx.cs
+END
+MyWorkItem.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/lams/!svn/ver/1294/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/Workflow/MyWorkItem.aspx.designer.cs
+END
+ProcessInstManager.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/lams/!svn/ver/1366/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/Workflow/ProcessInstManager.aspx.cs
+END
+TransControlDetail.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/lams/!svn/ver/1055/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/Workflow/TransControlDetail.aspx
+END
+MyEForm.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/lams/!svn/ver/1468/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/Workflow/MyEForm.aspx
+END
+AgentCandidateDetail.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/lams/!svn/ver/1055/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/Workflow/AgentCandidateDetail.aspx
+END
+StartProcessForm.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/lams/!svn/ver/1468/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/Workflow/StartProcessForm.aspx
+END
+TransitionDetail.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/lams/!svn/ver/273/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/Workflow/TransitionDetail.aspx.designer.cs
+END
+ExtendAttrManager.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/lams/!svn/ver/273/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/Workflow/ExtendAttrManager.aspx.designer.cs
+END
+ExtendAttrManager.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/lams/!svn/ver/734/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/Workflow/ExtendAttrManager.aspx.cs
+END
+TransitionDetail.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/lams/!svn/ver/734/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/Workflow/TransitionDetail.aspx.cs
+END
+AgentDetail.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/lams/!svn/ver/273/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/Workflow/AgentDetail.aspx.designer.cs
+END
+StartProcessForm.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/lams/!svn/ver/1468/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/Workflow/StartProcessForm.aspx.cs
+END
+WorkItemDetail.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/lams/!svn/ver/1055/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/Workflow/WorkItemDetail.aspx
+END
+AgentDetail.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/lams/!svn/ver/734/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/Workflow/AgentDetail.aspx.cs
+END
+ActivityManager.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/lams/!svn/ver/1213/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/Workflow/ActivityManager.aspx
+END
+TransitionManager.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/lams/!svn/ver/1360/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/Workflow/TransitionManager.aspx.designer.cs
+END
+WorkItemDetail.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/lams/!svn/ver/734/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/Workflow/WorkItemDetail.aspx.cs
+END
+AgentCandidateManager.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/lams/!svn/ver/273/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/Workflow/AgentCandidateManager.aspx.designer.cs
+END
+TransitionManager.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/lams/!svn/ver/1360/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/Workflow/TransitionManager.aspx.cs
+END
+TraceLogManager.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/lams/!svn/ver/1365/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/Workflow/TraceLogManager.aspx
+END
+AgentManager.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/lams/!svn/ver/273/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/Workflow/AgentManager.aspx.designer.cs
+END
+MyWorkItemDetail.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/lams/!svn/ver/1412/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/Workflow/MyWorkItemDetail.aspx.designer.cs
+END
+AgentManager.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/lams/!svn/ver/734/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/Workflow/AgentManager.aspx.cs
+END
+ProcessInstDetail.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/lams/!svn/ver/1055/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/Workflow/ProcessInstDetail.aspx
+END
+StartProcess.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/lams/!svn/ver/1467/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/Workflow/StartProcess.aspx.designer.cs
+END
+ProcessChart.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/lams/!svn/ver/1444/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/Workflow/ProcessChart.aspx.designer.cs
+END
+ExtendAttrDetail.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/lams/!svn/ver/1055/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/Workflow/ExtendAttrDetail.aspx
+END
+MyWorkItem.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/lams/!svn/ver/1448/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/Workflow/MyWorkItem.aspx
+END
+AgentItemManager.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/lams/!svn/ver/273/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/Workflow/AgentItemManager.aspx.designer.cs
+END
+ExtendAttrManager.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/lams/!svn/ver/459/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/Workflow/ExtendAttrManager.aspx
+END
+TransitionDetail.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/lams/!svn/ver/1055/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/Workflow/TransitionDetail.aspx
+END
+TransControlDetail.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/lams/!svn/ver/734/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/Workflow/TransControlDetail.aspx.cs
+END
+AgentDetail.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/lams/!svn/ver/1055/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/Workflow/AgentDetail.aspx
+END
+ActivityDetail.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/lams/!svn/ver/1388/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/Workflow/ActivityDetail.aspx.designer.cs
+END
+TransitionManager.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/lams/!svn/ver/1360/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/Workflow/TransitionManager.aspx
+END
+AgentCandidateManager.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/lams/!svn/ver/459/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/Workflow/AgentCandidateManager.aspx
+END
+TraceLogDetail.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/lams/!svn/ver/273/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/Workflow/TraceLogDetail.aspx.designer.cs
+END
+TransControlManager.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/lams/!svn/ver/1358/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/Workflow/TransControlManager.aspx.designer.cs
+END
+ProcessChart.html
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/lams/!svn/ver/1447/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/Workflow/ProcessChart.html
+END
+AgentManager.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/lams/!svn/ver/459/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/Workflow/AgentManager.aspx
+END
+MyWorkItemDetail.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/lams/!svn/ver/1449/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/Workflow/MyWorkItemDetail.aspx
+END
+ProcessDefManager.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/lams/!svn/ver/1367/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/Workflow/ProcessDefManager.aspx.designer.cs
+END
+ActivityManager.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/lams/!svn/ver/1213/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/Workflow/ActivityManager.aspx.cs
+END
+StartProcess.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/lams/!svn/ver/1468/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/Workflow/StartProcess.aspx
+END
+TraceLogManager.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/lams/!svn/ver/1363/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/Workflow/TraceLogManager.aspx.cs
+END
+ProcessChart.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/lams/!svn/ver/1447/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/Workflow/ProcessChart.aspx
+END
+StartProcess.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/lams/!svn/ver/1467/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/Workflow/StartProcess.aspx.cs
+END
+AgentItemDetail.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/lams/!svn/ver/273/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/Workflow/AgentItemDetail.aspx.designer.cs
+END
+ProcessInstDetail.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/lams/!svn/ver/734/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/Workflow/ProcessInstDetail.aspx.cs
+END
+ProcessChart.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/lams/!svn/ver/1447/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/Workflow/ProcessChart.aspx.cs
+END
+ParticipantDetail.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/lams/!svn/ver/273/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/Workflow/ParticipantDetail.aspx.designer.cs
+END
+ParticipantDetail.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/lams/!svn/ver/734/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/Workflow/ParticipantDetail.aspx.cs
+END
+AgentItemManager.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/lams/!svn/ver/459/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/Workflow/AgentItemManager.aspx
+END
+ProcessInstManager.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/lams/!svn/ver/1366/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/Workflow/ProcessInstManager.aspx.designer.cs
+END
+MyWorkItem.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/lams/!svn/ver/1448/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/Workflow/MyWorkItem.aspx.cs
+END
+ParticipantManager.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/lams/!svn/ver/273/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/Workflow/ParticipantManager.aspx.designer.cs
+END
+AgentItemManager.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/lams/!svn/ver/734/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/Workflow/AgentItemManager.aspx.cs
+END
+ParticipantManager.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/lams/!svn/ver/734/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/Workflow/ParticipantManager.aspx.cs
+END
+ActivityDetail.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/lams/!svn/ver/1502/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/Workflow/ActivityDetail.aspx
+END
+ActivityInstDetail.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/lams/!svn/ver/273/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/Workflow/ActivityInstDetail.aspx.designer.cs
+END
+ActivityInstDetail.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/lams/!svn/ver/734/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/Workflow/ActivityInstDetail.aspx.cs
+END
+MyEForm.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/lams/!svn/ver/1426/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/Workflow/MyEForm.aspx.cs
+END
+AgentCandidateDetail.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/lams/!svn/ver/734/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/Workflow/AgentCandidateDetail.aspx.cs
+END
+ProcessDefDetail.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/lams/!svn/ver/1052/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/Workflow/ProcessDefDetail.aspx.designer.cs
+END
+ChooseParticipantor.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/lams/!svn/ver/1257/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/Workflow/ChooseParticipantor.aspx.designer.cs
+END
+TraceLogDetail.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/lams/!svn/ver/1055/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/Workflow/TraceLogDetail.aspx
+END
+TransControlManager.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/lams/!svn/ver/1358/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/Workflow/TransControlManager.aspx
+END
+ProcessDefManager.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/lams/!svn/ver/1447/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/Workflow/ProcessDefManager.aspx
+END
+ActivityInstManager.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/lams/!svn/ver/273/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/Workflow/ActivityInstManager.aspx.designer.cs
+END
+ActivityInstManager.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/lams/!svn/ver/734/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/Workflow/ActivityInstManager.aspx.cs
+END
+ProcessDefManager.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/lams/!svn/ver/1367/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/Workflow/ProcessDefManager.aspx.cs
+END
+WorkItemManager.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/lams/!svn/ver/273/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/Workflow/WorkItemManager.aspx.designer.cs
+END
+AgentItemDetail.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/lams/!svn/ver/1055/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/Workflow/AgentItemDetail.aspx
+END
+ParticipantDetail.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/lams/!svn/ver/1055/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/Workflow/ParticipantDetail.aspx
+END
+AgentItemDetail.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/lams/!svn/ver/734/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/Workflow/AgentItemDetail.aspx.cs
+END

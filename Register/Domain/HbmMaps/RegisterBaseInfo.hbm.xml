@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  namespace="SunTek.Register.Domain" assembly="SunTek.Register">
+  <class name="SunTek.Register.Domain.RegisterBaseInfo, SunTek.Register" table="Re_RegisterBaseInfo" lazy="true" >
+    <id name="ID" column="ID">
+      <generator class="assigned" />
+    </id>
+    <property name="Code" column="Code" />
+    <property name="Gender" column="Gender" />
+    <property name="Birthplace" column="Birthplace" />
+    <property name="Birthday" column="Birthday" />
+    <property name="CurrentPostTime" column="CurrentPostTime" />
+    <property name="CurrentGradeTime" column="CurrentGradeTime" />
+    <property name="PostGradeExperience" column="PostGradeExperience" />
+    <property name="GradeExperience" column="GradeExperience" />
+    <property name="WorkTime" column="WorkTime" />
+    <property name="SystemTime" column="SystemTime" />
+    <property name="PoliticalFace" column="PoliticalFace" />
+    <property name="PartyTime" column="PartyTime" />
+    <property name="FulltimeEducation" column="FulltimeEducation" />
+    <property name="FulltimeDegree" column="FulltimeDegree" />
+    <property name="FulltimeSchool" column="FulltimeSchool" />
+    <property name="FulltimeProfessional" column="FulltimeProfessional" />
+    <property name="FulltimeGraduationTime" column="FulltimeGraduationTime" />
+    <property name="ParttimeEducation" column="ParttimeEducation" />
+    <property name="ParttimeDegree" column="ParttimeDegree" />
+    <property name="ParttimeSchool" column="ParttimeSchool" />
+    <property name="ParttimeProfessional" column="ParttimeProfessional" />
+    <property name="ParttimeGraduationTime" column="ParttimeGraduationTime" />
+  </class>
+
+</hibernate-mapping>

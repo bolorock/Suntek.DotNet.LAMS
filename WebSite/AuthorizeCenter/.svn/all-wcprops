@@ -1,0 +1,851 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/lams/!svn/ver/2039/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter
+END
+UserDetail.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/lams/!svn/ver/1350/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/UserDetail.aspx.cs
+END
+ChooseParentResource.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/lams/!svn/ver/1192/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/ChooseParentResource.aspx.cs
+END
+ShortcutManager.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/lams/!svn/ver/459/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/ShortcutManager.aspx
+END
+MetaDataDetail.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/lams/!svn/ver/267/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/MetaDataDetail.aspx.cs
+END
+ResourceDetail.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/lams/!svn/ver/2039/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/ResourceDetail.aspx
+END
+OrgTree.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/lams/!svn/ver/1312/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/OrgTree.aspx.cs
+END
+EmployeeOrgDetail.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/lams/!svn/ver/267/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/EmployeeOrgDetail.aspx.designer.cs
+END
+MetaDataManager.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/lams/!svn/ver/486/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/MetaDataManager.aspx.designer.cs
+END
+ObjectRoleDetail.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/lams/!svn/ver/267/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/ObjectRoleDetail.aspx.designer.cs
+END
+SpecialPrivilegeDetail.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/lams/!svn/ver/1491/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/SpecialPrivilegeDetail.aspx.cs
+END
+OrgUserList.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/lams/!svn/ver/1882/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/OrgUserList.aspx.designer.cs
+END
+OperateDetail.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/lams/!svn/ver/267/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/OperateDetail.aspx.designer.cs
+END
+BizOrgManager.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/lams/!svn/ver/459/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/BizOrgManager.aspx
+END
+ChooseOrgEmployee.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/lams/!svn/ver/1558/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/ChooseOrgEmployee.aspx
+END
+EmployeePositionDetail.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/lams/!svn/ver/523/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/EmployeePositionDetail.aspx.cs
+END
+ChooseOrgEmployee.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/lams/!svn/ver/1548/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/ChooseOrgEmployee.aspx.cs
+END
+OrgUserMgr.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/lams/!svn/ver/653/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/OrgUserMgr.aspx
+END
+CustMenuManager.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/lams/!svn/ver/459/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/CustMenuManager.aspx
+END
+ResourceEdit.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/lams/!svn/ver/22/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/ResourceEdit.aspx.cs
+END
+EmployeePositionManager.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/lams/!svn/ver/267/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/EmployeePositionManager.aspx.designer.cs
+END
+ShortcutDetail.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/lams/!svn/ver/523/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/ShortcutDetail.aspx.cs
+END
+RolePrivilegeManager.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/lams/!svn/ver/1206/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/RolePrivilegeManager.aspx
+END
+ChooseParentResource.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/lams/!svn/ver/1192/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/ChooseParentResource.aspx.designer.cs
+END
+ResourceTree.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/lams/!svn/ver/1206/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/ResourceTree.aspx
+END
+EmployeeOrgDetail.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/lams/!svn/ver/1055/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/EmployeeOrgDetail.aspx
+END
+DutyDetail.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/lams/!svn/ver/267/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/DutyDetail.aspx.designer.cs
+END
+PrivilegeDetail.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/lams/!svn/ver/267/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/PrivilegeDetail.aspx.designer.cs
+END
+SpecialPrivilegeDetail.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/lams/!svn/ver/897/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/SpecialPrivilegeDetail.aspx.designer.cs
+END
+PrivilegeDetail.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/lams/!svn/ver/523/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/PrivilegeDetail.aspx.cs
+END
+BizOrgDetail.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/lams/!svn/ver/267/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/BizOrgDetail.aspx.designer.cs
+END
+OrgUserList.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/lams/!svn/ver/1937/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/OrgUserList.aspx
+END
+OperateDetail.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/lams/!svn/ver/1055/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/OperateDetail.aspx
+END
+CustMenuDetail.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/lams/!svn/ver/523/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/CustMenuDetail.aspx.cs
+END
+PositionDetail.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/lams/!svn/ver/523/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/PositionDetail.aspx.cs
+END
+ResourceEdit.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/lams/!svn/ver/60/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/ResourceEdit.aspx
+END
+RoleManager.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/lams/!svn/ver/463/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/RoleManager.aspx.designer.cs
+END
+PositionManager.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/lams/!svn/ver/267/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/PositionManager.aspx.designer.cs
+END
+ChooseParentResource.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/lams/!svn/ver/1192/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/ChooseParentResource.aspx
+END
+OrganizationManager.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/lams/!svn/ver/523/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/OrganizationManager.aspx.cs
+END
+MetaDataDetail.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/lams/!svn/ver/267/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/MetaDataDetail.aspx.designer.cs
+END
+RolePrivilegeManager.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/lams/!svn/ver/1527/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/RolePrivilegeManager.aspx.cs
+END
+DutyDetail.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/lams/!svn/ver/1055/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/DutyDetail.aspx
+END
+AddDept.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/lams/!svn/ver/1303/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/AddDept.aspx.cs
+END
+ShortcutManager.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/lams/!svn/ver/523/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/ShortcutManager.aspx.cs
+END
+SpecialPrivilegeDetail.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/lams/!svn/ver/1207/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/SpecialPrivilegeDetail.aspx
+END
+DutyDetail.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/lams/!svn/ver/523/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/DutyDetail.aspx.cs
+END
+DeptDetail.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/lams/!svn/ver/1336/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/DeptDetail.aspx
+END
+PrivilegeManager.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/lams/!svn/ver/459/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/PrivilegeManager.aspx
+END
+OperatorDetail.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/lams/!svn/ver/653/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/OperatorDetail.aspx.designer.cs
+END
+RoleDetail.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/lams/!svn/ver/433/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/RoleDetail.aspx.designer.cs
+END
+OrganizationDetail.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/lams/!svn/ver/1055/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/OrganizationDetail.aspx
+END
+RolePrivilegeDetail.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/lams/!svn/ver/1216/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/RolePrivilegeDetail.aspx
+END
+RoleManager.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/lams/!svn/ver/1216/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/RoleManager.aspx
+END
+CustMenuManager.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/lams/!svn/ver/523/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/CustMenuManager.aspx.cs
+END
+EmployeePositionManager.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/lams/!svn/ver/523/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/EmployeePositionManager.aspx.cs
+END
+AddDept.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/lams/!svn/ver/1303/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/AddDept.aspx
+END
+OrgTree.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/lams/!svn/ver/1555/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/OrgTree.aspx
+END
+OperatorDetail.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/lams/!svn/ver/1206/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/OperatorDetail.aspx
+END
+EmployeeManager.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/lams/!svn/ver/1178/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/EmployeeManager.aspx.cs
+END
+BizOrgDetail.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/lams/!svn/ver/523/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/BizOrgDetail.aspx.cs
+END
+ObjectRoleManager.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/lams/!svn/ver/1892/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/ObjectRoleManager.aspx
+END
+RoleDetail.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/lams/!svn/ver/1055/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/RoleDetail.aspx
+END
+ResourceManager.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/lams/!svn/ver/267/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/ResourceManager.aspx.cs
+END
+EmployeePositionDetail.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/lams/!svn/ver/1055/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/EmployeePositionDetail.aspx
+END
+OperatorManager.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/lams/!svn/ver/661/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/OperatorManager.aspx.designer.cs
+END
+BizOrgManager.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/lams/!svn/ver/267/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/BizOrgManager.aspx.designer.cs
+END
+RolePrivilegeDetail.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/lams/!svn/ver/1192/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/RolePrivilegeDetail.aspx.cs
+END
+PositionManager.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/lams/!svn/ver/523/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/PositionManager.aspx.cs
+END
+RolePrivilegeManager.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/lams/!svn/ver/486/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/RolePrivilegeManager.aspx.designer.cs
+END
+ResourceTree.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/lams/!svn/ver/894/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/ResourceTree.aspx.designer.cs
+END
+OperatorTree.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/lams/!svn/ver/1328/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/OperatorTree.aspx
+END
+EmployeeManager.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/lams/!svn/ver/1178/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/EmployeeManager.aspx.designer.cs
+END
+DutyManager.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/lams/!svn/ver/267/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/DutyManager.aspx.designer.cs
+END
+ResourceManager.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/lams/!svn/ver/22/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/ResourceManager.aspx.designer.cs
+END
+EmployeeOrgManager.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/lams/!svn/ver/523/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/EmployeeOrgManager.aspx.cs
+END
+OperatorManager.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/lams/!svn/ver/1062/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/OperatorManager.aspx
+END
+ObjectRoleManager.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/lams/!svn/ver/686/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/ObjectRoleManager.aspx.cs
+END
+PositionDetail.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/lams/!svn/ver/1055/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/PositionDetail.aspx
+END
+OperateManager.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/lams/!svn/ver/523/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/OperateManager.aspx.cs
+END
+OrganizationManager.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/lams/!svn/ver/459/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/OrganizationManager.aspx
+END
+OrgUserMgr.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/lams/!svn/ver/653/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/OrgUserMgr.aspx.cs
+END
+ResourceEdit.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/lams/!svn/ver/22/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/ResourceEdit.aspx.designer.cs
+END
+UserDetail.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/lams/!svn/ver/1350/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/UserDetail.aspx
+END
+EmployeeManager.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/lams/!svn/ver/1565/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/EmployeeManager.aspx
+END
+ObjectRoleDetail.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/lams/!svn/ver/1055/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/ObjectRoleDetail.aspx
+END
+MetaDataManager.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/lams/!svn/ver/1216/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/MetaDataManager.aspx
+END
+OperatorTree.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/lams/!svn/ver/1328/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/OperatorTree.aspx.cs
+END
+DutyManager.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/lams/!svn/ver/459/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/DutyManager.aspx
+END
+DeptDetail.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/lams/!svn/ver/1306/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/DeptDetail.aspx.designer.cs
+END
+OperatorDetail.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/lams/!svn/ver/653/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/OperatorDetail.aspx.cs
+END
+ResourceManager.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/lams/!svn/ver/1091/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/ResourceManager.aspx
+END
+DutyManager.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/lams/!svn/ver/523/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/DutyManager.aspx.cs
+END
+PrivilegeManager.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/lams/!svn/ver/267/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/PrivilegeManager.aspx.designer.cs
+END
+EmployeeOrgManager.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/lams/!svn/ver/267/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/EmployeeOrgManager.aspx.designer.cs
+END
+PrivilegeManager.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/lams/!svn/ver/523/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/PrivilegeManager.aspx.cs
+END
+SpecialPrivilegeManager.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/lams/!svn/ver/883/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/SpecialPrivilegeManager.aspx.cs
+END
+OrganizationDetail.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/lams/!svn/ver/267/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/OrganizationDetail.aspx.designer.cs
+END
+BizOrgManager.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/lams/!svn/ver/523/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/BizOrgManager.aspx.cs
+END
+OperateManager.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/lams/!svn/ver/267/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/OperateManager.aspx.designer.cs
+END
+RolePrivilegeDetail.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/lams/!svn/ver/463/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/RolePrivilegeDetail.aspx.designer.cs
+END
+EmployeePositionManager.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/lams/!svn/ver/459/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/EmployeePositionManager.aspx
+END
+ShortcutDetail.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/lams/!svn/ver/267/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/ShortcutDetail.aspx.designer.cs
+END
+EmployeeDetail.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/lams/!svn/ver/428/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/EmployeeDetail.aspx.cs
+END
+AddDept.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/lams/!svn/ver/1303/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/AddDept.aspx.designer.cs
+END
+PrivilegeDetail.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/lams/!svn/ver/1055/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/PrivilegeDetail.aspx
+END
+OrgTree.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/lams/!svn/ver/627/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/OrgTree.aspx.designer.cs
+END
+ResourceTree.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/lams/!svn/ver/1491/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/ResourceTree.aspx.cs
+END
+ResourceDetail.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/lams/!svn/ver/1235/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/ResourceDetail.aspx.cs
+END
+ObjectRoleDetail.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/lams/!svn/ver/523/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/ObjectRoleDetail.aspx.cs
+END
+MetaDataManager.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/lams/!svn/ver/1528/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/MetaDataManager.aspx.cs
+END
+BizOrgDetail.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/lams/!svn/ver/1055/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/BizOrgDetail.aspx
+END
+EmployeeOrgManager.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/lams/!svn/ver/459/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/EmployeeOrgManager.aspx
+END
+SpecialPrivilegeManager.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/lams/!svn/ver/883/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/SpecialPrivilegeManager.aspx.designer.cs
+END
+ObjectRoleManager.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/lams/!svn/ver/686/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/ObjectRoleManager.aspx.designer.cs
+END
+CustMenuDetail.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/lams/!svn/ver/267/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/CustMenuDetail.aspx.designer.cs
+END
+OperateManager.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/lams/!svn/ver/459/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/OperateManager.aspx
+END
+EmployeePositionDetail.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/lams/!svn/ver/267/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/EmployeePositionDetail.aspx.designer.cs
+END
+OperatorManager.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/lams/!svn/ver/661/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/OperatorManager.aspx.cs
+END
+ShortcutDetail.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/lams/!svn/ver/1055/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/ShortcutDetail.aspx
+END
+PositionManager.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/lams/!svn/ver/459/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/PositionManager.aspx
+END
+RoleManager.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/lams/!svn/ver/1043/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/RoleManager.aspx.cs
+END
+MetaDataDetail.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/lams/!svn/ver/1055/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/MetaDataDetail.aspx
+END
+EmployeeDetail.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/lams/!svn/ver/1043/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/EmployeeDetail.aspx.designer.cs
+END
+ShortcutManager.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/lams/!svn/ver/267/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/ShortcutManager.aspx.designer.cs
+END
+ResourceDetail.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/lams/!svn/ver/555/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/ResourceDetail.aspx.designer.cs
+END
+EmployeeOrgDetail.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/lams/!svn/ver/523/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/EmployeeOrgDetail.aspx.cs
+END
+OperatorTree.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/lams/!svn/ver/1314/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/OperatorTree.aspx.designer.cs
+END
+SpecialPrivilegeManager.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/lams/!svn/ver/897/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/SpecialPrivilegeManager.aspx
+END
+DeptDetail.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/lams/!svn/ver/1306/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/DeptDetail.aspx.cs
+END
+OrgUserList.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/lams/!svn/ver/1950/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/OrgUserList.aspx.cs
+END
+CustMenuDetail.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/lams/!svn/ver/1055/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/CustMenuDetail.aspx
+END
+OperateDetail.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/lams/!svn/ver/523/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/OperateDetail.aspx.cs
+END
+RoleDetail.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/lams/!svn/ver/523/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/RoleDetail.aspx.cs
+END
+PositionDetail.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/lams/!svn/ver/267/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/PositionDetail.aspx.designer.cs
+END
+OrganizationDetail.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/lams/!svn/ver/523/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/OrganizationDetail.aspx.cs
+END
+ChooseOrgEmployee.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/lams/!svn/ver/1341/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/ChooseOrgEmployee.aspx.designer.cs
+END
+OrgUserMgr.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/lams/!svn/ver/567/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/OrgUserMgr.aspx.designer.cs
+END
+CustMenuManager.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/lams/!svn/ver/267/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/CustMenuManager.aspx.designer.cs
+END
+OrganizationManager.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/lams/!svn/ver/267/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/OrganizationManager.aspx.designer.cs
+END
+EmployeeDetail.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/lams/!svn/ver/1055/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/EmployeeDetail.aspx
+END
+UserDetail.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/lams/!svn/ver/1334/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/WebSite/AuthorizeCenter/UserDetail.aspx.designer.cs
+END

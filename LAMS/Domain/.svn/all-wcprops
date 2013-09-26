@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/lams/!svn/ver/1431/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/LAMS/Domain
+END
+PostExperience.cs
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/lams/!svn/ver/264/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/LAMS/Domain/PostExperience.cs
+END
+SupervisorCandidate.cs
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/lams/!svn/ver/264/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/LAMS/Domain/SupervisorCandidate.cs
+END
+CandidateDetail.cs
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/lams/!svn/ver/724/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/LAMS/Domain/CandidateDetail.cs
+END
+EmployeeModel.cs
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/lams/!svn/ver/933/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/LAMS/Domain/EmployeeModel.cs
+END
+Resume.cs
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/lams/!svn/ver/264/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/LAMS/Domain/Resume.cs
+END
+Supervisor.cs
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/lams/!svn/ver/264/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/LAMS/Domain/Supervisor.cs
+END
+Diploma.cs
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/lams/!svn/ver/264/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/LAMS/Domain/Diploma.cs
+END
+CandidateManager.cs
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/lams/!svn/ver/736/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/LAMS/Domain/CandidateManager.cs
+END
+CandidateManagerEmployee.cs
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/lams/!svn/ver/1119/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/LAMS/Domain/CandidateManagerEmployee.cs
+END
+CandidateManagerModel.cs
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/lams/!svn/ver/1058/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/LAMS/Domain/CandidateManagerModel.cs
+END
+FamilyMember.cs
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/lams/!svn/ver/264/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/LAMS/Domain/FamilyMember.cs
+END

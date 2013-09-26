@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" namespace="SunTek.Register.Domain" assembly="SunTek.Register">
+  <class name="SunTek.Register.Domain.RegisterInfo, SunTek.Register" table="Re_Register" lazy="true" >
+    <id name="ID" column="ID">
+      <generator class="assigned" />
+    </id>
+    <property name="Code" column="Code" />
+    <property name="CorpID" column="CorpID" />
+    <property name="CandidateManagerGrade" column="CandidateManagerGrade" />
+    <property name="YearMonth" column="YearMonth" />
+    <property name="Status" column="Status" />
+    <property name="SortOrder" column="SortOrder" />
+    <property name="CorpOrder" column="CorpOrder" />
+    <property name="Department" column="Department"  />
+    <property name="Name" column="Name" />
+    <property name="Position" column="Position" />
+    <property name="PostName" column="PostName" />
+    <property name="PostGrade" column="PostGrade" />
+    <property name="IsChief" column="IsChief" />
+    <property name="ChargeWork" column="ChargeWork" />
+    <property name="OrgName" column="OrgName"  />
+    <property name="OrgType" column="OrgType"  />
+    <property name="OrgGrade" column="OrgGrade"  />
+    <property name="CityBranch" column="CityBranch"  />
+    <property name="DistrictBranch" column="DistrictBranch"  />
+    <property name="MarketingService" column="MarketingService"  />
+    <property name="CategorizedFile" column="CategorizedFile"  />
+    <property name="Gender" column="Gender" />
+    <property name="Birthday" column="Birthday" />
+    <property name="OldPosition" column="OldPosition" />
+    <property name="OldPostGrade" column="OldPostGrade" />
+    <property name="OldPostGradeTime" column="OldPostGradeTime"/>
+    <property name="ChangedTime" column="ChangedTime" />
+    <property name="OldPost" column="OldPost" />
+    <property name="Remarks" column="Remarks" />
+    <property name="ConfirmTime" column="ConfirmTime" />
+    <property name="Creator" column="Creator" />
+    <property name="CreateTime" column="CreateTime" />
+  </class>
+
+</hibernate-mapping>
+

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Register   namespace="">
+  <RegisterInfos>
+    <RegisterInfo>
+      <SortOrder text="序号" row="1" column="0"/>
+      <CityBranch text="市分公司" row="1" column="1"/>
+      <DistrictBranch text="县分公司" row="1" column="2"/>
+      <MarketingService text="营销服务中心" row="1" column="3"/>
+      <CategorizedFile text="分类分档" row="1" column="4"/>
+      <Name text="姓名" row="1" column="5"/>
+      <Code text="MSS编号" row="1" column="6"/>
+    </RegisterInfo>
+  </RegisterInfos>
+</Register>

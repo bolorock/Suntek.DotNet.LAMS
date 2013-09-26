@@ -1,0 +1,414 @@
+2011-09-01 11:33:23,889 [23] ERROR WebSite.BasePage - 操作失败
+Newtonsoft.Json.JsonSerializationException: Error converting value {null} to type 'System.Int32'. ---> System.Exception: Could not cast or convert from {null} to System.Int32.
+   at Newtonsoft.Json.Utilities.ConvertUtils.EnsureTypeAssignable(Object value, Type initialType, Type targetType)
+   at Newtonsoft.Json.Utilities.ConvertUtils.ConvertOrCast(Object initialValue, CultureInfo culture, Type targetType)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(Object value, CultureInfo culture, Type targetType)
+   --- End of inner exception stack trace ---
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(Object value, CultureInfo culture, Type targetType)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueProperty(JsonReader reader, JsonProperty property, Object target, Boolean gottenCurrentValue, Object currentValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateAndPopulateObject(JsonReader reader, JsonObjectContract contract, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueNonProperty(JsonReader reader, Type objectType, JsonContract contract)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at WebSite.ResourceDetail.Save(String argument) in E:\work\lams\基线\源代码\LAMS\WebSite\AuthorizeCenter\ResourceDetail.aspx.cs:line 173
+2011-09-01 11:33:27,809 [23] ERROR WebSite.BasePage - 操作失败
+Newtonsoft.Json.JsonSerializationException: Error converting value {null} to type 'System.Int32'. ---> System.Exception: Could not cast or convert from {null} to System.Int32.
+   at Newtonsoft.Json.Utilities.ConvertUtils.EnsureTypeAssignable(Object value, Type initialType, Type targetType)
+   at Newtonsoft.Json.Utilities.ConvertUtils.ConvertOrCast(Object initialValue, CultureInfo culture, Type targetType)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(Object value, CultureInfo culture, Type targetType)
+   --- End of inner exception stack trace ---
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(Object value, CultureInfo culture, Type targetType)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueProperty(JsonReader reader, JsonProperty property, Object target, Boolean gottenCurrentValue, Object currentValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateAndPopulateObject(JsonReader reader, JsonObjectContract contract, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueNonProperty(JsonReader reader, Type objectType, JsonContract contract)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at WebSite.ResourceDetail.Save(String argument) in E:\work\lams\基线\源代码\LAMS\WebSite\AuthorizeCenter\ResourceDetail.aspx.cs:line 173
+2011-09-01 16:06:44,903 [4] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-09-01 21:53:18,231 [54] ERROR SunTek.Register.Service.RegisterService - 获取名册展示信息出错！
+System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity)
+   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, SqlConnection owningObject)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, TimeoutTimer timeout)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, TimeoutTimer timeout, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at NHibernate.Connection.DriverConnectionProvider.GetConnection()
+   at NHibernate.AdoNet.ConnectionManager.GetConnection()
+   at NHibernate.Impl.SessionImpl.get_Connection()
+   at EAFrame.Core.Data.EAConnection..ctor(ISession session)
+   at EAFrame.Core.Data.Repository`1.ExecuteDataTable[TDomain](String cmdText, IDictionary`2 parameters, String orderBy, PageInfo pageInfo)
+   at SunTek.Register.Service.RegisterService.GetRegisters(IDictionary`2 parameters, String corpID, String grade, String yearMonth, String showField, PageInfo pageInfo) in E:\work\lams\基线\源代码\LAMS\Register\Service\RegisterService.cs:line 315
+2011-09-01 21:57:21,249 [7] ERROR EAFrame.Core.Data.Database - Nhibernate BuildSessionfactory Error
+System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity)
+   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, SqlConnection owningObject)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, TimeoutTimer timeout)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, TimeoutTimer timeout, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at NHibernate.Connection.DriverConnectionProvider.GetConnection()
+   at NHibernate.Tool.hbm2ddl.SuppliedConnectionProviderConnectionHelper.Prepare()
+   at NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.GetReservedWords(Dialect dialect, IConnectionHelper connectionHelper)
+   at NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.Update(ISessionFactory sessionFactory)
+   at NHibernate.Impl.SessionFactoryImpl..ctor(Configuration cfg, IMapping mapping, Settings settings, EventListeners listeners)
+   at NHibernate.Cfg.Configuration.BuildSessionFactory()
+   at EAFrame.Core.Data.Database.ReBuildSessionfactory()
+2011-09-01 22:05:27,306 [12] ERROR EAFrame.Core.Data.Database - Nhibernate BuildSessionfactory Error
+System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity)
+   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, SqlConnection owningObject)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, TimeoutTimer timeout)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, TimeoutTimer timeout, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at NHibernate.Connection.DriverConnectionProvider.GetConnection()
+   at NHibernate.Tool.hbm2ddl.SuppliedConnectionProviderConnectionHelper.Prepare()
+   at NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.GetReservedWords(Dialect dialect, IConnectionHelper connectionHelper)
+   at NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.Update(ISessionFactory sessionFactory)
+   at NHibernate.Impl.SessionFactoryImpl..ctor(Configuration cfg, IMapping mapping, Settings settings, EventListeners listeners)
+   at NHibernate.Cfg.Configuration.BuildSessionFactory()
+   at EAFrame.Core.Data.Database.ReBuildSessionfactory()
+2011-09-01 22:35:08,634 [10] ERROR EAFrame.Core.Data.Database - Nhibernate BuildSessionfactory Error
+System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity)
+   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, SqlConnection owningObject)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, TimeoutTimer timeout)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, TimeoutTimer timeout, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at NHibernate.Connection.DriverConnectionProvider.GetConnection()
+   at NHibernate.Tool.hbm2ddl.SuppliedConnectionProviderConnectionHelper.Prepare()
+   at NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.GetReservedWords(Dialect dialect, IConnectionHelper connectionHelper)
+   at NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.Update(ISessionFactory sessionFactory)
+   at NHibernate.Impl.SessionFactoryImpl..ctor(Configuration cfg, IMapping mapping, Settings settings, EventListeners listeners)
+   at NHibernate.Cfg.Configuration.BuildSessionFactory()
+   at EAFrame.Core.Data.Database.ReBuildSessionfactory()
+2011-09-01 22:39:27,318 [8] ERROR WebSite.BasePage - 导入展示名册出错！
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at WebSite.ExcelHelper.ExportByWeb(DataTable dt, String sheetName, String fileName, String headerText, IDictionary`2 columnName, Boolean numCellShow, Int32 headerRowIndex, Int32 columnRowIndex, Int32 columnRowMergeDown, Boolean isOpen, IDictionary`2 columnWidth) in E:\work\lams\基线\源代码\LAMS\WebSite\AppCode\ExcelHelper.cs:line 383
+   at WebSite.ExportRegister.Page_Load(Object sender, EventArgs e) in E:\work\lams\基线\源代码\LAMS\WebSite\Register\ExportRegister.aspx.cs:line 98
+2011-09-01 22:39:57,410 [11] ERROR WebSite.BasePage - 导入展示名册出错！
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at WebSite.ExcelHelper.ExportByWeb(DataTable dt, String sheetName, String fileName, String headerText, IDictionary`2 columnName, Boolean numCellShow, Int32 headerRowIndex, Int32 columnRowIndex, Int32 columnRowMergeDown, Boolean isOpen, IDictionary`2 columnWidth) in E:\work\lams\基线\源代码\LAMS\WebSite\AppCode\ExcelHelper.cs:line 383
+   at WebSite.ExportRegister.Page_Load(Object sender, EventArgs e) in E:\work\lams\基线\源代码\LAMS\WebSite\Register\ExportRegister.aspx.cs:line 98
+2011-09-01 23:05:29,671 [17] ERROR WebSite.BasePage - 导入展示名册出错！
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at WebSite.ExcelHelper.ExportByWeb(DataTable dt, String sheetName, String fileName, String headerText, IDictionary`2 columnName, Boolean numCellShow, Int32 headerRowIndex, Int32 columnRowIndex, Int32 columnRowMergeDown, Boolean isOpen, IDictionary`2 columnWidth) in E:\work\lams\基线\源代码\LAMS\WebSite\AppCode\ExcelHelper.cs:line 383
+   at WebSite.ExportRegister.Page_Load(Object sender, EventArgs e) in E:\work\lams\基线\源代码\LAMS\WebSite\Register\ExportRegister.aspx.cs:line 98
+2011-09-01 23:05:37,209 [19] ERROR WebSite.BasePage - 导入展示名册出错！
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at WebSite.ExcelHelper.ExportByWeb(DataTable dt, String sheetName, String fileName, String headerText, IDictionary`2 columnName, Boolean numCellShow, Int32 headerRowIndex, Int32 columnRowIndex, Int32 columnRowMergeDown, Boolean isOpen, IDictionary`2 columnWidth) in E:\work\lams\基线\源代码\LAMS\WebSite\AppCode\ExcelHelper.cs:line 383
+   at WebSite.ExportRegister.Page_Load(Object sender, EventArgs e) in E:\work\lams\基线\源代码\LAMS\WebSite\Register\ExportRegister.aspx.cs:line 98
+2011-09-01 23:06:24,960 [15] ERROR WebSite.BasePage - 导入展示名册出错！
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at WebSite.ExcelHelper.ExportByWeb(DataTable dt, String sheetName, String fileName, String headerText, IDictionary`2 columnName, Boolean numCellShow, Int32 headerRowIndex, Int32 columnRowIndex, Int32 columnRowMergeDown, Boolean isOpen, IDictionary`2 columnWidth) in E:\work\lams\基线\源代码\LAMS\WebSite\AppCode\ExcelHelper.cs:line 383
+   at WebSite.ExportRegister.Page_Load(Object sender, EventArgs e) in E:\work\lams\基线\源代码\LAMS\WebSite\Register\ExportRegister.aspx.cs:line 98
+2011-09-01 23:15:03,055 [24] ERROR SunTek.Register.Service.RegisterService - 获取名册展示信息出错！
+System.Data.SqlClient.SqlException (0x80131904): 列名 'Gender' 不明确。
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at EAFrame.Core.Data.DataContext.Count(IEAConnection eaconn, String cmdText, IDictionary`2 parameters)
+   at EAFrame.Core.Data.DataContext.ExecuteDataTable(IEAConnection eaconn, String cmdText, IDictionary`2 parameters, String orderBy, PageInfo pageInfo)
+   at EAFrame.Core.Data.Repository`1.ExecuteDataTable[TDomain](String cmdText, IDictionary`2 parameters, String orderBy, PageInfo pageInfo)
+   at SunTek.Register.Service.RegisterService.GetRegisters(IDictionary`2 parameters, String corpID, String grade, String yearMonth, String showField, PageInfo pageInfo) in E:\work\lams\基线\源代码\LAMS\Register\Service\RegisterService.cs:line 315
+2011-09-01 23:17:53,234 [26] ERROR SunTek.Register.Service.RegisterService - 获取名册展示信息出错！
+System.Data.SqlClient.SqlException (0x80131904): 列名 'Gender' 不明确。
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at EAFrame.Core.Data.DataContext.Count(IEAConnection eaconn, String cmdText, IDictionary`2 parameters)
+   at EAFrame.Core.Data.DataContext.ExecuteDataTable(IEAConnection eaconn, String cmdText, IDictionary`2 parameters, String orderBy, PageInfo pageInfo)
+   at EAFrame.Core.Data.Repository`1.ExecuteDataTable[TDomain](String cmdText, IDictionary`2 parameters, String orderBy, PageInfo pageInfo)
+   at SunTek.Register.Service.RegisterService.GetRegisters(IDictionary`2 parameters, String corpID, String grade, String yearMonth, String showField, PageInfo pageInfo) in E:\work\lams\基线\源代码\LAMS\Register\Service\RegisterService.cs:line 315
+2011-09-01 23:27:30,313 [18] ERROR SunTek.Register.Service.RegisterService - 获取名册展示信息出错！
+System.Data.SqlClient.SqlException (0x80131904): 列名 'bGender' 无效。
+列名 'bBirthday' 无效。
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at EAFrame.Core.Data.DataContext.Count(IEAConnection eaconn, String cmdText, IDictionary`2 parameters)
+   at EAFrame.Core.Data.DataContext.ExecuteDataTable(IEAConnection eaconn, String cmdText, IDictionary`2 parameters, String orderBy, PageInfo pageInfo)
+   at EAFrame.Core.Data.Repository`1.ExecuteDataTable[TDomain](String cmdText, IDictionary`2 parameters, String orderBy, PageInfo pageInfo)
+   at SunTek.Register.Service.RegisterService.GetRegisters(IDictionary`2 parameters, String corpID, String grade, String yearMonth, String showField, PageInfo pageInfo) in E:\work\lams\基线\源代码\LAMS\Register\Service\RegisterService.cs:line 319
+2011-09-01 23:27:35,356 [20] ERROR SunTek.Register.Service.RegisterService - 获取名册展示信息出错！
+System.Data.SqlClient.SqlException (0x80131904): 列名 'bGender' 无效。
+列名 'bBirthday' 无效。
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at EAFrame.Core.Data.DataContext.Count(IEAConnection eaconn, String cmdText, IDictionary`2 parameters)
+   at EAFrame.Core.Data.DataContext.ExecuteDataTable(IEAConnection eaconn, String cmdText, IDictionary`2 parameters, String orderBy, PageInfo pageInfo)
+   at EAFrame.Core.Data.Repository`1.ExecuteDataTable[TDomain](String cmdText, IDictionary`2 parameters, String orderBy, PageInfo pageInfo)
+   at SunTek.Register.Service.RegisterService.GetRegisters(IDictionary`2 parameters, String corpID, String grade, String yearMonth, String showField, PageInfo pageInfo) in E:\work\lams\基线\源代码\LAMS\Register\Service\RegisterService.cs:line 319
+2011-09-01 23:27:38,707 [21] ERROR SunTek.Register.Service.RegisterService - 获取名册展示信息出错！
+System.Data.SqlClient.SqlException (0x80131904): 列名 'bGender' 无效。
+列名 'bBirthday' 无效。
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at EAFrame.Core.Data.DataContext.Count(IEAConnection eaconn, String cmdText, IDictionary`2 parameters)
+   at EAFrame.Core.Data.DataContext.ExecuteDataTable(IEAConnection eaconn, String cmdText, IDictionary`2 parameters, String orderBy, PageInfo pageInfo)
+   at EAFrame.Core.Data.Repository`1.ExecuteDataTable[TDomain](String cmdText, IDictionary`2 parameters, String orderBy, PageInfo pageInfo)
+   at SunTek.Register.Service.RegisterService.GetRegisters(IDictionary`2 parameters, String corpID, String grade, String yearMonth, String showField, PageInfo pageInfo) in E:\work\lams\基线\源代码\LAMS\Register\Service\RegisterService.cs:line 319
+2011-09-01 23:27:41,338 [24] ERROR SunTek.Register.Service.RegisterService - 获取名册展示信息出错！
+System.Data.SqlClient.SqlException (0x80131904): 列名 'bGender' 无效。
+列名 'bBirthday' 无效。
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at EAFrame.Core.Data.DataContext.Count(IEAConnection eaconn, String cmdText, IDictionary`2 parameters)
+   at EAFrame.Core.Data.DataContext.ExecuteDataTable(IEAConnection eaconn, String cmdText, IDictionary`2 parameters, String orderBy, PageInfo pageInfo)
+   at EAFrame.Core.Data.Repository`1.ExecuteDataTable[TDomain](String cmdText, IDictionary`2 parameters, String orderBy, PageInfo pageInfo)
+   at SunTek.Register.Service.RegisterService.GetRegisters(IDictionary`2 parameters, String corpID, String grade, String yearMonth, String showField, PageInfo pageInfo) in E:\work\lams\基线\源代码\LAMS\Register\Service\RegisterService.cs:line 319
+2011-09-01 23:29:12,067 [29] ERROR SunTek.Register.Service.RegisterService - 获取名册展示信息出错！
+System.Data.SqlClient.SqlException (0x80131904): '.' 附近有语法错误。
+必须声明标量变量 "@b"。
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at EAFrame.Core.Data.DataContext.Count(IEAConnection eaconn, String cmdText, IDictionary`2 parameters)
+   at EAFrame.Core.Data.DataContext.ExecuteDataTable(IEAConnection eaconn, String cmdText, IDictionary`2 parameters, String orderBy, PageInfo pageInfo)
+   at EAFrame.Core.Data.Repository`1.ExecuteDataTable[TDomain](String cmdText, IDictionary`2 parameters, String orderBy, PageInfo pageInfo)
+   at SunTek.Register.Service.RegisterService.GetRegisters(IDictionary`2 parameters, String corpID, String grade, String yearMonth, String showField, PageInfo pageInfo) in E:\work\lams\基线\源代码\LAMS\Register\Service\RegisterService.cs:line 319
+2011-09-01 23:34:07,783 [9] ERROR SunTek.Register.Service.RegisterService - 获取名册展示信息出错！
+System.Data.SqlClient.SqlException (0x80131904): '.' 附近有语法错误。
+必须声明标量变量 "@b"。
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at EAFrame.Core.Data.DataContext.Count(IEAConnection eaconn, String cmdText, IDictionary`2 parameters)
+   at EAFrame.Core.Data.DataContext.ExecuteDataTable(IEAConnection eaconn, String cmdText, IDictionary`2 parameters, String orderBy, PageInfo pageInfo)
+   at EAFrame.Core.Data.Repository`1.ExecuteDataTable[TDomain](String cmdText, IDictionary`2 parameters, String orderBy, PageInfo pageInfo)
+   at SunTek.Register.Service.RegisterService.GetRegisters(IDictionary`2 parameters, String corpID, String grade, String yearMonth, String showField, PageInfo pageInfo) in E:\work\lams\基线\源代码\LAMS\Register\Service\RegisterService.cs:line 319
+2011-09-01 23:40:02,389 [13] ERROR SunTek.Register.Service.RegisterService - 获取名册展示信息出错！
+System.Data.SqlClient.SqlException (0x80131904): 列名 '男' 无效。
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at EAFrame.Core.Data.DataContext.Count(IEAConnection eaconn, String cmdText, IDictionary`2 parameters)
+   at EAFrame.Core.Data.DataContext.ExecuteDataTable(IEAConnection eaconn, String cmdText, IDictionary`2 parameters, String orderBy, PageInfo pageInfo)
+   at EAFrame.Core.Data.Repository`1.ExecuteDataTable[TDomain](String cmdText, IDictionary`2 parameters, String orderBy, PageInfo pageInfo)
+   at SunTek.Register.Service.RegisterService.GetRegisters(IDictionary`2 parameters, String corpID, String grade, String yearMonth, String showField, PageInfo pageInfo) in E:\work\lams\基线\源代码\LAMS\Register\Service\RegisterService.cs:line 319
+2011-09-01 23:40:21,684 [16] ERROR SunTek.Register.Service.RegisterService - 获取名册展示信息出错！
+System.Data.SqlClient.SqlException (0x80131904): 列名 '男' 无效。
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at EAFrame.Core.Data.DataContext.Count(IEAConnection eaconn, String cmdText, IDictionary`2 parameters)
+   at EAFrame.Core.Data.DataContext.ExecuteDataTable(IEAConnection eaconn, String cmdText, IDictionary`2 parameters, String orderBy, PageInfo pageInfo)
+   at EAFrame.Core.Data.Repository`1.ExecuteDataTable[TDomain](String cmdText, IDictionary`2 parameters, String orderBy, PageInfo pageInfo)
+   at SunTek.Register.Service.RegisterService.GetRegisters(IDictionary`2 parameters, String corpID, String grade, String yearMonth, String showField, PageInfo pageInfo) in E:\work\lams\基线\源代码\LAMS\Register\Service\RegisterService.cs:line 319
+2011-09-01 23:43:50,768 [15] ERROR SunTek.Register.Service.RegisterService - 获取名册导出信息出错！
+System.Data.SqlClient.SqlException (0x80131904): 列名 'Birthday' 不明确。
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at EAFrame.Core.Data.DataContext.ADODataAdapter.FillDataSet(IDbCommand cmd)
+   at EAFrame.Core.Data.DataContext.ExecuteDataSet(IEAConnection eaconn, String cmdText, IDictionary`2 parameters)
+   at EAFrame.Core.Data.DataContext.ExecuteDataTable(IEAConnection eaconn, String cmdText, IDictionary`2 parameters)
+   at EAFrame.Core.Data.Repository`1.ExecuteDataTable[TDomain](String cmdText, IDictionary`2 parameters)
+   at SunTek.Register.Service.RegisterService.GetRegistersForExport(IDictionary`2 parameters, String corpID, String grade, String yearMonth) in E:\work\lams\基线\源代码\LAMS\Register\Service\RegisterService.cs:line 389
+2011-09-01 23:44:32,225 [15] ERROR SunTek.Register.Service.RegisterService - 获取名册导出信息出错！
+System.Data.SqlClient.SqlException (0x80131904): 列名 'Birthday' 不明确。
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at EAFrame.Core.Data.DataContext.ADODataAdapter.FillDataSet(IDbCommand cmd)
+   at EAFrame.Core.Data.DataContext.ExecuteDataSet(IEAConnection eaconn, String cmdText, IDictionary`2 parameters)
+   at EAFrame.Core.Data.DataContext.ExecuteDataTable(IEAConnection eaconn, String cmdText, IDictionary`2 parameters)
+   at EAFrame.Core.Data.Repository`1.ExecuteDataTable[TDomain](String cmdText, IDictionary`2 parameters)
+   at SunTek.Register.Service.RegisterService.GetRegistersForExport(IDictionary`2 parameters, String corpID, String grade, String yearMonth) in E:\work\lams\基线\源代码\LAMS\Register\Service\RegisterService.cs:line 389
+2011-09-01 23:49:54,220 [18] ERROR WebSite.BasePage - 导入展示名册出错！
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at WebSite.ExcelHelper.ExportByWeb(DataTable dt, String sheetName, String fileName, String headerText, IDictionary`2 columnName, Boolean numCellShow, Int32 headerRowIndex, Int32 columnRowIndex, Int32 columnRowMergeDown, Boolean isOpen, IDictionary`2 columnWidth) in E:\work\lams\基线\源代码\LAMS\WebSite\AppCode\ExcelHelper.cs:line 383
+   at WebSite.ExportRegister.Page_Load(Object sender, EventArgs e) in E:\work\lams\基线\源代码\LAMS\WebSite\Register\ExportRegister.aspx.cs:line 98
+2011-09-01 23:51:19,996 [9] ERROR WebSite.BasePage - 导入展示名册出错！
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at WebSite.ExcelHelper.ExportByWeb(DataTable dt, String sheetName, String fileName, String headerText, IDictionary`2 columnName, Boolean numCellShow, Int32 headerRowIndex, Int32 columnRowIndex, Int32 columnRowMergeDown, Boolean isOpen, IDictionary`2 columnWidth) in E:\work\lams\基线\源代码\LAMS\WebSite\AppCode\ExcelHelper.cs:line 383
+   at WebSite.ExportRegister.Page_Load(Object sender, EventArgs e) in E:\work\lams\基线\源代码\LAMS\WebSite\Register\ExportRegister.aspx.cs:line 98
+2011-09-01 23:52:08,196 [18] ERROR WebSite.BasePage - 导入展示名册出错！
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at WebSite.ExcelHelper.ExportByWeb(DataTable dt, String sheetName, String fileName, String headerText, IDictionary`2 columnName, Boolean numCellShow, Int32 headerRowIndex, Int32 columnRowIndex, Int32 columnRowMergeDown, Boolean isOpen, IDictionary`2 columnWidth) in E:\work\lams\基线\源代码\LAMS\WebSite\AppCode\ExcelHelper.cs:line 383
+   at WebSite.ExportRegister.Page_Load(Object sender, EventArgs e) in E:\work\lams\基线\源代码\LAMS\WebSite\Register\ExportRegister.aspx.cs:line 98

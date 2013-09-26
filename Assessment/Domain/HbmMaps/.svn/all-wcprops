@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/lams/!svn/ver/1539/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Assessment/Domain/HbmMaps
+END
+Report.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/lams/!svn/ver/5/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Assessment/Domain/HbmMaps/Report.hbm.xml
+END
+SurveyResult.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/lams/!svn/ver/1284/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Assessment/Domain/HbmMaps/SurveyResult.hbm.xml
+END
+Survey.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/lams/!svn/ver/1537/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Assessment/Domain/HbmMaps/Survey.hbm.xml
+END
+AnswerRecord.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/lams/!svn/ver/1539/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Assessment/Domain/HbmMaps/AnswerRecord.hbm.xml
+END
+SubjectItem.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/lams/!svn/ver/1537/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Assessment/Domain/HbmMaps/SubjectItem.hbm.xml
+END
+AssessmentRoleWeight.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/lams/!svn/ver/1325/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Assessment/Domain/HbmMaps/AssessmentRoleWeight.hbm.xml
+END
+Subject.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/lams/!svn/ver/1537/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Assessment/Domain/HbmMaps/Subject.hbm.xml
+END
+ExamPaper.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/lams/!svn/ver/5/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Assessment/Domain/HbmMaps/ExamPaper.hbm.xml
+END
+ExamPaperSubject.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/lams/!svn/ver/1284/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Assessment/Domain/HbmMaps/ExamPaperSubject.hbm.xml
+END
+MainSubject.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/lams/!svn/ver/1321/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Assessment/Domain/HbmMaps/MainSubject.hbm.xml
+END
+AssessmentRole.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/lams/!svn/ver/1325/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Assessment/Domain/HbmMaps/AssessmentRole.hbm.xml
+END
+Expert.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/lams/!svn/ver/1537/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Assessment/Domain/HbmMaps/Expert.hbm.xml
+END
+SubjectItemCore.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/lams/!svn/ver/1284/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Assessment/Domain/HbmMaps/SubjectItemCore.hbm.xml
+END
+MarkItem.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/lams/!svn/ver/1537/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/Assessment/Domain/HbmMaps/MarkItem.hbm.xml
+END

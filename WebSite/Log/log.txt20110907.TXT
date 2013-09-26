@@ -1,0 +1,32 @@
+2011-09-07 16:17:41,066 [15] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-09-07 16:17:50,932 [15] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44052995同步失败！
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 880
+2011-09-07 16:17:51,046 [15] ERROR WebSite.BasePage - 员工编号为44052995同步失败！<br>
+2011-09-07 16:19:30,430 [37] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-09-07 16:24:03,046 [37] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44052995同步失败！
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 880
+2011-09-07 16:24:03,055 [37] ERROR WebSite.BasePage - 员工编号为44052995同步失败！<br>
+2011-09-07 16:24:30,806 [37] ERROR SunTek.Register.Service.RegisterService - 获取名册信息出错
+System.InvalidOperationException: ExecuteScalar requires the command to have a transaction when the connection assigned to the command is in a pending local transaction.  The Transaction property of the command has not been initialized.
+   at System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at EAFrame.Core.Data.DataContext.Count(IEAConnection eaconn, String cmdText, IDictionary`2 parameters)
+   at EAFrame.Core.Data.DataContext.ExecuteDataTable(IEAConnection eaconn, String cmdText, IDictionary`2 parameters, String orderBy, PageInfo pageInfo)
+   at EAFrame.Core.Data.Repository`1.ExecuteDataTable[TDomain](String cmdText, IDictionary`2 parameters, String orderBy, PageInfo pageInfo)
+   at SunTek.Register.Service.RegisterService.GetRegisterByCorpID(IDictionary`2 parameters, String grade, String corpID, String yearMonth, PageInfo pageInfo) in E:\work\lams\基线\源代码\LAMS\Register\Service\RegisterService.cs:line 188
+2011-09-07 16:24:43,823 [39] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-09-07 16:25:43,501 [39] ERROR Suntek.SAPService.BLL.SAPBll - 员工编号为44052995同步失败！
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Suntek.SAPService.BLL.SAPBll.SapSynchronize(String registerCodes, Boolean isComplete) in E:\work\lams\基线\源代码\LAMS\SAPService\BLL\SAPBll.cs:line 880
+2011-09-07 16:25:43,505 [39] ERROR WebSite.BasePage - 员工编号为44052995同步失败！<br>
+2011-09-07 16:34:45,740 [19] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-09-07 16:54:59,974 [16] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-09-07 16:56:47,547 [16] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-09-07 17:21:01,360 [16] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-09-07 17:23:25,120 [16] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-09-07 22:07:09,935 [11] INFO  EAFrame.Core.Data.DataContext - 参数字典为空
+2011-09-07 22:07:17,020 [11] INFO  EAFrame.Core.Data.DataContext - 参数字典为空

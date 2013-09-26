@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" namespace="SunTek.LAMS.Domain" assembly="SunTek.LAMS">
+	<class name="SunTek.LAMS.Domain.CandidateManager, SunTek.LAMS" table="MM_CandidateManager" lazy="true">
+		<id name="ID" column="ID">
+			<generator class="assigned" />
+		</id>
+		<property name="Code" column="Code" />
+		<property name="TargetCandidate" column="TargetCandidate" />
+		<property name="InPostDate" column="InPostDate" />
+		<property name="InGradeDate" column="InGradeDate" />
+		<property name="Tenure" column="Tenure" />
+		<property name="CandidateMaturity" column="CandidateMaturity" />
+		<property name="CandidateOrder" column="CandidateOrder" />
+		<property name="DemocracyPecent" column="DemocracyPecent" />
+		<property name="IsAnomalous" column="IsAnomalous" />
+		<property name="Assessment1" column="Assessment1" />
+		<property name="Assessment2" column="Assessment2" />
+		<property name="Assessment3" column="Assessment3" />
+		<property name="Creator" column="Creator" />
+		<property name="CreateTime" column="CreateTime" />
+    <property name="IsChief" column="IsChief" />
+    <property name="CandidatePostGrade" column="CandidatePostGrade" />
+    <property name="CandidateManagerGrade" column="CandidateManagerGrade" />
+    <property name="CandidatePost" column="CandidatePost" />
+    <property name="Status" column="Status" />
+    <property name="InitTime" column="InitTime" />
+    <property name="Initor" column="Initor" />
+    <property name="IsPresident" column="IsPresident" />
+  </class>
+</hibernate-mapping>

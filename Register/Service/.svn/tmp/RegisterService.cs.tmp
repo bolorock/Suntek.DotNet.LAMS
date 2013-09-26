@@ -1,0 +1,235 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using log4net;
+
+using EAFrame.Core;
+using EAFrame.Core.Data;
+using EAFrame.Core.Caching;
+using EAFrame.Core.Service;
+using EAFrame.Core.Enums;
+using EAFrame.Core.DataFilter;
+using SunTek.Register.Domain;
+using EAFrame.Core.Extensions;
+
+using System.Data;
+
+namespace SunTek.Register.Service
+{
+    public class RegisterService : BaseService<string, RegisterInfo>
+    {
+
+        #region Fields
+        private readonly ILog log = LogManager.GetLogger(typeof(RegisterService));
+        #endregion
+
+        #region Constructors
+
+        public RegisterService() { }
+        #endregion
+
+        #region IRegisterService Imp
+
+        #endregion
+
+        #region Internal Methods
+        public DataTable GetRegister()
+        {
+            StringBuilder cmdText = new StringBuilder();
+            try
+            {
+                cmdText.Append(@"select * from Re_Register");
+                return repository.ExecuteDataTable<RegisterInfo>(cmdText.ToString());
+            }
+            catch (Exception ex)
+            {
+                log.Error("获取名册数据出错！", ex);
+                return null;
+            }
+        }
+
+        /// <summary>
+        /// 保存导入的名册信息
+        /// </summary>
+        /// <param name="model"></param>
+        /// <param name="creator"></param>
+        public void SaveRegisterModel(RegisterModel model, string grade, string creator, string corpID, string yearMonth)
+        {
+            string errMsg = string.Empty;
+            IDictionary<string, object> paramers = new Dictionary<string, object>();
+
+            using (ITransaction trans = UnitOfWork.BeginTransaction(typeof(RegisterInfo)))
+            {
+                foreach (var item in model.RegisterInfos)
+                {
+                    paramers.Clear();
+                    paramers.Add("YearMonth", yearMonth);
+                    paramers.Add("Code", item.Code);
+                    paramers.Add("CandidateManagerGrade", grade);
+                    RegisterInfo register = repository.FindOne<RegisterInfo>(paramers);
+                    if (register == null)
+                    {
+                        item.ID = IdGenerator.NewComb().ToString();
+                    }
+                    else
+                    {
+                        item.ID = register.ID;
+                    }
+                    item.CandidateManagerGrade = grade;
+                    item.YearMonth = yearMonth;
+                    item.Creator = creator;
+                    item.CreateTime = DateTime.Now;
+                    item.CorpID = corpID;
+                    repository.SaveOrUpdate(item);
+                }
+
+                trans.Commit();
+            }
+        }
+
+        /// <summary>
+        /// 保存完整名册
+        /// </summary>
+        /// <param name="model"></param>
+        /// <param name="grade"></param>
+        /// <param name="creator"></param>
+        /// <param name="corpID"></param>
+        /// <param name="yearMonth"></param>
+        public void SaveCompleteRegister(RegisterModel model, string grade, string creator, string corpID, string yearMonth)
+        {
+            string errMsg = string.Empty;
+            IDictionary<string, object> paramers = new Dictionary<string, object>();
+
+            using (ITransaction trans = UnitOfWork.BeginTransaction(typeof(RegisterInfo)))
+            {
+                foreach (var item in model.RegisterInfos)
+                {
+                    paramers.Clear();
+                    paramers.Add("YearMonth", yearMonth);
+                    paramers.Add("Code", item.Code);
+                    paramers.Add("CandidateManagerGrade", grade);
+                    RegisterInfo register = repository.FindOne<RegisterInfo>(paramers);
+                    if (register == null)
+                    {
+                        item.ID = IdGenerator.NewComb().ToString();
+                    }
+                    else
+                    {
+                        item.ID = register.ID;
+                    }
+                    item.CandidateManagerGrade = grade;
+                    item.YearMonth = yearMonth;
+                    item.Creator = creator;
+                    item.CreateTime = DateTime.Now;
+                    item.CorpID = corpID;
+                    repository.SaveOrUpdate(item);
+
+                    //保存名册基本信息
+                    paramers.Clear();
+                    paramers.SafeAdd("Code",item.Code);
+                    RegisterBaseInfo registerBaseInfo = repository.FindOne<RegisterBaseInfo>(paramers);
+                    
+                    if (registerBaseInfo == null)
+                    {
+                        item.registerBaseInfo.ID = IdGenerator.NewComb().ToString();
+                    }
+                    else
+                    {
+                        item.registerBaseInfo.ID = registerBaseInfo.ID;
+                    }
+
+                    item.registerBaseInfo.Code = item.Code;
+
+                    repository.SaveOrUpdate(item.registerBaseInfo);
+                }
+
+                trans.Commit();
+            }
+        }
+
+        /// <summary>
+        /// 改变名册状态
+        /// </summary>
+        /// <param name="corpID"></param>
+        /// <param name="yearMonth"></param>
+        /// <param name="status"></param>
+        public void ChangeRegisterStatus(string corpID, string yearMonth, int status, string candidateManagerGrade)
+        {
+            string cmdText = string.Format("update Re_Register set Status={2},ConfirmTime='{3}' where YearMonth='{0}' and CorpID='{1}' and CandidateManagerGrade='{4}'", yearMonth, corpID, status, DateTime.Now, candidateManagerGrade);
+
+            repository.ExecuteNonQuery<RegisterInfo>(cmdText);
+
+        }
+
+        /// <summary>
+        /// 获取所属分公司和月份的名册信息
+        /// </summary>
+        /// <param name="corpID"></param>
+        /// <param name="yearMonth"></param>
+        /// <returns></returns>
+        public DataTable GetRegisterByCorpID(IDictionary<string, object> parameters,string grade, string corpID, string yearMonth, PageInfo pageInfo)
+        {
+            try
+            {
+                StringBuilder cmdText=new StringBuilder();
+                cmdText.Append(string.Format("select * from Re_Register where CorpID='{0}' and YearMonth='{1}' and CandidateManagerGrade='{2}' and 1=1 ", corpID, yearMonth,grade));
+                if (pageInfo == null)
+                {
+                    cmdText.Append(" order by SortOrder ");
+                    return repository.ExecuteDataTable<RegisterInfo>(cmdText.ToString(), parameters);
+                }
+                else
+                {
+                    return repository.ExecuteDataTable<RegisterInfo>(cmdText.ToString(), parameters, "SortOrder", pageInfo);
+                }
+            }
+            catch (Exception ex)
+            {
+                log.Error("获取名册信息出错", ex);
+                return null;
+            }
+        }
+
+        /// <summary>
+        /// 获取汇总信息
+        /// </summary>
+        /// <returns></returns>
+        public IList<RegisterSummary> GetRegisterSummary(string yearMonth)
+        {
+            StringBuilder cmdText = new StringBuilder();
+            try
+            {
+                cmdText.Append(string.Format(@"select Re_Register.CorpID,OM_Organization.Name,COUNT(*) from Re_Register,OM_Organization where yearmonth='{0}' and Re_Register.CorpID=OM_Organization.Code GROUp by Re_Register.CorpID,OM_Organization.Name",yearMonth));
+                DataTable dt = repository.ExecuteDataTable<EAFrame.Core.Domain.DomainObject<string>>(cmdText.ToString());
+                IList<RegisterSummary> list = new List<RegisterSummary>();
+                foreach (DataRow row in dt.Rows)
+                {
+                    RegisterSummary summary = new RegisterSummary();
+                    summary.CorpID = row[0].ToString();
+                    summary.CorpName = row[1].ToString();
+                    summary.RegisterSum = row[2].ToInt();
+                    IDictionary<string, object> para = new Dictionary<string, object>();
+                    para.Add("YearMonth", yearMonth);
+                    para.Add("CorpID", summary.CorpID);
+                    IList<RegisterInfo> registers= this.FindAll(para);
+                    //提交的时候同一月份的会同时提交，所以这里数据以第一项为准
+                    if (registers.Count > 0)
+                    {
+                        summary.IsSummit = registers[0].Status == 0 ? false : true;
+                        summary.SummitDate = registers[0].CreateTime;
+                    }
+                    list.Add(summary);
+
+                }
+                return list;
+            }
+            catch (Exception ex)
+            {
+                log.Error("获取名册数据出错！", ex);
+                return null;
+            }
+        }
+        #endregion
+    }
+}

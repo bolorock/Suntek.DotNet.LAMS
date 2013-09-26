@@ -1,0 +1,2 @@
+2011-09-09 10:32:34,177 [16] ERROR EAFrame.Core.Extensions.GenericExtension - System.NullReferenceException: Object reference not set to an instance of an object.
+   at EAFrame.Core.Extensions.GenericExtension.Cast[T](Object objValue, T defaultValue)

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Register   namespace="">
+  <RegisterInfos>
+    <RegisterInfo>
+      <SortOrder text="序号" row="1" column="0"/>
+      <Department text="单位/部门" row="1" column="1"/>
+      <Name text="姓名" row="1" column="2"/>
+      <Position text="职务" row="1" column="3"/>
+      <PostGrade text="岗位等级" row="1" column="4"/>
+      <IsChief text="正副职" row="1" column="5"/>
+      <ChargeWork text="分管工作" row="1" column="6"/>
+      <Code text="MSS编号" row="1" column="7"/>
+    </RegisterInfo>
+  </RegisterInfos>
+</Register>

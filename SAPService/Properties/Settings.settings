@@ -1,0 +1,30 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Suntek.SAPService.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Suntek_SAPService_IASService_IASService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://192.168.0.8:8081/IASService.asmx</Value>
+    </Setting>
+    <Setting Name="Suntek_SAPService_KP_WebService_KP_WebService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://192.1.2.203/KP_WebService/KP_WebService.asmx</Value>
+    </Setting>
+    <Setting Name="Suntek_SAPService_ESS_GET_WS_local_ESS_GET_WS" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost/ESHORE.EAI.ESS.WS/ESS_GET_WS.asmx</Value>
+    </Setting>
+    <Setting Name="Suntek_SAPService_EIAC_OA_XWorkQueue_EIAC_OA_XWorkQueue" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://gdeiac-test06.gdeiac.local:8899/EIAC_XWorkqueue8/EIAC_OA_XWorkQueue.asmx</Value>
+    </Setting>
+    <Setting Name="Suntek_SAPService_OA_XWorkQueue_local_EIAC_OA_XWorkQueue" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost/EIAC_XWorkqueue/EIAC_OA_XWorkQueue.asmx</Value>
+    </Setting>
+    <Setting Name="Suntek_SAPService_ESS_GET_WS_ESS_GET_WS" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://10.16.25.81/ESHORE.EAI.ESS.WS/ESS_GET_WS.asmx</Value>
+    </Setting>
+    <Setting Name="Longtek_HR_CMMS_ServiceAgent_ESS_GET_WS_ESS_GET_WS" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://10.16.25.81/ESHORE.EAI.ESS.WS/ESS_GET_WS.asmx</Value>
+    </Setting>
+    <Setting Name="Longtek_HR_CMMS_ServiceAgent_ESS_GET_WS_local_ESS_GET_WS" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost/ESHORE.EAI.ESS.WS/ESS_GET_WS.asmx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

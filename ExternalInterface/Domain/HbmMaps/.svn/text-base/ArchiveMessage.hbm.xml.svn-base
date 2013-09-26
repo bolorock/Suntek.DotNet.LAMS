@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" namespace="SunTek.EAFrame.ExternalInterface.Domain" assembly="SunTek.EAFrame.ExternalInterface">
+	<class name="SunTek.EAFrame.ExternalInterface.Domain.ArchiveMessage, SunTek.EAFrame.ExternalInterface" table="EI_ArchiveMessage" lazy="true">
+		<id name="ID" column="ID">
+			<generator class="assigned" />
+		</id>
+		<property name="MessageType" column="MessageType" />
+		<property name="MessageContent" column="MessageContent" />
+		<property name="ArchiveTime" column="ArchiveTime" />
+	</class>
+</hibernate-mapping>

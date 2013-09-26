@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/lams/!svn/ver/1431/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/LAMS/Domain/HbmMaps
+END
+PostExperience.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/lams/!svn/ver/5/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/LAMS/Domain/HbmMaps/PostExperience.hbm.xml
+END
+SupervisorCandidate.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/lams/!svn/ver/5/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/LAMS/Domain/HbmMaps/SupervisorCandidate.hbm.xml
+END
+CandidateDetail.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/lams/!svn/ver/715/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/LAMS/Domain/HbmMaps/CandidateDetail.hbm.xml
+END
+Resume.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/lams/!svn/ver/5/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/LAMS/Domain/HbmMaps/Resume.hbm.xml
+END
+Supervisor.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/lams/!svn/ver/5/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/LAMS/Domain/HbmMaps/Supervisor.hbm.xml
+END
+Diploma.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/lams/!svn/ver/5/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/LAMS/Domain/HbmMaps/Diploma.hbm.xml
+END
+CandidateManager.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/lams/!svn/ver/735/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/LAMS/Domain/HbmMaps/CandidateManager.hbm.xml
+END
+FamilyMember.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/lams/!svn/ver/5/%E5%9F%BA%E7%BA%BF/%E6%BA%90%E4%BB%A3%E7%A0%81/LAMS/LAMS/Domain/HbmMaps/FamilyMember.hbm.xml
+END
